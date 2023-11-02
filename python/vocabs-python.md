@@ -157,7 +157,7 @@
 |aus|de||d||0|0|
 |zwischen|entre||d||0|0|
 |in|en||d||0|0|
-|über, auf|sobre||b||0|0|
+|über, auf|sobre||b||1|0|
 |nach, zu|a, hacia||d||0|0|
 |nahe, in der Nähe von|cerca de||b||0|0|
 |unter|bujo||d||0|0|
@@ -480,7 +480,7 @@
 |Verwaltungsangestellter|el empleado administrativo|la empleada|b||0|0|
 |Programmierer|el programador|la programadora|b||1|0|
 |Fabrik|la fábrica||b||0|0|
-|mindestens zwei Jahre Erfahrung|experiencia mínima dos años||b||0|0|
+|mindestens zwei Jahre Erfahrung|experiencia mínima dos años||b||1|0|
 |Interessent|el interesado|la interesada|b||1|0|
 |Klinikum|el centro clínico, el hospital||b||0|0|
 |Schule|el colegio||b||0|0|
@@ -494,7 +494,7 @@
 |die (Relativpronomen)|que|Relativpronomen|b||1|0|
 |verheiratet sein mit|estar casado con||b||0|0|
 |die beiden|los dos||b||0|0|
-|ergänzen, vervollständigen|completar||b||0|0|
+|ergänzen, vervollständigen|completar||b||1|0|
 |lernen|aprender||b|x|1|0|
 |dort|allí||b||0|0|
 |verkaufen|vender||b|x|1|0|
@@ -572,8 +572,8 @@
 |Ja klar, natürlich|claro que sí||b||0|0|
 |ungefähr|unos||b||1|0|
 |Auto|el coche||b||1|0|
-|Verkehr|el tráfico||b||0|0|
-|Leute|la gente||b||0|0|
+|Verkehr|el tráfico||b||1|0|
+|Leute|la gente||b||1|0|
 |vielleicht|quizás||b||0|0|
 |mehrere|varios||b||0|0|
 |Restaurant|el restaurante||b||1|0|
