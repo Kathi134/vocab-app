@@ -14,8 +14,6 @@ import api
 from logic import Logic
 from parser import Word, Parser
 
-# TODO: move to gitHub
-# TODO: automatically push stuff on application close
 
 class VocabularyApp(QWidget):
     def __init__(self, parser, git_response):
@@ -148,6 +146,11 @@ class VocabularyApp(QWidget):
         self.grammar_label.setAlignment(Qt.AlignmentFlag.AlignLeft)
         self.grammar_label.setHidden(True)
         learn_layout.addWidget(self.grammar_label)
+
+        help = "ñ (alt+164), ¿ (alt+168), ¡ (alt+173)"
+        self.type_help = QLabel("🛈")
+        self.type_help.setToolTip(help)
+        learn_layout.addWidget(self.type_help)
 
         self.feedback_layout = QHBoxLayout()
         self.feedback = QLabel("")
@@ -364,11 +367,13 @@ class VocabularyApp(QWidget):
             self.feedback_layout.itemAt(i).widget().setHidden(False)
         self.grammar_label.setText(self.current_word.grammar)
         self.grammar_label.setHidden(False)
+        self.type_help.setHidden(True)
 
     def hide_feedback_form(self):
         for i in range(self.feedback_layout.count()):
             self.feedback_layout.itemAt(i).widget().setHidden(True)
         self.grammar_label.setHidden(True)
+        self.type_help.setHidden(False)
 
     def skip_word(self):
         self.check_answer(True)
