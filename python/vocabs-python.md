@@ -610,4 +610,3 @@
 |Lied|la canción||b||0|0|
 |Flugzeug|el avión||b||0|0|
 |Motorrad|la moto(cicleta)||b||0|0|
-|foo|bar||||0|0|
