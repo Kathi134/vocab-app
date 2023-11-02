@@ -525,7 +525,7 @@
 |zumachen, schließen|cerrar|cierro/as/a, cerramos/áis, cierran|d||0|0|
 |auftauchen|aparecer|aparezco (Rest regelmäßig)|d||0|0|
 |sich erinnern an|recordar a|recuerdo/as/a, recordamos/áis, recuerdan|d||0|0|
-|zustimmen, annehmen|aceptar||||0|0|
+|zustimmen, annehmen|aceptar||||1|0|
 |zurückkehren|vuelver|vuelvo/es/e, volvemos/éis, vuelven|d||0|0|
 |geben|dar|doy (Rest regelmäßig)|d||0|0|
 |nehmen|tomar||d||0|0|
@@ -595,7 +595,7 @@
 |wenig|poco||b|x|1|0|
 |Lärm|el ruido||b||0|0|
 |Wie kommt man dort hin?|¿Cómo llegar?||b||0|0|
-|Über die Bundesstraße|por la carratera nacional||b||0|0|
+|Über die Bundesstraße|por la carratera nacional||b||1|0|
 |Landstraße|la carretera||b||0|0|
 |örtlich|local||b||1|0|
 |außerdem|además||b||0|0|
@@ -610,3 +610,4 @@
 |Lied|la canción||b||0|0|
 |Flugzeug|el avión||b||0|0|
 |Motorrad|la moto(cicleta)||b||0|0|
+|foo|bar||||0|0|
