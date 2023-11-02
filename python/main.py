@@ -1,21 +1,24 @@
+import datetime
+import platform
+import subprocess
 import sys
 from types import NoneType
 
 from PyQt6.QtCore import Qt
-from PyQt6.QtGui import QPalette, QColor, QFont
+from PyQt6.QtGui import QPalette, QColor
 from PyQt6.QtWidgets import QApplication, QHBoxLayout, QWidget, QVBoxLayout, QLabel, QPushButton, QLineEdit, \
     QTabWidget, QTextEdit, QCheckBox, QFormLayout, QTableWidget, \
     QTableWidgetItem, QMessageBox, QSizePolicy, QLayout, QDialog
 
 import api
-from logic import Logic, FilterOptions
+from logic import Logic
 from parser import Word, Parser
 
 # TODO: move to gitHub
 # TODO: automatically push stuff on application close
 
 class VocabularyApp(QWidget):
-    def __init__(self, parser):
+    def __init__(self, parser, git_response):
         super().__init__()
         self.parser = parser
 
@@ -26,6 +29,9 @@ class VocabularyApp(QWidget):
         self.logic = Logic(score, whole_word_list, options)
 
         self.init_ui()
+
+        if git_response.returncode != 0:
+            QMessageBox.information(self, "Git Issue", f"There might be a problem with updating your files.\nSee exception below:\n\n{git_response.stderr}")
 
     def init_ui(self):
         self.setGeometry(100, 100, 600, 400)
@@ -510,10 +516,42 @@ class VocabularyApp(QWidget):
             self.update_word_list()
 
 
+def git_pull():
+    print("git pull")
+    pull_process = subprocess.run(["git","pull"], capture_output=True, text=True)
+    return pull_process
+
+def git_push():
+    print("git add .\\vocabs-python.md")
+    res = subprocess.run(["git","add", "vocabs-python.md"], capture_output=True, text=True)
+    if res.returncode != 0:
+        print("\t", res.stdout, res.stderr)
+    print("git add .\\score.txt")
+    res = subprocess.run(["git","add", "score-python.txt"], capture_output=True, text=True)
+    if res.returncode != 0:
+        print("\t", res.stdout, res.stderr)
+    host = platform.node()
+    date = datetime.datetime.now()
+    formatted_time = date.strftime("%d-%m-%y, %H:%M")
+    commit_msg = f"\"vocab-app update: from {host}, {formatted_time}\""
+    print(f"git commit -m {commit_msg}")
+    res = subprocess.run(["git", "commit", "-m", commit_msg], capture_output=True, text=True)
+    if res.returncode != 0:
+        print("\t", res.stdout, res.stderr)
+    print("git push")
+    res = subprocess.run(["git", "push"], capture_output=True, text=True)
+    if res.returncode != 0:
+        print("\t", res.stdout, res.stderr)
+
+
 if __name__ == '__main__':
+    git_response = git_pull()
     markdown_file_path = r'.\vocabs-python.md'
     score_file_path = r'.\score-python.txt'
     options_file_path = r'.\internal-python.txt'
     app = QApplication(sys.argv)
-    window = VocabularyApp(Parser(markdown_file_path, score_file_path, options_file_path))
-    sys.exit(app.exec())
+    window = VocabularyApp(Parser(markdown_file_path, score_file_path, options_file_path), git_response)
+    exit_code = app.exec()
+    git_push()
+    sys.exit(exit_code)
+
