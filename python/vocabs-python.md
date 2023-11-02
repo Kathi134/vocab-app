@@ -229,7 +229,7 @@
 |manchmal|A veces||d||0|0|
 |Der Monat April|el mes de abril||d||0|0|
 |Seit wann?|¿Desde cuándo?||d||0|0|
-|Wie heißen Sie?|¿Cómo se llama usted?||b||0|0|
+|Wie heißen Sie?|¿Cómo se llama usted?||b||1|0|
 |Bis bald|Hasta luego||b|x|1|0|
 |Sekt|el cava||b||1|0|
 |Strand|la playa||b||0|0|
