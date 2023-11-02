@@ -1,0 +1,1 @@
+gte:True, etg:False, u:True, b:True, d:False, a:False

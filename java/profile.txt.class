@@ -1,0 +1,7 @@
+$OUT = chcp 1252;
+$PATH = pwd;
+cd "C:\Users\inge\Documents\uni\eclipse-workspace\Sem5-Uebungen\uebungen-semester-5\Spanisch";
+javac Vocabs.java;
+java Vocabs;
+cd $PATH;
+$OUT = chcp 850;
