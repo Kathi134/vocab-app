@@ -380,7 +380,7 @@
 |Unternehmen|la empresa||b||1|0|
 |Vertreter|el representante|la representante|b||1|0|
 |schicken|enviar||b||1|0|
-|Kenntnis|el conocimiento||b||0|0|
+|Kenntnis|el conocimiento||b||1|0|
 |Postfach|el apartado de Correos||b||1|0|
 |Alter|el edad||b||1|0|
 |Kaufmann|el técnico comercial|la técnica comercial|b||1|0|
@@ -490,7 +490,7 @@
 |Kredit|el crédito||b||1|0|
 |Wie schön!|¡qué bonito!||b||1|0|
 |die (Relativpronomen)|que|Relativpronomen|b||1|0|
-|verheiratet sein mit|estar casado con||b||0|0|
+|verheiratet sein mit|estar casado con||b||1|0|
 |die beiden|los dos||b|x|1|0|
 |ergänzen, vervollständigen|completar||b||1|0|
 |lernen|aprender||b|x|1|0|
@@ -524,7 +524,7 @@
 |zumachen, schließen|cerrar|cierro/as/a, cerramos/áis, cierran|d||0|0|
 |auftauchen|aparecer|aparezco (Rest regelmäßig)|d||0|0|
 |sich erinnern an|recordar a|recuerdo/as/a, recordamos/áis, recuerdan|d||0|0|
-|zustimmen, annehmen|aceptar||||1|0|
+|zustimmen, annehmen|aceptar||d||1|0|
 |zurückkehren|vuelver|vuelvo/es/e, volvemos/éis, vuelven|d||0|0|
 |geben|dar|doy (Rest regelmäßig)|d||0|0|
 |nehmen|tomar||d||0|0|
