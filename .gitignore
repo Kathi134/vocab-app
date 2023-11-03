@@ -1,2 +1,5 @@
 ./__pycache__/*
 gittoken
+python/.idea/*
+python/__pycache__/logic.cpython-310.pyc
+python/__pycache__/logic.cpython-310.pyc

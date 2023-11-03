@@ -97,6 +97,9 @@ class Logic:
     def dearchive_word_at_index(self, idx):
         self.word_list[idx].archived = False
 
+    def delete_word_at_idx(self, idx):
+        print("deleted", self.word_list.pop(idx))
+
     def get_accuracy(self):
         return self.score.get_accuracy(self.word_list)
 

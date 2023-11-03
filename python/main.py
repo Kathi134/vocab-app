@@ -206,12 +206,14 @@ class VocabularyApp(QWidget):
         word_list_layout.addWidget(self.word_table)
 
         self.archive_selection_btn = QPushButton("De/Archive Selected Word")
+        self.delete_btn = QPushButton("Delete Selected Word")
         edit_button = QPushButton("Enable Edit")
         save_button = QPushButton("Save")
         cancel_button = QPushButton("Cancel")
 
         button_layout = QHBoxLayout()
         button_layout.addWidget(self.archive_selection_btn)
+        button_layout.addWidget(self.delete_btn)
         button_layout.addWidget(edit_button)
         button_layout.addWidget(save_button)
         button_layout.addWidget(cancel_button)
@@ -232,6 +234,7 @@ class VocabularyApp(QWidget):
 
         # Connect the button actions
         self.archive_selection_btn.clicked.connect(self.archive_selection)
+        self.delete_btn.clicked.connect(self.delete_selection)
         edit_button.clicked.connect(self.enable_edit)
         save_button.clicked.connect(self.save_changes)
         cancel_button.clicked.connect(self.cancel_changes)
@@ -507,6 +510,29 @@ class VocabularyApp(QWidget):
 
         # Store the matching index
         self.matching_index = matching_index
+
+    def delete_selection(self):
+        # TODO: fix - sth wrong is deleted
+        if self.currently_editing != (-1, -1):
+            w = self.logic.word_list[self.matching_index]
+            self.show_delete_confirmation(f"{w.german} - {w.spanish}")
+            # print("deleting " + self.logic.word_list[self.matching_index].german)
+            # self.logic.delete_word_at_idx(self.matching_index)
+            self.update_word_list()
+
+    def show_delete_confirmation(self, word):
+        msg_box = QMessageBox()
+        msg_box.setWindowTitle("Delete Confirmation")
+        msg_box.setText(f"Really delete '{word}'?")
+        msg_box.setStandardButtons(QMessageBox.StandardButton.Ok | QMessageBox.StandardButton.No)
+        msg_box.setDefaultButton(QMessageBox.StandardButton.No)
+        result = msg_box.exec()
+
+        if result == QMessageBox.StandardButton.Ok:
+            self.logic.delete_word_at_idx(self.current_idx)
+            self.parser.write_vocab(self.logic.word_list)
+        else:
+            self.cancel_changes()
 
     def archive_selection(self):
         if self.currently_editing != (-1, -1):
