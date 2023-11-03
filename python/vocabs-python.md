@@ -572,7 +572,7 @@
 |Auto|el coche||b||1|0|
 |Verkehr|el tráfico||b||1|0|
 |Leute|la gente||b||1|0|
-|vielleicht|quizás||b||0|0|
+|vielleicht|quizás||b||1|0|
 |mehrere|varios||b||1|0|
 |Restaurant|el restaurante||b||1|0|
 |Kino|el cine||b||1|0|
