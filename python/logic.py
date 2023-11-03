@@ -58,7 +58,7 @@ class Logic:
     def check_answer(spanish_sol, user_input):
         sol_tokens = [token.strip().lower() for token in spanish_sol.split(",")]
         answer_tokens = [token.strip().lower() for token in user_input.split(",")]
-        return all(token in sol_tokens for token in answer_tokens)
+        return all(token in answer_tokens for token in sol_tokens)
 
     def update_filtered_list(self):
         self.filtered_list = [word for word in self.word_list if
@@ -105,4 +105,6 @@ class Logic:
 
     def get_words_to_learn(self):
         max = self.get_max_level()
+        if max == self.get_min_level():
+            return self.filtered_list.__len__()
         return [w for w in self.filtered_list if w.score != max].__len__()
