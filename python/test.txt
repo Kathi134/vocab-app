@@ -1,2 +1,1 @@
-hello, this is a test.
-provoke a conflict
+hello, this is a test
