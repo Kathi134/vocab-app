@@ -12,7 +12,7 @@ from PyQt6.QtWidgets import QApplication, QHBoxLayout, QWidget, QVBoxLayout, QLa
 
 import api
 from logic import Logic
-from parser import Word, Parser
+from parse import Word, Parser
 
 
 class VocabularyApp(QWidget):
