@@ -610,4 +610,3 @@
 |Flugzeug|el avión||b||1|0|
 |Motorrad|la moto(cicleta)||b||1|0|
 |sich befinden|estar|estoy, estás/á/ámos/áis/án|b||1|0|
-|Vereinigte Staaten|Estados Unidos (de Norteamérica)||||0|0|
