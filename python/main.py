@@ -496,6 +496,7 @@ class VocabularyApp(QWidget):
     # Connect the table cell selection event to track the currently selected cell
     def cell_selected(self, row, col):
         self.currently_editing = (row, col)
+        print(self.currently_editing)
         cell_contents = []
         for i in range(self.word_table.columnCount()):
             item = self.word_table.item(row, i)
@@ -516,8 +517,6 @@ class VocabularyApp(QWidget):
         if self.currently_editing != (-1, -1):
             w = self.logic.word_list[self.matching_index]
             self.show_delete_confirmation(f"{w.german} - {w.spanish}")
-            # print("deleting " + self.logic.word_list[self.matching_index].german)
-            # self.logic.delete_word_at_idx(self.matching_index)
             self.update_word_list()
 
     def show_delete_confirmation(self, word):
@@ -529,7 +528,7 @@ class VocabularyApp(QWidget):
         result = msg_box.exec()
 
         if result == QMessageBox.StandardButton.Ok:
-            self.logic.delete_word_at_idx(self.current_idx)
+            self.logic.delete_word_at_idx(self.matching_index)
             self.parser.write_vocab(self.logic.word_list)
         else:
             self.cancel_changes()
