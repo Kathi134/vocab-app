@@ -229,13 +229,13 @@
 |manchmal|A veces||d||0|0|
 |Der Monat April|el mes de abril||d||0|0|
 |Seit wann?|¿Desde cuándo?||d||0|0|
-|Wie heißen Sie?|¿Cómo se llama usted?||b||1|0|
+|Wie heißen Sie?|¿Cómo se llama usted?||b||2|0|
 |Bis bald|Hasta luego||b|x|1|0|
 |Sekt|el cava||b||1|0|
 |Strand|la playa||b||1|0|
 |Tourist|el turista|la turista|b||1|0|
 |Gesprächsthema|el tema de debate||b||1|0|
-|mehr|más||b||1|0|
+|mehr|más||b||2|0|
 |Platz|el campo, la plaza||b||1|0|
 |Ausstellung|la exposición||b|x|1|0|
 |neu|nuevo||b||1|0|
@@ -256,17 +256,17 @@
 |Film|la película||b||1|0|
 |Grenze|la frontera||b||1|0|
 |Ort|el lugar||b||1|0|
-|Objekt|el objeto||b||1|0|
-|Aufgepasst!|¡Ojo!||b||1|0|
+|Objekt|el objeto||b||2|0|
+|Aufgepasst!|¡Ojo!||b||2|0|
 |Stil|el estilo||b||1|0|
 |Material|el material||b|x|1|0|
 |Foto|la foto||b||1|0|
 |Kugelschreiber|el bolígrafo||u||1|0|
-|Uhr|el reloj||u||1|0|
+|Uhr|el reloj||u||2|0|
 |Haus|la casa||u|x|1|0|
 |Tisch|la mesa||u||1|0|
 |Stuhl|la silla||u||1|0|
-|Tür|la puerta||u||1|0|
+|Tür|la puerta||u||2|0|
 |Fenster|la ventana||u||1|0|
 |Flasche|la botella||u||1|0|
 |Dorf|el pueblo||u||1|0|
@@ -314,7 +314,7 @@
 |Wie groß ist es?|¿De qué tamaño es?||d||0|0|
 |Es ist so groß wie x|Tiene el tamaño de x||d||0|0|
 |Spricht man in Deutschland Spanisch?|¿Se habla español en Alemania?||b||1|0|
-|Vereinigte Staaten|Estados Unidades||b||1|0|
+|Vereinigte Staaten|Estados Unidades||b||2|0|
 |England|Inglaterra||b||1|0|
 |Tunnel|el túnel||b|x|1|0|
 |Text|el texto||b||1|0|
@@ -382,7 +382,7 @@
 |schicken|enviar||b||1|0|
 |Kenntnis|el conocimiento||b||1|0|
 |Postfach|el apartado de Correos||b||1|0|
-|Alter|el edad||b||1|0|
+|Alter|el edad||b||2|0|
 |Kaufmann|el técnico comercial|la técnica comercial|b||1|0|
 |schreiben (an)|escribir (a)||b||1|0|
 |Reisebüro|la agencia de viajes||b|x|1|0|
@@ -456,7 +456,7 @@
 |Taxifahrer|el taxista|la taxista|d||0|0|
 |leben,wohnen|vivir||d||0|0|
 |arbeiten|trabajar||d||1|0|
-|Angenehm|Encantado|Frauen sagen Encantada|b||1|0|
+|Angenehm|Encantado|Frauen sagen Encantada|b||2|0|
 |Wie geht es Ihnen?|¿cómo está usted?|estar -> temporär -> Wohlbefinden|b||1|0|
 |sehr gut|muy bien||b||1|0|
 |Es geht so|regular||b||1|0|
@@ -469,7 +469,7 @@
 |Stellenangebot|la oferta de empleo||b||1|0|
 |suchen|buscar||b||1|0|
 |benötigen|necesitar||b|x|1|0|
-|Erfahrung|la experiencia||b||1|0|
+|Erfahrung|la experiencia||b||2|0|
 |Empfangschef|el recepcionista|la recepcionista|b||1|0|
 |kontaktieren|contactar con|Puedes contactar con nosotros en el <número>.|b||1|0|
 |anbieten|ofrecer||b||1|0|
@@ -482,11 +482,11 @@
 |Interessent|el interesado|la interesada|b||1|0|
 |Klinikum|el centro clínico, el hospital||b||1|0|
 |Schule|el colegio||b||1|0|
-|Klasse|la clase||b||1|0|
+|Klasse|la clase||b||2|0|
 |betrachten, ansehen|mirar||b||1|0|
 |Klassenkamerad|el compañero|la compañera|b||1|0|
 |well, nun, tja|pues, bueno||b||1|0|
-|Wie schade!|¡qué lástima!||b||1|0|
+|Wie schade!|¡qué lástima!||b||2|0|
 |Kredit|el crédito||b||1|0|
 |Wie schön!|¡qué bonito!||b||1|0|
 |die (Relativpronomen)|que|Relativpronomen|b||1|0|
@@ -559,7 +559,7 @@
 |Stadion|el estadio||b||1|0|
 |Apotheke|la farmacia||b||1|0|
 |Park|el parque||b||1|0|
-|Es gibt (alles mögliche)|hay (de todo)|wörtlich: Es gibt von allem|b||1|0|
+|Es gibt (alles mögliche)|hay (de todo)|wörtlich: Es gibt von allem|b||2|0|
 |Saal|la sala||b||1|0|
 |Konzert|el concierto||b||1|0|
 |Verfassung|la constitución||b||1|0|
@@ -597,7 +597,7 @@
 |Über die Bundesstraße|por la carratera nacional||b||1|0|
 |Landstraße|la carretera||b||1|0|
 |örtlich|local||b||1|0|
-|außerdem|además||b||1|0|
+|außerdem|además||b||2|0|
 |entfernt sein|estar a|estar -> Ort|b||1|0|
 |Tabelle|el cuadro||b||1|0|
 |Fluss|el río||b||1|0|
@@ -610,3 +610,4 @@
 |Flugzeug|el avión||b||1|0|
 |Motorrad|la moto(cicleta)||b||1|0|
 |sich befinden|estar|estoy, estás/á/ámos/áis/án|b||1|0|
+|Vereinigte Staaten|Estados Unidos (de Norteamérica)||||0|0|
