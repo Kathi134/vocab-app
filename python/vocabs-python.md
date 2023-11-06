@@ -248,7 +248,7 @@
 |Sondertarif|la tarifa especial||b||2|0|
 |Skandal|el escándalo||b||1|0|
 |bedeuten|significar||b|x|1|0|
-|wissen|saber|sé, sabes, sabe, sabemos, sabéis, saben|b||1|0|
+|wissen|saber|sé, sabes, sabe, sabemos, sabéis, saben|b||2|0|
 |aussprechen|pronunciar||b||2|0|
 |Maler|el pintor|la pintora|b|x|1|0|
 |revolutionär|revolucionario||b|x|1|0|
