@@ -238,7 +238,7 @@
 |mehr|más||b||2|0|
 |Platz|el campo, la plaza||b||2|0|
 |Ausstellung|la exposición||b|x|1|0|
-|neu|nuevo||b||2|0|
+|neu|nuevo|f: nueva|b||2|0|
 |Stadt|la ciudad||b||2|0|
 |virtuell|virtual||b|x|1|0|
 |Universität|la universidad||b|x|1|0|
@@ -306,11 +306,11 @@
 |Seife|el jabón||d||0|0|
 |Schwimmbad|la piscina||d||0|0|
 |Größe|el tamaño||d||0|0|
-|hoch|alto||d||0|0|
-|groß|gran(de)||d||0|0|
-|klein|bajo, pequeño||b||1|0|
-|lang|largo||d||0|0|
-|kurz|corto||d||0|0|
+|hoch|alto|f: alta|d||0|0|
+|groß|gran(de)|vor m und f Substantiven gran, sonst geschlechtsunspezifisch|d||0|0|
+|klein|bajo, pequeño|f: baja, f: pequeña|b||1|0|
+|lang|largo|f: larga|d||0|0|
+|kurz|corto|f: corta|d||0|0|
 |Wie groß ist es?|¿De qué tamaño es?||d||0|0|
 |Es ist so groß wie x|Tiene el tamaño de x||d||0|0|
 |Spricht man in Deutschland Spanisch?|¿Se habla español en Alemania?||b||2|0|
@@ -323,13 +323,13 @@
 |Staat|el estado||b||2|0|
 |Land|el país||b||2|0|
 |Kontinent|el continente||b||2|0|
-|afrikanisch|africano||b||2|0|
+|afrikanisch|africano|f: africana|b||2|0|
 |die meistgesprochene Sprache der Welt|la lengua más hablada del mundo||b||2|0|
 |nach, hinter|después||b||1|0|
 |auch|tambien||b||1|0|
 |gehört zur Familie|es de la familia||b||1|0|
 |französisch|francés||b||2|0|
-|andere|otros||b||1|0|
+|andere|otros|f: otras|b||1|0|
 |zum Bespiel|por ejemplo||b||2|0|
 |Atmosphäre|el ambiente||b||2|0|
 |zum Schluss|al final||b||2|0|
@@ -395,60 +395,60 @@
 |vorbeikommen (in)|pasar (por)|yo paso por el museo|b||2|0|
 |Computer|el ordenador||b||1|0|
 |Anrufbeantworter|el contestador automático||b||2|0|
-|gut|buen(o)||d||0|0|
-|schön|bonito||b||2|0|
-|hässlich|feo||b||1|0|
-|schlecht|mal(o)||d||0|0|
+|gut|buen(o)|f: buenas, vor männl. Subst. buen|d||0|0|
+|schön|bonito|f: bonita|b||2|0|
+|hässlich|feo|f: fea|b||1|0|
+|schlecht|mal(o)|f: mala, vor männl. Subst. mal|d||0|0|
 |schlechter|peor||d||0|0|
 |schlechter als x|peor que x||d||0|0|
 |besser|mejor||d||0|0|
-|alt|viejo||d||0|0|
-|jung|jóven||d||0|0|
-|das gleiche, das selbe|el mismo||d||0|0|
+|alt|viejo|f: vieja|d||0|0|
+|jung|joven|los jóvenes|d||0|0|
+|das gleiche, das selbe|el mismo|f: la misma, n (unbestimmt): lo mismo|d||0|0|
 |kleiner|menor||d||0|0|
 |älter|mayor||d||0|0|
-|nützlich|útiles||d||0|0|
+|nützlich|útil||d||0|0|
 |wichtig|importante||d||0|0|
-|notwendig|necesario||d||0|0|
+|notwendig|necesario|f: necesaria|d||0|0|
 |echt|real||d||0|0|
-|richtig, wahr|cierto||d||0|0|
+|richtig, wahr|cierto|f: cierta|d||0|0|
 |wesentlich|principal||d||0|0|
 |wichtig|importantes||d||0|0|
 |unmöglich|imposible||d||0|0|
 |einfach|simple||d||0|0|
 |möglich|posible||d||1|0|
 |persönlich|personal||d||0|0|
-|öffentlich|público||d||0|0|
+|öffentlich|público|f: pública|d||0|0|
 |bekannt, vertraut|familiar||d||0|0|
 |beliebt|popular||d||0|0|
 |verantwortlich, zuständig|responsable||d||0|0|
 |fähig|capaz||d||0|0|
 |stark|fuerte||d||0|0|
-|schnell|rápido||d||0|0|
+|schnell|rápido|f: rápida|d||0|0|
 |intelligent|inteligente||d||0|0|
 |arm|pobre||d||0|0|
-|billig|barato||d||0|0|
-|teuer|caro||d||0|0|
-|reich|rico||d||0|0|
-|vergangen|pasado||d||0|0|
+|billig|barato|f: barata|d||0|0|
+|teuer|caro|f: cara|d||0|0|
+|reich|rico|f: rica|d||0|0|
+|vergangen|pasado|f: pasada|d||0|0|
 |neu, aktuell|reciente||b||2|0|
-|historisch|histórico||d||0|0|
-|nächste, folgend|siguiente, próximo||d||0|0|
+|historisch|histórico|f: histórica|d||0|0|
+|nächste, folgend|siguiente, próximo|f: próxima|d||0|0|
 |erste|primero||d||0|0|
-|letzter|último, final||d||0|0|
-|gerecht|justo||d||0|0|
-|hart|duro||d||0|0|
-|sicher|seguro||d||0|0|
+|letzter|último, final|f: úlitma|d||0|0|
+|gerecht|justo|f: justa|d||0|0|
+|hart|duro|f: dura|d||0|0|
+|sicher|seguro|f: segura|d||0|0|
 |ausreichend, genug|suficiente||d||0|0|
-|verschieden|distinto||d||0|0|
+|verschieden|distinto|f: distinta|d||0|0|
 |unterschiedlich|diferente||d||0|0|
-|eigene|propio||d||0|0|
+|eigene|propio|f: propia|d||0|0|
 |gemeinsam|junto||d||0|0|
-|einziger|único||d||0|0|
-|allein, nur|sola||d||0|0|
+|einziger|único|f: única|d||0|0|
+|nur|solo||d||0|0|
 |regional|regional||d||0|0|
-|so viele|tantas||d||0|0|
-|flach|plano||d||0|0|
+|so viel|tanto|f: tanta|d||0|0|
+|flach|plano|f: plana|d||0|0|
 |Bis wann?|¿hasta cuándo?||d||0|0|
 |Begegnung|el encuentro||d||0|0|
 |Tierarzt|el veterinario|la veterinaria|d||0|0|
@@ -572,7 +572,7 @@
 |Verkehr|el tráfico||b||2|0|
 |Leute|la gente||b||2|0|
 |vielleicht|quizás||b||2|0|
-|mehrere|varios||b||1|0|
+|mehrere|varios|f: varias|b||1|0|
 |Restaurant|el restaurante||b||2|0|
 |Kino|el cine||b||1|0|
 |wie überall|como en todos partes||b||1|0|
@@ -583,13 +583,13 @@
 |x ist einzigartig|Como x no hay dos|wrtl: So was wie x gibt es kein zweites Mal|b||2|0|
 |entkommen|escapar (de)|un lugar para escapar del estrés|b||1|0|
 |Stress|el estrés||b||1|0|
-|ruhig|tranquilo||b||1|0|
+|ruhig|tranquilo|f: tranquila|b||1|0|
 |Süden|el sur||b||2|0|
 |Küste|la costa||b||2|0|
 |Teil|la parte||b||1|0|
 |Route|la ruta||b||2|0|
 |Kirche|la iglesia||b||2|0|
-|alt|antiguo||b||1|0|
+|alt|antiguo|f: antigua|b||1|0|
 |wenig|poco||b|x|1|0|
 |Lärm|el ruido||b||1|0|
 |Wie kommt man dort hin?|¿Cómo llegar?||b||2|0|
@@ -612,3 +612,4 @@
 |Osten|este||u||2|0|
 |Norden|norte||u||1|0|
 |Westen|oeste||u||2|0|
+|allein|solo|f: sola|d||0|0|
