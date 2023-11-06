@@ -25,6 +25,6 @@ def translate(q):
         if var != -1:
             target = target[0:var].strip()
     else:
-        print("Request failed with status code:", response.status_code)
+        print("api error: request failed with status code:", response.status_code)
 
     return response.status_code, target

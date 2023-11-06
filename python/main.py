@@ -274,7 +274,7 @@ class VocabularyApp(QWidget):
         else:
             self.logic.add_word_to_list(word)
             self.parser.write_vocab(self.logic.word_list)
-            print("Word added:", word)
+            print("added:", word)
 
         # Clear all fields and unmark them
         self.german_input.clear()
@@ -472,6 +472,7 @@ class VocabularyApp(QWidget):
             item = self.word_table.item(self.currently_editing[0], self.currently_editing[1])
             word = self.logic.get_word_at_index(self.matching_index)
             self.change_value(word, item.text())
+            print(f"changed: {word}")
             self.parser.write_vocab(self.logic.word_list)
 
         self.edit_enabled = False  # Disable editing after saving
@@ -496,7 +497,6 @@ class VocabularyApp(QWidget):
     # Connect the table cell selection event to track the currently selected cell
     def cell_selected(self, row, col):
         self.currently_editing = (row, col)
-        print(self.currently_editing)
         cell_contents = []
         for i in range(self.word_table.columnCount()):
             item = self.word_table.item(row, i)
@@ -513,7 +513,6 @@ class VocabularyApp(QWidget):
         self.matching_index = matching_index
 
     def delete_selection(self):
-        # TODO: fix - sth wrong is deleted
         if self.currently_editing != (-1, -1):
             w = self.logic.word_list[self.matching_index]
             self.show_delete_confirmation(f"{w.german} - {w.spanish}")
@@ -536,10 +535,10 @@ class VocabularyApp(QWidget):
     def archive_selection(self):
         if self.currently_editing != (-1, -1):
             if self.show_archived_checkbox.isChecked():
-                print("dearchiving " + self.logic.word_list[self.matching_index].german)
+                print("dearchived " + self.logic.word_list[self.matching_index].german)
                 self.logic.dearchive_word_at_index(self.matching_index)
             else:
-                print("archiving " + self.logic.word_list[self.matching_index].german)
+                print("archived " + self.logic.word_list[self.matching_index].german)
                 self.logic.archive_word_at_index(self.matching_index)
 
             self.parser.write_vocab(self.logic.word_list)
