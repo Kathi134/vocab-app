@@ -91,7 +91,7 @@
 |Wie heißt du?|¿Cómo te llamas?||u||1|0|
 |Wo kommst du her?|¿De dónde eres?||u||2|0|
 |Wo wohnst du?|¿Dónde vives?||u||2|0|
-|In welcher Straße wohnst du?|¿En qué calle vives?||u||1|0|
+|In welcher Straße wohnst du?|¿En qué calle vives?||u||2|0|
 |Straße|la calle||u||1|0|
 |Wie alt bist du?|¿Cuántos años tienes?||u||2|0|
 |Welche Sprachen sprichst du?|¿Qué lenguas hablas?||u||1|0|
@@ -243,7 +243,7 @@
 |virtuell|virtual||b|x|1|0|
 |Universität|la universidad||b|x|1|0|
 |Kongress|el congreso||b||2|0|
-|Meister|el campeón|la campeona|b||1|0|
+|Meister|el campeón|la campeona|b||2|0|
 |Informatiksektor|el sector informático||b||2|0|
 |Sondertarif|la tarifa especial||b||2|0|
 |Skandal|el escándalo||b||1|0|
@@ -260,7 +260,7 @@
 |Aufgepasst!|¡Ojo!||b||2|0|
 |Stil|el estilo||b||2|0|
 |Material|el material||b|x|1|0|
-|Foto|la foto||b||1|0|
+|Foto|la foto||b||2|0|
 |Kugelschreiber|el bolígrafo||u||2|0|
 |Uhr|el reloj||u||2|0|
 |Haus|la casa||u|x|1|0|
@@ -456,7 +456,7 @@
 |leben,wohnen|vivir||d||0|0|
 |arbeiten|trabajar||d||1|0|
 |Angenehm|Encantado|Frauen sagen Encantada|b||2|0|
-|Wie geht es Ihnen?|¿cómo está usted?|estar -> temporär -> Wohlbefinden|b||1|0|
+|Wie geht es Ihnen?|¿cómo está usted?|estar -> temporär -> Wohlbefinden|b||2|0|
 |sehr gut|muy bien||b||2|0|
 |Es geht so|regular||b||2|0|
 |Schrecklich|Fatal, horrible||b||2|0|
@@ -484,20 +484,20 @@
 |Klasse|la clase||b||2|0|
 |betrachten, ansehen|mirar||b||2|0|
 |Klassenkamerad|el compañero|la compañera|b||2|0|
-|well, nun, tja|pues, bueno||b||1|0|
+|well, nun, tja|pues, bueno||b||2|0|
 |Wie schade!|¡qué lástima!||b||2|0|
-|Kredit|el crédito||b||1|0|
+|Kredit|el crédito||b||2|0|
 |Wie schön!|¡qué bonito!||b||2|0|
 |die (Relativpronomen)|que|Relativpronomen|b||1|0|
 |verheiratet sein mit|estar casado con||b||2|0|
 |die beiden|los dos||b|x|1|0|
-|ergänzen, vervollständigen|completar||b||1|0|
+|ergänzen, vervollständigen|completar||b||2|0|
 |lernen|aprender||b|x|1|0|
 |dort|allí||b||2|0|
 |verkaufen|vender||b|x|1|0|
 |verbringen|pasar||b||2|0|
 |nur|sólo||b||1|0|
-|nett, liebenswürdig|amable||b||1|0|
+|nett, liebenswürdig|amable||b||2|0|
 |Wasserfall|la catarata||b||2|0|
 |markieren|marcar||b||2|0|
 |Unterschied|la diferencia||b||2|0|
@@ -507,7 +507,7 @@
 |-|el guión||b||2|0|
 |Zentrum|el centro||b|x|1|0|
 |Wer aus dem Kurs?|¿Quién del curso?||b||2|0|
-|Gedicht|el poema||b||1|0|
+|Gedicht|el poema||b||2|0|
 |spielen|jugar|juego, juegas, juega, jugamos, jugáis, jugan|d||0|0|
 |tragen, anhaben|llevar||d||0|0|
 |finden|encontrar|encuentro, encuentras, encuentra, encontramos, encontráis, encuentran|d||0|0|
