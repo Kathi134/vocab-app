@@ -116,7 +116,7 @@
 |bezahlen|pagar||d||0|0|
 |spielen, berühren|tocar||d||0|0|
 |Küche|la cocina||d||0|0|
-|hören|oír|oigo, oyes/e, oímos/ís, oyen|d||0|0|
+|hören|oír|oigo, oyes/e, oímos/ís, oyen|b||1|0|
 |sehen|ver||d||0|0|
 |schlafen|dormir|duermo/es/es, dormimos/ís, duermen|d||0|0|
 |haben|tener|tengo, tienes, tiene, tenemos, tenéis, tenen|d||0|0|
@@ -155,7 +155,7 @@
 |warum?|¿por qué?||d||0|0|
 |für|por, para|por: Zeitdauer, Gründe, Ersatz - para: Empfänger, um ... zu, Vergleich, spezifischer Zeitpunkt|d||0|0|
 |aus|de||d||0|0|
-|zwischen|entre||d||0|0|
+|zwischen|entre||b||0|0|
 |in|en||d||0|0|
 |über, auf|sobre||b||2|0|
 |nach, zu|a, hacia||d||0|0|
@@ -201,7 +201,7 @@
 |Oktober|octubre||d||0|0|
 |November|noviembre||d||0|0|
 |Dezember|diciembre||d||0|0|
-|Bis|hasta||d||0|0|
+|Bis|hasta||b||1|0|
 |Seit|desde||d||0|0|
 |Im <Monat>|durante <mes>||d||0|0|
 |eine Weile|un rato||d||0|0|
@@ -325,7 +325,7 @@
 |Kontinent|el continente||b||2|0|
 |afrikanisch|africano|f: africana|b||2|0|
 |die meistgesprochene Sprache der Welt|la lengua más hablada del mundo||b||2|0|
-|nach, hinter|después||b||1|0|
+|nach, hinter, danach|después||b||1|0|
 |auch|tambien||b||1|0|
 |gehört zur Familie|es de la familia||b||1|0|
 |französisch|francés||b||2|0|
@@ -526,7 +526,7 @@
 |zustimmen, annehmen|aceptar||d||1|0|
 |zurückkehren|vuelver|vuelvo/es/e, volvemos/éis, vuelven|d||0|0|
 |geben|dar|doy (Rest regelmäßig)|d||0|0|
-|nehmen|tomar||d||0|0|
+|nehmen|tomar||b||1|0|
 |denken (an)|pensar (en)|pienso/as/a, pensamos/áis, piensan|d||0|0|
 |achten, respektieren|respetar||d||0|0|
 |passen (in)|caber (en)|quepo (rest regelmäßig)|d||0|0|
@@ -632,3 +632,48 @@
 |alles|todo||d||0|0|
 |jeder|cada|nicht cado!|d||0|0|
 |das hier, das da, das dort|este, ese, aquel||d||0|0|
+|Dialog|el diálogo||b||0|0|
+|Entschuldigen Sie|Perdone||b||1|0|
+|(ganz) in der Nähe|(muy) cerca||b||0|0|
+|hier in der Nähe|por aquí||b||0|0|
+|neben|al lado de||b||0|0|
+|gegenüber (von)|enfrente (de)||b||0|0|
+|Mal sehen|A ver||b||1|0|
+|müssen|tener que||b||1|0|
+|weitergehen, folgen|seguir|tienes que seguir la calle hasta ...|b||0|0|
+|geradeaus gehen|seguir todo recto||b||1|0|
+|Parkplatz|el aparcamiento||b||0|0|
+|Zug|el tren||b||0|0|
+|Bus|el autobús||b||1|0|
+|weit (weg)|lejos||b||0|0|
+|rechts|a la derecha||b||1|0|
+|links|a la izquierda||b||0|0|
+|abbiegen|girar||b||1|0|
+|an der Ampel|en el semáforo||b||0|0|
+|ob|si||b||0|0|
+|davor, vor|delante, delante de||b||1|0|
+|dahinter, hinter|detrás, detrás de||b||0|0|
+|Krokodil|el cocodrilo||b||1|0|
+|Giraffe|la jirafa||b||1|0|
+|Telefonzelle|la cabina telefónica||b||0|0|
+|zu Fuß|a pie||b||0|0|
+|Spaziergang|el paseo||b||0|0|
+|eine der berühmtesten|una de las más famosas||b||1|0|
+|jüdisches Viertel|el barrio judío||b||0|0|
+|vorbeiführen an|pasar por|la calle que pasa por la iglesia|b||0|0|
+|Rathaus|el ayuntamiento||b||0|0|
+|Ecke|la esquina||b||0|0|
+|wo, in der (Relativpronomen)|donde||b||0|0|
+|Synagoge|la sinagoga||b||1|0|
+|überqueren|cruzar||b||1|0|
+|sich ausruhen|descansar||b||0|0|
+|die dritte|la tercera||b||0|0|
+|hundert|cien(to)|100=cien, 101=cientouno, 200=doscientos, 340=trescientos cuarenta y uno|b||0|0|
+|tausend|mil||b||1|0|
+|Million|el millón||b||0|0|
+|Ziffer|la cifra||b||0|0|
+|Entfernung|la distancia||b||1|0|
+|Vorwahl|el prefijo (telefónico)||b||0|0|
+|Wie viele Kilometer sind es?|¿Cuántos kilómetros hay?||b||0|0|
+|innen|dentro||b||1|0|
+|dann|luego||b||1|0|
