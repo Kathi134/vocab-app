@@ -511,7 +511,7 @@
 |spielen|jugar|juego, juegas, juega, jugamos, jugáis, jugan|d||0|0|
 |tragen, anhaben|llevar||d||0|0|
 |finden|encontrar|encuentro, encuentras, encuentra, encontramos, encontráis, encuentran|d||0|0|
-|folgen|seguir|sigo, sigues, sigue, seguimos, seguís, siguen|d||0|0|
+|jmdm folgen|seguir a alguien|sigo, sigues, sigue, seguimos, seguís, siguen|d||0|0|
 |sich verabreden|quedar||d||0|0|
 |helfen|ayudar||d||0|0|
 |probieren, prüfen, testen|probar|pruebo, pruebas, prueba, probamos, probáis, prueban|d||0|0|
@@ -527,7 +527,7 @@
 |zurückkehren|vuelver|vuelvo/es/e, volvemos/éis, vuelven|d||0|0|
 |geben|dar|doy (Rest regelmäßig)|d||0|0|
 |nehmen|tomar||d||0|0|
-|denken (an)|pensar (a)|pienso/as/a, pensamos/áis, piensan|d||0|0|
+|denken (an)|pensar (en)|pienso/as/a, pensamos/áis, piensan|d||0|0|
 |achten, respektieren|respetar||d||0|0|
 |passen (in)|caber (en)|quepo (rest regelmäßig)|d||0|0|
 |aussehen wie, scheinen|parecer|parezco (Rest regelmäßig), kein como: parece un huevo|d||0|0|
@@ -613,3 +613,22 @@
 |Norden|norte||u||1|0|
 |Westen|oeste||u||2|0|
 |allein|solo|f: sola|d||0|0|
+|jmdn besuchen|visitar a alguien||d||0|0|
+|jmdn x jmdm y vorstellen|presentar x a y||d||0|0|
+|Großbritannien|Gran Bretaña||d||0|0|
+|übrig bleiben|quedar|no queda x|d||0|0|
+|wieder|otra vez||d||0|0|
+|wieder und wieder|una y otra vez||d||0|0|
+|den ganzen Tag|durante todo el día||d||0|0|
+|täglich|todos los días||d||0|0|
+|(zu) jederzeit|a cualquier hora||d||0|0|
+|in jedem Moment|en cualquier momento||d||0|0|
+|keiner|ninguno|w: ninguna, vor männl. Subst.: ningún|d||0|0|
+|irgendein (egal wer/ jeglicher)|cualquiera|vor männl. Subst. cualquier|d||0|0|
+|irgendein|alguno|f: alguna, vor männl. Subst. algún|d||0|0|
+|manche|algunos||d||0|0|
+|beide|ambos||d||0|0|
+|einige|unos cuantos||d||0|0|
+|alles|todo||d||0|0|
+|jeder|cada|nicht cado!|d||0|0|
+|das hier, das da, das dort|este, ese, aquel||d||0|0|
