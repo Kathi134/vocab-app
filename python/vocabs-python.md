@@ -716,5 +716,5 @@
 |bald|pronto||b||0|0|
 |Herzliche Grüße|saludos cordiales||b||0|0|
 |foo|bar||||0|0|
-|7|fnord||||0|0|
-|foo|rrrrrr||||0|0|
+|foo|test||||0|0|
+|foo|fnord||||0|0|
