@@ -124,7 +124,7 @@ class VocabularyApp(QWidget):
         options_btn.setFixedWidth(25)
         self.global_score_label = QLabel(f"accuracy: {self.logic.get_accuracy():.2f}") # accuracy
         self.highest_level = QLabel(f"highest level: {self.logic.get_max_level()}")
-        self.current_word_level = QLabel(f"current word's level: 0") # TODO: fix{self.current_word.score}")
+        self.current_word_level = QLabel(f"current word's level: 0")
         self.unleveled_words_label = QLabel(f"to go: {self.logic.get_words_to_learn()}")
         self.style_score_labels([self.global_score_label, self.highest_level, self.current_word_level, self.unleveled_words_label])
         stats_label = QLabel("🎯")
@@ -242,14 +242,14 @@ class VocabularyApp(QWidget):
 
         # Create a temporary storage for changes
         self.edit_enabled = False  # Track if editing is enabled
-        self.currently_editing = None  # Track the currently editing cell
+        self.selected_cell = (-1,-1)  # Track the currently editing cell
 
     def keyPressEvent(self, event):
         if event.key() == Qt.Key.Key_Return:
             tab = self.tabs.currentIndex()
             if tab == 0:
                 self.add_word()
-            elif tab == 2 and self.edit_enabled and self.currently_editing:
+            elif tab == 2 and self.edit_enabled and self.selected_cell:
                 self.save_changes()
             elif tab == 1 and not self.feedback.isVisible():
                 self.check_answer()
@@ -429,6 +429,7 @@ class VocabularyApp(QWidget):
     def update_word_list(self):
         # Clear the table
         self.word_table.setRowCount(0)
+        self.row_changed = True
 
         search_term = self.search_input.text().lower()
         show_archived = self.show_archived_checkbox.isChecked()
@@ -454,8 +455,8 @@ class VocabularyApp(QWidget):
     def enable_edit(self):
         # Enable cell editing when the "Enable Edit" button is clicked
         # TODO: only allow edit in score cell, if score is set lower
-        if self.currently_editing != (-1, -1) and self.currently_editing[1] not in [4, 5]:
-            item = self.word_table.item(self.currently_editing[0], self.currently_editing[1])
+        if self.selected_cell != (-1, -1) and self.selected_cell[1] not in [4, 5]:
+            item = self.word_table.item(self.selected_cell[0], self.selected_cell[1])
             if item:
                 item.setFlags(item.flags() | Qt.ItemFlag.ItemIsEditable)
                 self.word_table.editItem(item)
@@ -471,28 +472,30 @@ class VocabularyApp(QWidget):
     def save_changes(self):
         if type(self.matching_index) == NoneType:
             QMessageBox.critical(self, "Save Error", "Please only edit one cell at a time.")
-        elif self.edit_enabled and self.currently_editing != (-1, -1):
-            item = self.word_table.item(self.currently_editing[0], self.currently_editing[1])
+        elif self.edit_enabled and self.selected_cell != (-1, -1):
             word = self.logic.get_word_at_index(self.matching_index)
-            self.change_value(word, item.text())
-            # todo: only print and change if actually something changed
-            print(f"changed: {word}")
-            self.parser.write_vocab(self.logic.word_list)
+            changed = self.change_value(self.selected_cell[0], word)
+            if changed:
+                self.parser.write_vocab(self.logic.word_list)
 
         self.edit_enabled = False  # Disable editing after saving
         self.update_word_list()
 
-    def change_value(self, word: Word, new_value):
-        # todo: refactor, not only save one cell but whole row (only use cell selection as row indicator)
-        idx = self.currently_editing[1]
-        if idx == 0:
-            word.german = new_value
-        elif idx == 1:
-            word.spanish = new_value
-        elif idx == 2:
-            word.grammar = new_value
-        elif idx == 3:
-            word.comment = new_value
+    def change_value(self, row_index: int, word: Word):
+        new_german = self.word_table.item(row_index, 0).text()
+        new_spanish = self.word_table.item(row_index, 1).text()
+        new_grammar = self.word_table.item(row_index, 2).text()
+        new_comment = self.word_table.item(row_index, 3).text()
+        new_score = self.word_table.item(row_index, 4).text()
+        # new_rev_score = self.word_table.item(row_index, 5).text()
+        new_word = Word(new_german, new_spanish, new_grammar, new_comment, int(new_score))
+
+        if new_word == word:
+            return False
+        print(f"changed: {new_word} (from {word})")
+        word.set_all(new_word)
+        return True
+
 
     def cancel_changes(self):
         # Discard changes made in edit mode
@@ -501,24 +504,33 @@ class VocabularyApp(QWidget):
 
     # Connect the table cell selection event to track the currently selected cell
     def cell_selected(self, row, col):
-        self.currently_editing = (row, col)
+        if row == -1 or col == -1:
+            return
+
+        # problem: select row 1, search term, keep selction
+        self.row_changed = self.row_changed or self.selected_cell[0] != row
+        self.selected_cell = (row, col)
         cell_contents = []
         for i in range(self.word_table.columnCount()):
             item = self.word_table.item(row, i)
             cell_contents.append(item.text() if item else '')
 
-        # Search for a matching item in word_list
-        matching_index = None
-        for index, word in enumerate(self.logic.word_list):
-            if (word.german, word.spanish, word.grammar, word.comment) == tuple(cell_contents[0:4]):
-                matching_index = index
-                break
+        if self.row_changed:
+            matching_index = None
+            # Search for a matching item in word_list
+            for index, word in enumerate(self.logic.word_list):
+                if (word.german, word.spanish, word.grammar, word.comment) == tuple(cell_contents[0:4]):
+                    matching_index = index
+                    break
 
-        # Store the matching index
-        self.matching_index = matching_index
+            # Store the matching index
+            self.matching_index = matching_index
+            self.row_changed = False
+
+        # print(f"cell: {self.selected_cell}, word: {self.logic.word_list[self.matching_index]}")
 
     def delete_selection(self):
-        if self.currently_editing != (-1, -1):
+        if self.selected_cell != (-1, -1):
             w = self.logic.word_list[self.matching_index]
             self.show_delete_confirmation(f"{w.german} - {w.spanish}")
             self.update_word_list()
@@ -538,7 +550,7 @@ class VocabularyApp(QWidget):
             self.cancel_changes()
 
     def archive_selection(self):
-        if self.currently_editing != (-1, -1):
+        if self.selected_cell != (-1, -1):
             if self.show_archived_checkbox.isChecked():
                 print("dearchived " + self.logic.word_list[self.matching_index].german)
                 self.logic.dearchive_word_at_index(self.matching_index)

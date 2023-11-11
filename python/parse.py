@@ -2,7 +2,7 @@ from logic import Score
 from logic import FilterOptions
 
 class Word:
-    def __init__(self, german, spanish, grammar, comment, score=0, reverse_score=0, archived=False):
+    def __init__(self, german, spanish, grammar, comment, score: int =0, reverse_score: int =0, archived=False):
         self.german: str = german
         self.spanish: str = spanish
         self.grammar: str = grammar
@@ -13,6 +13,15 @@ class Word:
 
     def archive(self):
         self.archived = True
+
+    def set_all(self, other):
+        self.german = other.german
+        self.spanish = other.spanish
+        self.grammar = other.grammar
+        self.comment = other.comment
+        self.archived = other.archived
+        self.score = other.score
+        self.reverse_score = other.reverse_score
 
     @staticmethod
     def empty():
