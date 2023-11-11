@@ -8,12 +8,13 @@ from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QPalette, QColor
 from PyQt6.QtWidgets import QApplication, QHBoxLayout, QWidget, QVBoxLayout, QLabel, QPushButton, QLineEdit, \
     QTabWidget, QTextEdit, QCheckBox, QFormLayout, QTableWidget, \
-    QTableWidgetItem, QMessageBox, QSizePolicy, QLayout, QDialog
+    QTableWidgetItem, QMessageBox, QSizePolicy, QLayout, QDialog, QInputDialog, QComboBox, QSpinBox, QDialogButtonBox
 
 import api
 from logic import Logic
 from parse import Word, Parser
 
+# TODO: idea: give option to mark words as special
 
 class VocabularyApp(QWidget):
     def __init__(self, parser, git_response):
@@ -297,6 +298,7 @@ class VocabularyApp(QWidget):
 
     def auto_translate(self):
         if len(self.spanish_input.text()) == 0:
+            # TODO: async call using callback -> only insert answer if nothing was typed in between
             translated_text = api.translate(self.german_input.text())
             self.spanish_input.setText(translated_text[1])
 
@@ -437,7 +439,7 @@ class VocabularyApp(QWidget):
         i = -1
         for word in filtered_archive_list:
             i += 1
-            if search_term not in word.german.lower() and search_term not in word.spanish.lower():
+            if search_term not in word.german.lower() and search_term not in word.spanish.lower() and search_term not in word.grammar.lower():
                 continue
             row_position = self.word_table.rowCount()
             self.word_table.insertRow(row_position)
@@ -472,6 +474,7 @@ class VocabularyApp(QWidget):
             item = self.word_table.item(self.currently_editing[0], self.currently_editing[1])
             word = self.logic.get_word_at_index(self.matching_index)
             self.change_value(word, item.text())
+            # todo: only print and change if actually something changed
             print(f"changed: {word}")
             self.parser.write_vocab(self.logic.word_list)
 
@@ -479,6 +482,7 @@ class VocabularyApp(QWidget):
         self.update_word_list()
 
     def change_value(self, word: Word, new_value):
+        # todo: refactor, not only save one cell but whole row (only use cell selection as row indicator)
         idx = self.currently_editing[1]
         if idx == 0:
             word.german = new_value
