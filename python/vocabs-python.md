@@ -715,3 +715,6 @@
 |Anweisung|la instrucción||b||0|0|
 |bald|pronto||b||0|0|
 |Herzliche Grüße|saludos cordiales||b||0|0|
+|foo|bar||||0|0|
+|7|fnord||||0|0|
+|foo|rrrrrr||||0|0|
