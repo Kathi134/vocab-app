@@ -453,6 +453,7 @@ class VocabularyApp(QWidget):
 
     def enable_edit(self):
         # Enable cell editing when the "Enable Edit" button is clicked
+        # TODO: only allow edit in score cell, if score is set lower
         if self.currently_editing != (-1, -1) and self.currently_editing[1] not in [4, 5]:
             item = self.word_table.item(self.currently_editing[0], self.currently_editing[1])
             if item:
