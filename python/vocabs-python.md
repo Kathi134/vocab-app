@@ -189,7 +189,7 @@
 |Sekunde|el segundo||d||0|0|
 |spät|tarde||d||0|0|
 |Monat|el mes||d||0|0|
-|Januar|enero||d|x|0|0|
+|Januar|enero||d||0|0|
 |Februar|febrero||d||0|0|
 |März|marzo||d||0|0|
 |April|abril||d||0|0|
@@ -230,14 +230,14 @@
 |Der Monat April|el mes de abril||d||0|0|
 |Seit wann?|¿Desde cuándo?||d||0|0|
 |Wie heißen Sie?|¿Cómo se llama usted?||b||2|0|
-|Bis bald|Hasta luego||b|x|1|0|
+|Bis bald|Hasta luego||b||1|0|
 |Sekt|el cava||b||2|0|
 |Strand|la playa||b||2|0|
 |Tourist|el turista|la turista|b||2|0|
 |Gesprächsthema|el tema de debate||b||2|0|
 |mehr|más||b||2|0|
 |Platz|el campo, la plaza||b||2|0|
-|Ausstellung|la exposición||b|x|1|0|
+|Ausstellung|la exposición||b||1|0|
 |neu|nuevo|f: nueva|b||2|0|
 |Stadt|la ciudad||b||2|0|
 |virtuell|virtual||b|x|1|0|
@@ -251,7 +251,7 @@
 |wissen|saber|sé, sabes, sabe, sabemos, sabéis, saben|b||2|0|
 |aussprechen|pronunciar||b||2|0|
 |Maler|el pintor|la pintora|b|x|1|0|
-|revolutionär|revolucionario||b|x|1|0|
+|revolutionär|revolucionario||b||1|0|
 |Gemälde|el cuadro||b||2|0|
 |Film|la película||b||1|0|
 |Grenze|la frontera||b||2|0|
@@ -375,7 +375,6 @@
 |Angenehm|mucho gusto, encantado||b||2|0|
 |nicht wahr?|¿verdad?, ¿no?||b||2|0|
 |zuhören|escuchar||b||2|0|
-|Reservierung|la reserva||b||2|0|
 |Nachname|el apellido||b||2|0|
 |Unternehmen|la empresa||b||2|0|
 |Vertreter|el representante|la representante|b||2|0|
@@ -385,7 +384,7 @@
 |Alter|el edad||b||2|0|
 |Kaufmann|el técnico comercial|la técnica comercial|b||2|0|
 |schreiben (an)|escribir (a)||b||2|0|
-|Reisebüro|la agencia de viajes||b|x|1|0|
+|Reisebüro|la agencia de viajes||b||1|0|
 |schon|ya||b||2|0|
 |jetzt|ahora||b||2|0|
 |noch|todavía||b||1|0|
@@ -462,25 +461,25 @@
 |Schrecklich|Fatal, horrible||b||2|0|
 |Wie schreibt man x?|¿Cómo se escribe x?||b||2|0|
 |Pünktchen auf Vokal|la diéresis|Im Spanischen nur ü (el pingüino)|b||1|0|
-|Reservierung|la reserva||b|x|1|0|
+|Reservierung|la reserva||b||1|0|
 |Einzelzimmer|la habitación individual||b||2|0|
 |Was machen Sie beruflich?|¿Qué hace usted?||b||2|0|
 |Stellenangebot|la oferta de empleo||b||2|0|
 |suchen|buscar||b||2|0|
-|benötigen|necesitar||b|x|1|0|
+|benötigen|necesitar||b||1|0|
 |Erfahrung|la experiencia||b||2|0|
 |Empfangschef|el recepcionista|la recepcionista|b||1|0|
 |jmd kontaktieren|contactar con|Puedes contactar con nosotros en el <número>.|b||1|0|
 |anbieten|ofrecer||b||2|0|
 |Einkaufszentrum|el centro comercial||b||2|0|
-|Praktikum|la práctica||b|x|1|0|
+|Praktikum|la práctica||b||1|0|
 |Verwaltungsangestellter|el empleado administrativo|la empleada|b||2|0|
 |Programmierer|el programador|la programadora|b||1|0|
 |Fabrik|la fábrica||b|x|1|0|
 |mindestens zwei Jahre Erfahrung|experiencia mínima dos años||b||2|0|
 |Interessent|el interesado|la interesada|b||1|0|
 |Klinikum|el centro clínico, el hospital||b||1|0|
-|Schule|el colegio||b||2|0|
+|Schule|el colegio, la escuela||b||2|0|
 |Klasse|la clase||b||2|0|
 |betrachten, ansehen|mirar||b||2|0|
 |Klassenkamerad|el compañero|la compañera|b||2|0|
@@ -492,7 +491,7 @@
 |verheiratet sein mit|estar casado con||b||2|0|
 |die beiden|los dos||b|x|1|0|
 |ergänzen, vervollständigen|completar||b||2|0|
-|lernen|aprender||b|x|1|0|
+|lernen|aprender||b||1|0|
 |dort|allí||b||2|0|
 |verkaufen|vender||b|x|1|0|
 |verbringen|pasar||b||2|0|
@@ -503,7 +502,7 @@
 |Unterschied|la diferencia||b||2|0|
 |E-Mail|el correo electrónico||b||1|0|
 |@|la arroba||b||2|0|
-|.|el punto||b|x|1|0|
+|.|el punto||b||1|0|
 |-|el guión||b||2|0|
 |Zentrum|el centro||b|x|1|0|
 |Wer aus dem Kurs?|¿Quién del curso?||b||2|0|
@@ -577,7 +576,7 @@
 |Kino|el cine||b||1|0|
 |wie überall|como en todos partes||b||1|0|
 |Gegensatz|el contraste||b||2|0|
-|besonders|especial||b|x|1|0|
+|besonders|especial||b||1|0|
 |denn, nämlich|es que|es que en las vacaciones siempre se visita España|b||1|0|
 |für uns|para nosotros|para: Empfänger|b||1|0|
 |x ist einzigartig|Como x no hay dos|wrtl: So was wie x gibt es kein zweites Mal|b||2|0|
@@ -645,7 +644,7 @@
 |Parkplatz|el aparcamiento||b||0|0|
 |Zug|el tren||b||0|0|
 |Bus|el autobús||b||1|0|
-|weit (weg)|lejos||b||0|0|
+|weit (weg)|lejos||b||1|0|
 |rechts|a la derecha||b||1|0|
 |links|a la izquierda||b||0|0|
 |abbiegen|girar||b||1|0|
@@ -662,8 +661,8 @@
 |jüdisches Viertel|el barrio judío||b||0|0|
 |vorbeiführen an|pasar por|la calle que pasa por la iglesia|b||0|0|
 |Rathaus|el ayuntamiento||b||0|0|
-|Ecke|la esquina||b||0|0|
-|wo, in der (Relativpronomen)|donde||b||0|0|
+|Ecke|la esquina||b||1|0|
+|wo, in der (Relativpronomen)|donde||b||1|0|
 |Synagoge|la sinagoga||b||1|0|
 |überqueren|cruzar||b||1|0|
 |sich ausruhen|descansar||b||0|0|
@@ -677,3 +676,42 @@
 |Wie viele Kilometer sind es?|¿Cuántos kilómetros hay?||b||0|0|
 |innen|dentro||b||1|0|
 |dann|luego||b||1|0|
+|16|dieciséis||u||0|0|
+|22|veintidós||u||1|0|
+|23|veintitrés||u||0|0|
+|50|cincuenta||u||0|0|
+|101|ciento uno||u||0|0|
+|500|quinientos||u||0|0|
+|700|setecientos||u||1|0|
+|900|novecientos||u||0|0|
+|1001|mil uno||u||0|0|
+|2000|dos mil||u||1|0|
+|1 000 000|un millón||u||0|0|
+|16 523 951|dieciséis millones quinientos veintitrés mil novecientos cincuenta y uno||u||0|0|
+|ihr/ihm (Dat), sie/ihn/es (Akk)|le|le gusta, le interesa|u||0|0|
+|uns (Akk./Dat.)|nos|nos gusta, nos interesa|u||1|0|
+|euch (Dat, Akk)|os|os gusta, os interesa|u||0|0|
+|ihnen (Dat. Pl.)|les|les gusta|u||0|0|
+|Liebe/r|Querido/a||b||0|0|
+|Wohin?|¿adónde?||b||0|0|
+|Studentenstadt(viertel)|la ciudad universitaria||b||0|0|
+|man muss|hay que||b||0|0|
+|umsteigen |cambiar||b||0|0|
+|in Richtung|en dirección a||b||0|0|
+|aussteigen|bajar||b||0|0|
+|Satz|la frase||b||0|0|
+|fliegen|ir en avión||b||0|0|
+|zu Fuß gehen|ir a pie||b||0|0|
+|Kette|la cadena||b||0|0|
+|nach Hause|a casa||b||0|0|
+|Unterricht|la clase||b||0|0|
+|Haltestelle|la parada, la estación|la estación terminal|b||0|0|
+|direkt|directo||b||0|0|
+|einverstanden|de acuerdo||b||0|0|
+|Fahrkarte|el billete||b||0|0|
+|sich interessieren|interesar|me, te, le, nos, os les interesa|b||0|0|
+|Gruppe|el grupo||b||0|0|
+|Touristinformation|la oficina de turismo||b||0|0|
+|Anweisung|la instrucción||b||0|0|
+|bald|pronto||b||0|0|
+|Herzliche Grüße|saludos cordiales||b||0|0|
