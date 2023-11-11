@@ -696,7 +696,7 @@
 |Wohin?|¿adónde?||b||0|0|
 |Studentenstadt(viertel)|la ciudad universitaria||b||0|0|
 |man muss|hay que||b||0|0|
-|umsteigen |cambiar||b||0|0|
+|umsteigen|cambiar||b||0|0|
 |in Richtung|en dirección a||b||0|0|
 |aussteigen|bajar||b||0|0|
 |Satz|la frase||b||0|0|
