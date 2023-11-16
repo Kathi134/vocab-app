@@ -384,7 +384,7 @@
 |Kaufmann|el técnico comercial|la técnica comercial|b||2|0|
 |schreiben (an)|escribir (a)||b||2|0|
 |Reisebüro|la agencia de viajes||b||1|0|
-|schon|ya||b||2|0|
+|schon|ya|ya entiendo un poco de español|b||2|0|
 |jetzt|ahora||b||2|0|
 |noch|todavía||b||1|0|
 |Abteilung|el departamento||b||1|0|
@@ -443,7 +443,6 @@
 |eigene|propio|f: propia|d||0|0|
 |gemeinsam|junto||d||0|0|
 |einziger|único|f: única|d||0|0|
-|nur|solo||d||0|0|
 |regional|regional||d||0|0|
 |so viel|tanto|f: tanta|d||0|0|
 |flach|plano|f: plana|d||0|0|
@@ -610,7 +609,7 @@
 |Osten|este||u||2|0|
 |Norden|norte||u||1|0|
 |Westen|oeste||u||2|0|
-|allein|solo|f: sola|d||0|0|
+|allein|solo|f: sola, sólo = nur|d||0|0|
 |jmdn besuchen|visitar a alguien||d||0|0|
 |jmdn x jmdm y vorstellen|presentar x a y||d||0|0|
 |Großbritannien|Gran Bretaña||d||0|0|
@@ -714,3 +713,31 @@
 |Anweisung|la instrucción||b||0|0|
 |bald|pronto||b||0|0|
 |Herzliche Grüße|saludos cordiales||b||0|0|
+|so (auf diese Weise)|así||d||0|0|
+|gut (Adv.)|bien|Él es un bueno pintor. - Él pinta bien.|d||0|0|
+|weniger|menos||d||0|0|
+|so (genau so wie)|tan||d||0|0|
+|sehr|muy||d||0|0|
+|viel|mucho||d||0|0|
+|gewöhnlich, immer (usually)|siempre, normalmente||d||0|0|
+|nie|nunca, jamás||d||0|0|
+|nur|sólo, solamente|solo/a = allein|d||0|0|
+|wieder, noch einmal|otra vez|wieder und wieder: una y otra vez|d||0|0|
+|alle sind hier|todos están aqui||d||0|0|
+|fast|casi||d||0|0|
+|dann, damals|entonces||d||0|0|
+|vorher|antes||d||0|0|
+|auch nicht|tampoco|neither|d||0|0|
+|später|luego||d||0|0|
+|langsam (Adv.)|despacio, lentamente|lento/a = langsam (Adj.)|d||0|0|
+|da sein|estár aqui||d||0|0|
+|Im Allgemeinen|en general, generalmente||d||0|0|
+|endlich|finalmente||d||0|0|
+|allerdings, natürlich|por supuesto|por supuesto quiero hablar con Alejandro|d||0|0|
+|ziemlich |bastante|la comida es bastante buena|d||0|0|
+|genug|bastante|Tú eres bastante rápido.|d||0|0|
+|insbesondere|especialmente, en particular||d||0|0|
+|zu (too)|demasiado|Los españoles hablan demasiado rápido para mí|d||0|0|
+|ganz, vollkommen|totalmente, perfectamente||d||0|0|
+|ungefähr (Adv.)|aproximadamente|aproximo/a (Adj.)|d||0|0|
+|um (Schätzung, Ort)|alrededor|Hay árboles alrededor de la casa (Ort). Alrededor de diez personas (Schätzung).|d||0|0|
