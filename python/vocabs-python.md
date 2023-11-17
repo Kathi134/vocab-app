@@ -36,7 +36,7 @@
 |Nudeln|la pasta||d||0|0|
 |Suppe|la sopa||d|x|1|0|
 |Reis|el arroz||d||0|0|
-|Salz|la sal||d||0|0|
+|Salz|la sal||b||0|0|
 |Soße|la salsa||d||0|0|
 |Zucker|el azúcar||d|x|0|0|
 |Keks|la galleta||d||0|0|
@@ -129,7 +129,7 @@
 |aber|pero||d||0|0|
 |und|y, e||d||0|0|
 |weder x noch y|ni x ni y||d||0|0|
-|dass|que||d||0|0|
+|dass|que||b||0|0|
 |weil|porque||d||0|0|
 |wenn (konditional)|si||d||0|0|
 |wenn (temporal)|cuando||d||0|0|
@@ -735,7 +735,7 @@
 |ziemlich|bastante|la comida es bastante buena|d||0|0|
 |genug|bastante|Tú eres bastante rápido.|d||0|0|
 |insbesondere|especialmente, en particular||d||0|0|
-|zu (too)|demasiado|Los españoles hablan demasiado rápido para mí|d||0|0|
+|zu (too)|demasiado|Los españoles hablan demasiado rápido para mí|b||0|0|
 |ganz, vollkommen|totalmente, perfectamente||d||0|0|
 |ungefähr (Adv.)|aproximadamente|aproximo/a (Adj.)|d||0|0|
 |um (Schätzung, Ort)|alrededor|Hay árboles alrededor de la casa (Ort). Alrededor de diez personas (Schätzung).|b||0|0|
@@ -770,7 +770,7 @@
 |Schüssel|la fuente||d||0|0|
 |Füller|la pluma||d||0|0|
 |(EC-)Karte|la tarjeta||d||0|0|
-|Öl|el aceite |(de oliva)|b||0|0|
+|Öl|el aceite|(de oliva)|b||0|0|
 |Magazin, Zeitschrift|la revista||d||0|0|
 |Seite|la página||d||0|0|
 |Glas|la copa||d||0|0|
@@ -814,7 +814,7 @@
 |Päckchen|el paquete||b||0|0|
 |Butter|la mantequilla||b||0|0|
 |ein Kilo x|un kilo de x||b||0|0|
-|ein halbes Kilo x |medio kilo de x||b||0|0|
+|ein halbes Kilo x|medio kilo de x||b||0|0|
 |Gramm|el gramo||b||0|0|
 |Cent|el céntimo||b||0|0|
 |kosten|costar|cuesto/as/a, costamos/áis, cuestan|b||0|0|
