@@ -107,4 +107,4 @@ class Logic:
         max = self.get_max_level()
         if max == self.get_min_level():
             return self.filtered_list.__len__()
-        return [w for w in self.filtered_list if w.score != max].__len__()
+        return [w for w in self.filtered_list if w.score == self.get_max_level()].__len__()
