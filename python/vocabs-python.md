@@ -1,7 +1,7 @@
 |alemán|español|grammar|fuente|archived|score|reverse|
 |-|-|-|-|-|-|-|
 |gelb|amarillo||u|x|1|0|
-|Welche Farbe ist das?|¿Qué color es?||u||2|0|
+|q|w|#|u||2|0|
 |Wo ist x?|¿Dónde está x?|estar -> Ort|u||2|0|
 |hier|aqui||u||2|0|
 |Guten Morgen|buenos días||d||0|0|
