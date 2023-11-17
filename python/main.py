@@ -527,6 +527,8 @@ class VocabularyApp(QWidget):
             self.matching_index = matching_index
             self.row_changed = False
 
+            # TODO: add a mechanism to warn user for unsaved changes on rowchange
+
         # print(f"cell: {self.selected_cell}, word: {self.logic.word_list[self.matching_index]}")
 
     def delete_selection(self):
