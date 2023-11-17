@@ -45,6 +45,7 @@ class Logic:
         self.score.games_played += 1
 
     def get_suitable_random(self):
+        self.update_filtered_list()
         min_s = self.get_min_level()
         max_s = self.get_max_level()
         if len(self.filtered_list) != 0:
@@ -107,4 +108,4 @@ class Logic:
         max = self.get_max_level()
         if max == self.get_min_level():
             return self.filtered_list.__len__()
-        return [w for w in self.filtered_list if w.score == self.get_max_level()].__len__()
+        return [w for w in self.filtered_list if w.score == self.get_min_level()].__len__()
