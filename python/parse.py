@@ -32,10 +32,10 @@ class Word:
                and self.spanish.lower() == other.spanish.lower()
 
     def deep_eq(self, other):
-        return self.german.lower() == other.german.lower() \
-            and self.spanish.lower() == other.spanish.lower() \
-            and self.grammar.lower() == other.grammar.lower() \
-            and self.comment.lower() == other.comment.lower() \
+        return self.german == other.german \
+            and self.spanish == other.spanish \
+            and self.grammar == other.grammar \
+            and self.comment == other.comment \
             and self.archived == other.archived \
             and self.score == other.score \
             and self.reverse_score == other.reverse_score
