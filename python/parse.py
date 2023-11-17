@@ -31,6 +31,15 @@ class Word:
         return self.german.lower() == other.german.lower() \
                and self.spanish.lower() == other.spanish.lower()
 
+    def deep_eq(self, other):
+        return self.german.lower() == other.german.lower() \
+            and self.spanish.lower() == other.spanish.lower() \
+            and self.grammar.lower() == other.grammar.lower() \
+            and self.comment.lower() == other.comment.lower() \
+            and self.archived == other.archived \
+            and self.score == other.score \
+            and self.reverse_score == other.reverse_score
+
     def __str__(self):
         return f"German: {self.german}, Spanish: {self.spanish}, Grammar: {self.grammar}, " \
                f"Comment: {self.comment}, Archived: {self.archived}, Score: {self.score}, " \

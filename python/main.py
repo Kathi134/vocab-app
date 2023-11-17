@@ -490,7 +490,7 @@ class VocabularyApp(QWidget):
         # new_rev_score = self.word_table.item(row_index, 5).text()
         new_word = Word(new_german, new_spanish, new_grammar, new_comment, int(new_score))
 
-        if new_word == word:
+        if new_word.deep_eq(word):
             return False
         print(f"changed: {new_word} (from {word})")
         word.set_all(new_word)

@@ -1,4 +1,5 @@
 python/__pycache__/*
 gittoken
 python/.idea/*
-python/.idea/*
+python/main.spec
+python/__pycache__/api.cpython-310.pyc
