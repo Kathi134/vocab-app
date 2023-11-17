@@ -120,7 +120,7 @@
 |schlafen|dormir|duermo/es/es, dormimos/ís, duermen|d||0|0|
 |haben|tener|tengo, tienes, tiene, tenemos, tenéis, tenen|d||0|0|
 |machen|hacer|hago (Rest regelmäßig)|d||0|0|
-|können|poder|puedo/es,e, podemos/éis, pueden|d||0|0|
+|können|poder|puedo/es,e, podemos/éis, pueden|b||0|0|
 |möchten|querer|quiero/es/e, queremos/éis, quieren|d||0|0|
 |Licht|la luz||d||0|0|
 |Farbe|el color||d|x|1|0|
