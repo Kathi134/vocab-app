@@ -14,7 +14,7 @@
 |sprechen|hablar||d||0|0|
 |deutsch|alemán||d||0|0|
 |englisch|inglés||d||0|0|
-|essen|comer||d||0|0|
+|essen|comer||b||0|0|
 |trinken|beber||d|x|1|0|
 |das Essen|la comida||b||0|0|
 |Apfel|la manzana||d||0|0|
@@ -35,7 +35,7 @@
 |Hühnchen|el pollo||d||0|0|
 |Nudeln|la pasta||d||0|0|
 |Suppe|la sopa||d|x|1|0|
-|Reis|el arroz||d||0|0|
+|Reis|el arroz||b||0|0|
 |Salz|la sal||b||0|0|
 |Soße|la salsa||d||0|0|
 |Zucker|el azúcar||d|x|0|0|
@@ -49,9 +49,9 @@
 |Tee|el té||d||0|0|
 |kochen|cocinar||d||0|0|
 |Speisekarte|el menú||d||0|0|
-|Frühstück|el desayuno||d||0|0|
+|Frühstück|el desayuno||b||0|0|
 |Mittagessen|el almuerzo||d||1|0|
-|Abendessen|la cena||d||0|0|
+|Abendessen|la cena||b||0|0|
 |Tier|el animal||d||0|0|
 |Hund|el perro||d|x|0|0|
 |Katze|el gato||d||0|0|
@@ -186,7 +186,7 @@
 |Moment|el momento||d||0|0|
 |Minute|el minuto||d||0|0|
 |Sekunde|el segundo||d||0|0|
-|spät|tarde||d||0|0|
+|spät|tarde||b||0|0|
 |Monat|el mes||d||0|0|
 |Januar|enero||d||0|0|
 |Februar|febrero||d||0|0|
@@ -219,7 +219,7 @@
 |früh morgens, Morgendämmerung|la madrugada||d||0|0|
 |morgen früh|mañana por la mañana||d||0|0|
 |frühs, vormittags|por la mañana||d||0|0|
-|zur Mittagszeit|al mediodía||d||0|0|
+|zur Mittagszeit|al mediodía||b||0|0|
 |Geburtstag|el cumpleaños||d||0|0|
 |Party|la fiesta||d||0|0|
 |Ferien|los vacaciones||d||0|0|
@@ -439,7 +439,7 @@
 |sicher|seguro|f: segura|d||0|0|
 |ausreichend, genug|suficiente||d||0|0|
 |verschieden|distinto|f: distinta|d||0|0|
-|unterschiedlich|diferente||d||0|0|
+|unterschiedlich|diferente||b||0|0|
 |eigene|propio|f: propia|d||0|0|
 |gemeinsam|junto||d||0|0|
 |einziger|único|f: única|d||0|0|
@@ -717,14 +717,14 @@
 |so (genau so wie)|tan||d||0|0|
 |sehr|muy||d||0|0|
 |viel|mucho||d||0|0|
-|gewöhnlich, immer (usually)|siempre, normalmente||d||0|0|
+|gewöhnlich, immer (usually)|siempre, normalmente||b||0|0|
 |nie|nunca, jamás||d||0|0|
 |nur|sólo, solamente, únicamente|solo/a = allein|d||0|0|
 |wieder, noch einmal|otra vez|wieder und wieder: una y otra vez|d||0|0|
 |alle sind hier|todos están aqui||d||0|0|
 |fast|casi||d||0|0|
 |dann, damals, also|entonces||b||0|0|
-|vorher|antes||d||0|0|
+|vorher|antes||b||0|0|
 |auch nicht|tampoco|neither|d||0|0|
 |später|luego||d||0|0|
 |langsam (Adv.)|despacio, lentamente|lento/a = langsam (Adj.)|d||0|0|
