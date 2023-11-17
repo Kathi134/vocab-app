@@ -16,7 +16,7 @@
 |englisch|inglés||d||0|0|
 |essen|comer||b||0|0|
 |trinken|beber||d|x|1|0|
-|das Essen|la comida||b||0|0|
+|das Essen|la comida||b||1|0|
 |Apfel|la manzana||d||0|0|
 |Erdbeere|la fresa||d||0|0|
 |Zitrone|el limón||d||0|0|
@@ -35,7 +35,7 @@
 |Hühnchen|el pollo||d||0|0|
 |Nudeln|la pasta||d||0|0|
 |Suppe|la sopa||d|x|1|0|
-|Reis|el arroz||b||0|0|
+|Reis|el arroz||b||1|0|
 |Salz|la sal||b||0|0|
 |Soße|la salsa||d||0|0|
 |Zucker|el azúcar||d|x|0|0|
@@ -87,15 +87,15 @@
 |Socken|las calcetines||d||0|0|
 |Stiefel|la bota||d||0|0|
 |Schuh|el zapato||d||0|0|
-|Wie heißt du?|¿Cómo te llamas?||u||1|0|
+|Wie heißt du?|¿Cómo te llamas?||u||2|0|
 |Wo kommst du her?|¿De dónde eres?||u||2|0|
 |Wo wohnst du?|¿Dónde vives?||u||2|0|
 |In welcher Straße wohnst du?|¿En qué calle vives?||u||2|0|
-|Straße|la calle||u||1|0|
+|Straße|la calle||u||2|0|
 |Wie alt bist du?|¿Cuántos años tienes?||u||2|0|
 |Welche Sprachen sprichst du?|¿Qué lenguas hablas?||u||1|0|
-|Welchen Sport machst du?|¿Qué deportes practicas?||u||1|0|
-|Was ist deine Handynummer?|¿Cuál es tu número de móvil?||u||1|0|
+|Welchen Sport machst du?|¿Qué deportes practicas?||u||2|0|
+|Was ist deine Handynummer?|¿Cuál es tu número de móvil?||u||2|0|
 |Ich heiße x|Me llamo x||u||2|0|
 |Ich komme aus Deutschland, Ich bin Deutsche|Soy de Alemania, Soy alemana||u||2|0|
 |Ich bin x Jahre alt|Tengo x años||u||1|0|
@@ -103,7 +103,7 @@
 |Wo?|¿Dónde?||u|x|1|0|
 |Welche(s)?|¿Qué?, ¿Cuál(es)?||u||2|0|
 |Was?|¿Qué?||u||2|0|
-|Wie viel(e)?|¿Cuánto(s)?||u||1|0|
+|Wie viel(e)?|¿Cuánto(s)?||u||2|0|
 |Frage|la pregunta||d|x|0|0|
 |Wer?|¿Quién?, ¿Quiénes?||d||0|0|
 |Wann?|¿Cuándo?||d||0|0|
@@ -112,7 +112,7 @@
 |gehen|ir|voy, vas, va, vamos, vais, van|d||0|0|
 |Weg|el camino||d||0|0|
 |schwimmen|nadar||d||0|0|
-|bezahlen|pagar||b||0|0|
+|bezahlen|pagar||b||1|0|
 |spielen, berühren|tocar||d||0|0|
 |Küche|la cocina||d||0|0|
 |hören|oír|oigo, oyes/e, oímos/ís, oyen|b||1|0|
@@ -129,7 +129,7 @@
 |aber|pero||d||0|0|
 |und|y, e||d||0|0|
 |weder x noch y|ni x ni y||d||0|0|
-|dass|que||b||0|0|
+|dass|que||b||1|0|
 |weil|porque||d||0|0|
 |wenn (konditional)|si||d||0|0|
 |wenn (temporal)|cuando||d||0|0|
@@ -164,7 +164,7 @@
 |ohne|sin||d||0|0|
 |gegen|contra||d||0|0|
 |pro|al||d||0|0|
-|während|durante||b||0|0|
+|während|durante||b||1|0|
 |von, der/des|del/de||d||0|0|
 |laut x|según x||d||0|0|
 |über (thematisch)|acerca de||d||0|0|
@@ -182,11 +182,11 @@
 |Samstag|sábado||d||0|0|
 |Sonntag|domingo||d|x|1|0|
 |dienstags mache ich xy|los martes hago xy||d||0|0|
-|uhrzeit|la hora||d||0|0|
+|Uhrzeit|la hora||d||0|0|
 |Moment|el momento||d||0|0|
 |Minute|el minuto||d||0|0|
 |Sekunde|el segundo||d||0|0|
-|spät|tarde||b||0|0|
+|spät|tarde||b||1|0|
 |Monat|el mes||d||0|0|
 |Januar|enero||d||0|0|
 |Februar|febrero||d||0|0|
@@ -267,7 +267,7 @@
 |Stuhl|la silla||u||2|0|
 |Tür|la puerta||u||2|0|
 |Fenster|la ventana||u||2|0|
-|Flasche|la botella||u||1|0|
+|Flasche|la botella||u||2|0|
 |Dorf|el pueblo||u||2|0|
 |Raum|la habitación||d||0|0|
 |putzen|limpiar||d||0|0|
@@ -289,10 +289,10 @@
 |ins Bett|a la cama||d||0|0|
 |Wiege|la cuna||d||0|0|
 |Messer|el cuchillo||d||0|0|
-|Löffel|la cuchara||d||0|0|
-|Teller|el plato||d||0|0|
-|Glas|el vaso||d||0|0|
-|Tasse|la taza||d||1|0|
+|Löffel|la cuchara||b||0|0|
+|Teller|el plato||b||1|0|
+|Glas|el vaso||b||0|0|
+|Tasse|la taza||b||1|0|
 |Pfanne|el sartén||d||0|0|
 |Herd|el horno||d||0|0|
 |Kühlschrank|el refrigerador||d|x|1|0|
@@ -366,7 +366,7 @@
 |Schreiner|el carpintero|la carpintera|d||0|0|
 |Kassierer|el cajero|la cajera|d||1|0|
 |Koch|el cocinero|la cocinera|d||0|0|
-|Kellner|el mesero|la mesera|d||1|0|
+|Kellner|el camarero|mesero lat.A.|d||1|0|
 |Krankenpfleger|el enfermero|la enfermera|d||0|0|
 |Sportler|el atleta|la atleta|d||0|0|
 |Was ist dein Beruf?|¿Cuál es tu profesión?, ¿Qué haces?||d||0|0|
@@ -426,7 +426,7 @@
 |intelligent|inteligente||d||0|0|
 |arm|pobre||d||0|0|
 |billig|barato|f: barata|d||0|0|
-|teuer|caro|f: cara|b||0|0|
+|teuer|caro|f: cara|b||1|0|
 |reich|rico|f: rica|d||0|0|
 |vergangen|pasado|f: pasada|d||0|0|
 |neu, aktuell|reciente||b||2|0|
@@ -439,7 +439,7 @@
 |sicher|seguro|f: segura|d||0|0|
 |ausreichend, genug|suficiente||d||0|0|
 |verschieden|distinto|f: distinta|d||0|0|
-|unterschiedlich|diferente||b||0|0|
+|unterschiedlich|diferente||b||1|0|
 |eigene|propio|f: propia|d||0|0|
 |gemeinsam|junto||d||0|0|
 |einziger|único|f: única|d||0|0|
@@ -498,7 +498,7 @@
 |Wasserfall|la catarata||b||2|0|
 |markieren|marcar||b||2|0|
 |Unterschied|la diferencia||b||2|0|
-|E-Mail|el correo electrónico||b||1|0|
+|E-Mail|el correo electrónico, el emilio||b||1|0|
 |@|la arroba||b||2|0|
 |.|el punto||b||1|0|
 |-|el guión||b||2|0|
@@ -607,11 +607,11 @@
 |Motorrad|la moto(cicleta)||b||2|0|
 |sich befinden|estar|estoy, estás/á/ámos/áis/án|b||2|0|
 |Osten|este||u||2|0|
-|Norden|norte||u||1|0|
+|Norden|norte||u||2|0|
 |Westen|oeste||u||2|0|
 |allein|solo|f: sola, sólo = nur|d||0|0|
 |jmdn besuchen|visitar a alguien||d||0|0|
-|jmdn x jmdm y vorstellen|presentar x a y||d||0|0|
+|jmdn x jmdm y vorstellen|presentar x a y||b||1|0|
 |Großbritannien|Gran Bretaña||d||0|0|
 |übrig bleiben|quedar|no queda x|d||0|0|
 |den ganzen Tag|durante todo el día||d||0|0|
@@ -629,13 +629,13 @@
 |das hier, das da, das dort|este, ese, aquel||d||0|0|
 |Dialog|el diálogo||b||0|0|
 |Entschuldigen Sie|Perdone||b||1|0|
-|(ganz) in der Nähe|(muy) cerca||b||0|0|
-|hier in der Nähe|por aquí||b||0|0|
+|(ganz) in der Nähe|(muy) cerca||b||1|0|
+|hier in der Nähe|por aquí||b||1|0|
 |neben|al lado de||b||0|0|
 |gegenüber (von)|enfrente (de)||b||0|0|
 |Mal sehen|A ver||b||1|0|
 |müssen|tener que||b||1|0|
-|weitergehen, folgen|seguir|tienes que seguir la calle hasta ...|b||0|0|
+|weitergehen, folgen|seguir|tienes que seguir la calle hasta ...; sigo, sigues/e, seguimos/ís, siguen|b||1|0|
 |geradeaus gehen|seguir todo recto||b||1|0|
 |Parkplatz|el aparcamiento||b||0|0|
 |Zug|el tren||b||1|0|
@@ -644,14 +644,14 @@
 |rechts|a la derecha||b||1|0|
 |links|a la izquierda||b||1|0|
 |abbiegen|girar||b||1|0|
-|an der Ampel|en el semáforo||b||0|0|
+|an der Ampel|en el semáforo||b||1|0|
 |ob|si||b||1|0|
 |davor, vor|delante, delante de||b||1|0|
 |dahinter, hinter|detrás, detrás de||b||1|0|
 |Krokodil|el cocodrilo||b||1|0|
 |Giraffe|la jirafa||b||1|0|
 |Telefonzelle|la cabina telefónica||b||0|0|
-|zu Fuß|a pie||b||0|0|
+|zu Fuß|a pie||b||1|0|
 |Spaziergang|el paseo||b||0|0|
 |eine der berühmtesten|una de las más famosas||b||1|0|
 |jüdisches Viertel|el barrio judío||b||0|0|
@@ -662,7 +662,7 @@
 |Synagoge|la sinagoga||b||1|0|
 |überqueren|cruzar||b||1|0|
 |sich ausruhen|descansar||b||0|0|
-|die dritte|la tercera||b||0|0|
+|die dritte|la tercera||b||1|0|
 |hundert|cien(to)|100=cien, 101=cientouno, 200=doscientos, 340=trescientos cuarenta y uno|b||0|0|
 |tausend|mil||b||1|0|
 |Million|el millón||b||0|0|
@@ -672,32 +672,32 @@
 |Wie viele Kilometer sind es?|¿Cuántos kilómetros hay?||b||0|0|
 |innen|dentro||b||1|0|
 |dann|luego||b||1|0|
-|16|dieciséis||u||0|0|
-|22|veintidós||u||1|0|
-|23|veintitrés||u||1|0|
-|50|cincuenta||u||1|0|
-|101|ciento uno||u||1|0|
-|500|quinientos||u||1|0|
-|700|setecientos||u||1|0|
-|900|novecientos||u||1|0|
-|1001|mil uno||u||1|0|
-|2000|dos mil||u||1|0|
+|16|dieciséis||u||2|0|
+|22|veintidós||u||2|0|
+|23|veintitrés||u||2|0|
+|50|cincuenta||u||2|0|
+|101|ciento uno||u||2|0|
+|500|quinientos||u||2|0|
+|700|setecientos||u||2|0|
+|900|novecientos||u||2|0|
+|1001|mil uno||u||2|0|
+|2000|dos mil||u||2|0|
 |1 000 000|un millón||u||1|0|
-|16 523 951|dieciséis millones quinientos veintitrés mil novecientos cincuenta y uno||u||0|0|
-|ihr/ihm (Dat), sie/ihn/es (Akk)|le|le gusta, le interesa|u||1|0|
+|16 523 951|dieciséis millones quinientos veintitrés mil novecientos cincuenta y uno||u||1|0|
+|ihr/ihm (Dat), sie/ihn/es (Akk)|le|le gusta, le interesa|u||2|0|
 |uns (Akk./Dat.)|nos|nos gusta, nos interesa|u||1|0|
-|euch (Dat, Akk)|os|os gusta, os interesa|u||0|0|
-|ihnen (Dat. Pl.)|les|les gusta|u||0|0|
+|euch (Dat, Akk)|os|os gusta, os interesa|u||1|0|
+|ihnen (Dat. Pl.)|les|les gusta|u||2|0|
 |Liebe/r|Querido/a||b||0|0|
 |Wohin?|¿adónde?||b||1|0|
 |Studentenstadt(viertel)|la ciudad universitaria||b||0|0|
 |man muss|hay que||b||0|0|
 |umsteigen|cambiar||b||0|0|
 |in Richtung|en dirección a, hacia||b||0|0|
-|aussteigen|bajar||b||0|0|
+|aussteigen|bajar||b||1|0|
 |Satz|la frase||b||0|0|
 |fliegen|ir en avión||b||1|0|
-|zu Fuß gehen|ir a pie||b||0|0|
+|zu Fuß gehen|ir a pie||b||1|0|
 |Kette|la cadena||b||1|0|
 |nach Hause|a casa||b||1|0|
 |Unterricht|la clase||b||1|0|
@@ -705,12 +705,12 @@
 |direkt|directo||b||1|0|
 |einverstanden|de acuerdo||b||0|0|
 |Fahrkarte|el billete||b||0|0|
-|sich interessieren|interesar|me, te, le, nos, os les interesa|b||0|0|
+|sich interessieren|interesar|me, te, le, nos, os les interesa|b||1|0|
 |Gruppe|el grupo||b||1|0|
 |Touristinformation|la oficina de turismo||b||0|0|
 |Anweisung|la instrucción||b||0|0|
 |bald|pronto||b||1|0|
-|Herzliche Grüße|saludos cordiales||b||0|0|
+|Herzliche Grüße|saludos cordiales||b||1|0|
 |so (auf diese Weise)|así||d||0|0|
 |gut (Adv.)|bien|Él es un bueno pintor. - Él pinta bien.|d||0|0|
 |weniger|menos||d||0|0|
@@ -723,8 +723,8 @@
 |wieder, noch einmal|otra vez|wieder und wieder: una y otra vez|d||0|0|
 |alle sind hier|todos están aqui||d||0|0|
 |fast|casi||d||0|0|
-|dann, damals, also|entonces||b||0|0|
-|vorher|antes||b||0|0|
+|dann, damals, also|entonces||b||1|0|
+|vorher|antes||b||1|0|
 |auch nicht|tampoco|neither|d||0|0|
 |später|luego||d||0|0|
 |langsam (Adv.)|despacio, lentamente|lento/a = langsam (Adj.)|d||0|0|
@@ -739,7 +739,7 @@
 |ganz, vollkommen|totalmente, perfectamente||d||0|0|
 |ungefähr (Adv.)|aproximadamente|aproximo/a (Adj.)|d||0|0|
 |um (Schätzung, Ort)|alrededor|Hay árboles alrededor de la casa (Ort). Alrededor de diez personas (Schätzung).|b||0|0|
-|ebenso, gleichfalls|igualmente||b||0|0|
+|ebenso, gleichfalls|igualmente||b||1|0|
 |(nach) vorne, vorwärts|(hacia) adelante||d||0|0|
 |wahrscheinlich|probablemnte||d||0|0|
 |einfach (Adv.)|simplemente||d||0|0|
@@ -755,7 +755,7 @@
 |apenas|kaum, sobald|apenas leo, apenas querer hablar yo estoy aquí|d||0|0|
 |vor x Jahren|hace de x años||d||0|0|
 |(Land-)Karte|la mapa||d||0|0|
-|Ding, Sache|la cosa||d||0|0|
+|Ding, Sache|la cosa||b||1|0|
 |irgendwas|cualquier cosa||d||0|0|
 |Ball, Kugel|la bola||d||0|0|
 |Koffer|la maleta||d||0|0|
@@ -773,7 +773,7 @@
 |Öl|el aceite|(de oliva)|b||0|0|
 |Magazin, Zeitschrift|la revista||d||0|0|
 |Seite|la página||d||0|0|
-|Glas|la copa||d||0|0|
+|Glas (mit Stiel)|la copa||b||1|0|
 |Kasse|la caja||d||0|0|
 |Fahrzeug|el vehículo||d||0|0|
 |Tasche|la bolsa||d||0|0|
@@ -791,46 +791,133 @@
 |klug, schlau|listo||d||0|0|
 |Notiz, Zettel|la nota||d||0|0|
 |Rad|la rueda||d||0|0|
-|Thunfisch|el atún|una lata de atún|u||0|0|
-|Becher|el pomo|un pomo de yogur|u||0|0|
-|1/4|un cuarto||u||0|0|
-|Ananas|la piña||u||0|0|
-|Banane|el plátano||u||0|0|
-|Paprika|el pimiento||u||0|0|
-|Guten Appetit!|¡que aproveche!||b||0|0|
+|Thunfisch|el atún|una lata de atún|u||2|0|
+|Becher|el pomo|un pomo de yogur|u||2|0|
+|1/4|un cuarto||u||2|0|
+|Ananas|la piña||u||2|0|
+|Banane|el plátano||u||1|0|
+|Paprika|el pimiento||u||1|0|
+|Guten Appetit!|¡que aproveche!||b||1|0|
 |Obstladen|la frutería||b||0|0|
-|Crossaint|el croasán||b||0|0|
-|Gemüseladen|la verdulería||b||0|0|
-|Kohl|la col||b||0|0|
+|Crossaint|el croasán||b||1|0|
+|Gemüseladen|la verdulería||b||1|0|
+|Kohl|la col||b||1|0|
 |Metzgerei|la carnicería||b||0|0|
 |Schnitzel, Steak|el filete||b||0|0|
 |Wurstladen|la charcutería||b||0|0|
-|Schinken|el jamón||b||0|0|
+|Schinken|el jamón||b||1|0|
 |Dose|la lata||b||0|0|
 |Stange brot|la barra de pan||b||0|0|
-|(Natur-)Jogurt|el yogur (natural)||b||0|0|
+|(Natur-)Jogurt|el yogur (natural)||b||1|0|
 |Liter|litro||b||0|0|
-|Krokette|la croqueta||b||0|0|
+|Krokette|la croqueta||b||1|0|
 |Päckchen|el paquete||b||0|0|
 |Butter|la mantequilla||b||0|0|
-|ein Kilo x|un kilo de x||b||0|0|
-|ein halbes Kilo x|medio kilo de x||b||0|0|
-|Gramm|el gramo||b||0|0|
-|Cent|el céntimo||b||0|0|
-|kosten|costar|cuesto/as/a, costamos/áis, cuestan|b||0|0|
+|ein Kilo x|un kilo de x||b||1|0|
+|ein halbes Kilo x|medio kilo de x||b||1|0|
+|Gramm|el gramo||b||1|0|
+|Cent|el céntimo||b||1|0|
+|kosten|costar|cuesto/as/a, costamos/áis, cuestan|b||1|0|
 |Noch etwas?|¿algo más?||b||0|0|
 |Produkt|el producto||b||0|0|
-|kaufen|comprar||b||0|0|
+|kaufen|comprar||b||1|0|
 |Kunde|el cliento|f: la clienta|b||0|0|
-|Ich hätte gerne|quería|besonders höfliche Form von quiero|b||0|0|
+|Ich hätte gerne|quería|besonders höfliche Form von quiero|b||1|0|
 |Wie möchten Sie sie?|¿Cómo los quiere?||b||0|0|
 |Das ist alles|eso es todo||b||0|0|
-|Wie viel macht das?|¿cuánto es?||b||0|0|
-|3,20€|tres euros con veinte céntimos||b||0|0|
+|Wie viel macht das?|¿cuánto es?||b||1|0|
+|3,20€|tres euros con veinte céntimos||b||1|0|
 |Hier bitte|Aquí tiene||b||0|0|
 |wünschen|desear||b||0|0|
 |Geben Sie mir|Deme|von dar (doy, sonst regelmäßig)|b||0|0|
 |Preis|el precio||b||0|0|
 |einkaufen gehen|ir de compras||b||0|0|
 |Menge|la cantidad||b||0|0|
-|Heute habe ich keine.|Hoy no tengo.||b||0|0|
+|Heute habe ich keine.|Hoy no tengo.||b||1|0|
+|Vorspeise|la entrada||b||0|0|
+|kalte Gemüsesuppe|el gazpacho||b||1|0|
+|Omelett mit Kartoffeln|la tortilla españa||b||0|0|
+|in Knoblauchsoße|al ajillo||b||0|0|
+|Seehecht|la merluza||b||1|0|
+|paniert|a la romana||b||0|0|
+|Garnelen|las gambas||b||1|0|
+|gegrillt|a la plancha||b||1|0|
+|Nachtisch|el postre||b||0|0|
+|Karamell Pudding|el flan||b||0|0|
+|Eis|el helado||b||1|0|
+|Kuchen, Torte|la tarta||b||0|0|
+|Sorbet|el sorbete||b||1|0|
+|Früchte der Saison|fruta del tiempo||b||1|0|
+|Rotwein|el vino tinto||b||1|0|
+|Espresso|el café solo||b||1|0|
+|Kaffee mit etwas Milch|el cortado||b||0|0|
+|Milchkaffee|el café con leche||b||1|0|
+|Gefällt Ihnen (Pl.) dieser Tisch?|¿Les gusta esta mesa?||b||0|0|
+|Speisekarte|la carta||b||1|0|
+|als Vorspeise|de primero||b||0|0|
+|wunderbar|estupendo||b||0|0|
+|bevorzugen|preferir|prefiero/es/e, preferimos/ís, prefieren|b||1|0|
+|zum Trinken|para beber||b||1|0|
+|verlangen, bitten, bestellen|pedir|pido/es/e, pedimos/ís, piden|b||1|0|
+|im Augenblick|de momento||b||0|0|
+|lecker|rico|rica|b||1|0|
+|probieren|probar|pruebo/as/a, probamos/áis, prueban|b||1|0|
+|(mit)bringen|traer|Bringen Sie mir ... -> ¿Me trae ...?; traigo (sonst regelmäßig)|b||1|0|
+|noch ein|otro||b||0|0|
+|Kommt sofort|ahora mismo||b||1|0|
+|Rechnung|la cuenta||b||0|0|
+|Doch|que sí||b||0|0|
+|Definition|la definición||b||1|0|
+|dazu dienen|servir para|sirvo/es/e, servimos/ís, sirven|b||0|0|
+|schneiden|cortar|regelmäßig, kein ue|b||0|0|
+|Gabel|el tenedor||b||1|0|
+|Gang, Gericht|el plato||b||1|0|
+|Serviette|la servilleta||b||0|0|
+|noch etwas|un poco más de||b||0|0|
+|verbinden|relacionar||b||1|0|
+|versalzen, salzig|salado|salada|b||1|0|
+|scharf|picante||b||1|0|
+|kalt|frío|fría|b||1|0|
+|fad|soso|sosa|b||1|0|
+|heiß, warm|caliente||b||0|0|
+|Tischdecke|el mantel||b||0|0|
+|Untertasse|el platillo||b||0|0|
+|Teelöffel|la cucharilla||b||0|0|
+|Gewohnheit|la costumbre||b||1|0|
+|Intensivkurs|el curso intensivo||b||1|0|
+|hoffen|esperar|Espero que bien. -> Ich hoffe gut.|b||0|0|
+|glauben|creer||b||0|0|
+|verstehen|entender|entiendo/es/e, entendemos/éis, entienden|b||1|0|
+|einige|algunos|algunas|b||1|0|
+|acht Uhr morgens|las ocho de la mañana||b||0|0|
+|Toast|la tostada||b||0|0|
+|zwei Uhr nachmittags|las does de la tarde||b||0|0|
+|etwas trinken gehen|ir de bares||b||0|0|
+|kleines gezapftes Bier|la caña||b||1|0|
+|Appetithäppchen|las tapas||b||1|0|
+|Portion|la ración, la porción||b||1|0|
+|abends, nachts|por la noche||b||0|0|
+|halb elf|las diez y media||b||0|0|
+|leicht|ligero|ligera|b||0|0|
+|Hunger haben|tener hambre||b||1|0|
+|Hunger|el hambre||b||0|0|
+|hierher kommen|venir aquí|vengo, vienes/e, venimos/ís, vienen|b||0|0|
+|Liebe Grüße|un beso||b||0|0|
+|Kuss|el beso||b||0|0|
+|Um wie viel Uhr?|¿a qué hora?||b||0|0|
+|um eins (Uhr)|a la una||b||0|0|
+|um zehn (uhr)|a las diez||b||0|0|
+|Wie viel Uhr ist es?|¿qué hora es?||b||1|0|
+|Punkt zehn Uhr|las diez en punto||b||1|0|
+|viertel nach zehn|las diez y cuarto||b||1|0|
+|Viertel vor elf|las once menos cuarto||b||1|0|
+|Wissen Sie wie spät es ist?|¿Tiene hora?||b||1|0|
+|Pommes mit Knoblauch Mayonnaise|las patatas bravas||b||1|0|
+|belegtes Brötchen|el bocadillo||b||0|0|
+|frittiert|frito|frita|b||0|0|
+|Fleischklößchen|la albóndiga||b||0|0|
+|Ist da Knoblauch drin?|¿Lleva ajo?||b||1|0|
+|Knoblauch|el ajo||b||1|0|
+|man isst|se come||b||1|0|
+|beschreiben|describir||b||1|0|
+|tragen|llevar||b||1|0|
