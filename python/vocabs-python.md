@@ -842,7 +842,7 @@
 |paniert|a la romana||b||0|0|
 |Garnelen|las gambas||b||1|0|
 |gegrillt|a la plancha||b||1|0|
-|Nachtisch|el postre||b||0|0|
+|Nachtisch|el postre||b||1|0|
 |Karamell Pudding|el flan||b||0|0|
 |Eis|el helado||b||1|0|
 |Kuchen, Torte|la tarta||b||0|0|
