@@ -51,7 +51,7 @@
 |Speisekarte|el menú||d||0|0|
 |Frühstück|el desayuno||b||0|0|
 |Mittagessen|el almuerzo||d||1|0|
-|Abendessen|la cena||b||0|0|
+|Abendessen|la cena||b||1|0|
 |Tier|el animal||d||0|0|
 |Hund|el perro||d|x|0|0|
 |Katze|el gato||d||0|0|
@@ -289,9 +289,9 @@
 |ins Bett|a la cama||d||0|0|
 |Wiege|la cuna||d||0|0|
 |Messer|el cuchillo||d||0|0|
-|Löffel|la cuchara||b||0|0|
+|Löffel|la cuchara||b||1|0|
 |Teller|el plato||b||1|0|
-|Glas|el vaso||b||0|0|
+|Glas|el vaso||b||1|0|
 |Tasse|la taza||b||1|0|
 |Pfanne|el sartén||d||0|0|
 |Herd|el horno||d||0|0|
@@ -703,7 +703,7 @@
 |Unterricht|la clase||b||1|0|
 |Haltestelle|la parada, la estación|la estación terminal|b||0|0|
 |direkt|directo||b||1|0|
-|einverstanden|de acuerdo||b||0|0|
+|einverstanden|de acuerdo||b||1|0|
 |Fahrkarte|el billete||b||0|0|
 |sich interessieren|interesar|me, te, le, nos, os les interesa|b||1|0|
 |Gruppe|el grupo||b||1|0|
@@ -735,7 +735,7 @@
 |ziemlich|bastante|la comida es bastante buena|d||0|0|
 |genug|bastante|Tú eres bastante rápido.|d||0|0|
 |insbesondere|especialmente, en particular||d||0|0|
-|zu (too)|demasiado|Los españoles hablan demasiado rápido para mí|b||0|0|
+|zu (too)|demasiado|Los españoles hablan demasiado rápido para mí|b||1|0|
 |ganz, vollkommen|totalmente, perfectamente||d||0|0|
 |ungefähr (Adv.)|aproximadamente|aproximo/a (Adj.)|d||0|0|
 |um (Schätzung, Ort)|alrededor|Hay árboles alrededor de la casa (Ort). Alrededor de diez personas (Schätzung).|b||0|0|
@@ -811,7 +811,7 @@
 |(Natur-)Jogurt|el yogur (natural)||b||1|0|
 |Liter|litro||b||0|0|
 |Krokette|la croqueta||b||1|0|
-|Päckchen|el paquete||b||0|0|
+|Päckchen|el paquete||b||1|0|
 |Butter|la mantequilla||b||0|0|
 |ein Kilo x|un kilo de x||b||1|0|
 |ein halbes Kilo x|medio kilo de x||b||1|0|
@@ -839,13 +839,13 @@
 |Omelett mit Kartoffeln|la tortilla españa||b||0|0|
 |in Knoblauchsoße|al ajillo||b||0|0|
 |Seehecht|la merluza||b||1|0|
-|paniert|a la romana||b||0|0|
+|paniert|a la romana||b||1|0|
 |Garnelen|las gambas||b||1|0|
 |gegrillt|a la plancha||b||1|0|
 |Nachtisch|el postre||b||1|0|
 |Karamell Pudding|el flan||b||0|0|
 |Eis|el helado||b||1|0|
-|Kuchen, Torte|la tarta||b||0|0|
+|Kuchen, Torte|la tarta||b||1|0|
 |Sorbet|el sorbete||b||1|0|
 |Früchte der Saison|fruta del tiempo||b||1|0|
 |Rotwein|el vino tinto||b||1|0|
@@ -873,7 +873,7 @@
 |Gabel|el tenedor||b||1|0|
 |Gang, Gericht|el plato||b||1|0|
 |Serviette|la servilleta||b||0|0|
-|noch etwas|un poco más de||b||0|0|
+|noch etwas|un poco más de||b||1|0|
 |verbinden|relacionar||b||1|0|
 |versalzen, salzig|salado|salada|b||1|0|
 |scharf|picante||b||1|0|
@@ -886,7 +886,7 @@
 |Gewohnheit|la costumbre||b||1|0|
 |Intensivkurs|el curso intensivo||b||1|0|
 |hoffen|esperar|Espero que bien. -> Ich hoffe gut.|b||0|0|
-|glauben|creer||b||0|0|
+|glauben|creer||b||1|0|
 |verstehen|entender|entiendo/es/e, entendemos/éis, entienden|b||1|0|
 |einige|algunos|algunas|b||1|0|
 |acht Uhr morgens|las ocho de la mañana||b||0|0|
@@ -903,7 +903,7 @@
 |Hunger|el hambre||b||0|0|
 |hierher kommen|venir aquí|vengo, vienes/e, venimos/ís, vienen|b||0|0|
 |Liebe Grüße|un beso||b||0|0|
-|Kuss|el beso||b||0|0|
+|Kuss|el beso||b||1|0|
 |Um wie viel Uhr?|¿a qué hora?||b||0|0|
 |um eins (Uhr)|a la una||b||0|0|
 |um zehn (uhr)|a las diez||b||0|0|
@@ -914,7 +914,7 @@
 |Wissen Sie wie spät es ist?|¿Tiene hora?||b||1|0|
 |Pommes mit Knoblauch Mayonnaise|las patatas bravas||b||1|0|
 |belegtes Brötchen|el bocadillo||b||0|0|
-|frittiert|frito|frita|b||0|0|
+|frittiert|frito|frita|b||1|0|
 |Fleischklößchen|la albóndiga||b||0|0|
 |Ist da Knoblauch drin?|¿Lleva ajo?||b||1|0|
 |Knoblauch|el ajo||b||1|0|
