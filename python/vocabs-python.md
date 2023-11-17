@@ -120,7 +120,7 @@
 |schlafen|dormir|duermo/es/es, dormimos/ís, duermen|d||0|0|
 |haben|tener|tengo, tienes, tiene, tenemos, tenéis, tenen|d||0|0|
 |machen|hacer|hago (Rest regelmäßig)|d||0|0|
-|können|poder|puedo/es,e, podemos/éis, pueden|b||0|0|
+|können|poder|puedo/es,e, podemos/éis, pueden|b||1|0|
 |möchten|querer|quiero/es/e, queremos/éis, quieren|d||0|0|
 |Licht|la luz||d||0|0|
 |Farbe|el color||d|x|1|0|
@@ -685,7 +685,7 @@
 |1 000 000|un millón||u||1|0|
 |16 523 951|dieciséis millones quinientos veintitrés mil novecientos cincuenta y uno||u||1|0|
 |ihr/ihm (Dat), sie/ihn/es (Akk)|le|le gusta, le interesa|u||2|0|
-|uns (Akk./Dat.)|nos|nos gusta, nos interesa|u||1|0|
+|uns (Akk./Dat.)|nos|nos gusta, nos interesa|u||2|0|
 |euch (Dat, Akk)|os|os gusta, os interesa|u||1|0|
 |ihnen (Dat. Pl.)|les|les gusta|u||2|0|
 |Liebe/r|Querido/a||b||0|0|
@@ -881,7 +881,7 @@
 |fad|soso|sosa|b||1|0|
 |heiß, warm|caliente||b||0|0|
 |Tischdecke|el mantel||b||0|0|
-|Untertasse|el platillo||b||0|0|
+|Untertasse|el platillo||b||1|0|
 |Teelöffel|la cucharilla||b||0|0|
 |Gewohnheit|la costumbre||b||1|0|
 |Intensivkurs|el curso intensivo||b||1|0|
