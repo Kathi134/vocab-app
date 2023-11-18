@@ -98,7 +98,7 @@
 |Was ist deine Handynummer?|¿Cuál es tu número de móvil?||u||2|0|
 |Ich heiße x|Me llamo x||u||2|0|
 |Ich komme aus Deutschland, Ich bin Deutsche|Soy de Alemania, Soy alemana||u||2|0|
-|Ich bin x Jahre alt|Tengo x años||u||1|0|
+|Ich bin x Jahre alt|Tengo x años||u||2|0|
 |Wie?|¿Cómo?||u|x|2|0|
 |Wo?|¿Dónde?||u|x|1|0|
 |Welche(s)?|¿Qué?, ¿Cuál(es)?||u||2|0|
@@ -236,7 +236,7 @@
 |Gesprächsthema|el tema de debate||b||2|0|
 |mehr|más||b||2|0|
 |Platz|el campo, la plaza||b||2|0|
-|Ausstellung|la exposición||b||1|0|
+|Ausstellung|la exposición||b||2|0|
 |neu|nuevo|f: nueva|b||2|0|
 |Stadt|la ciudad||b||2|0|
 |virtuell|virtual||b|x|1|0|
@@ -254,7 +254,7 @@
 |Gemälde|el cuadro||b||2|0|
 |Film|la película||b||1|0|
 |Grenze|la frontera||b||2|0|
-|Ort|el lugar||b||1|0|
+|Ort|el lugar||b||2|0|
 |Objekt|el objeto||b||2|0|
 |Aufgepasst!|¡Ojo!||b||2|0|
 |Stil|el estilo||b||2|0|
@@ -464,7 +464,7 @@
 |Was machen Sie beruflich?|¿Qué hace usted?||b||2|0|
 |Stellenangebot|la oferta de empleo||b||2|0|
 |suchen|buscar||b||2|0|
-|benötigen|necesitar||b||1|0|
+|benötigen|necesitar||b||2|0|
 |Erfahrung|la experiencia||b||2|0|
 |Empfangschef|el recepcionista|la recepcionista|b||1|0|
 |jmd kontaktieren|contactar con|Puedes contactar con nosotros en el <número>.|b||1|0|
@@ -556,7 +556,7 @@
 |Apotheke|la farmacia||b||1|0|
 |Park|el parque||b||1|0|
 |Es gibt (alles mögliche)|hay (de todo)|wörtlich: Es gibt von allem|b||2|0|
-|Saal|la sala||b||1|0|
+|Saal|la sala||b||2|0|
 |Konzert|el concierto||b||1|0|
 |Verfassung|la constitución||b||1|0|
 |der größte|el más grande||b||1|0|
@@ -630,19 +630,19 @@
 |Dialog|el diálogo||b||1|0|
 |Entschuldigen Sie|Perdone||b||1|0|
 |(ganz) in der Nähe|(muy) cerca||b||1|0|
-|hier in der Nähe|por aquí||b||1|0|
+|hier in der Nähe|por aquí||b||2|0|
 |neben|al lado de||b||1|0|
 |gegenüber (von)|enfrente (de)||b||1|0|
 |Mal sehen|A ver||b||1|0|
 |müssen|tener que||b||1|0|
-|weitergehen, folgen|seguir|tienes que seguir la calle hasta ...; sigo, sigues/e, seguimos/ís, siguen|b||1|0|
+|weitergehen, folgen|seguir|tienes que seguir la calle hasta ...; sigo, sigues/e, seguimos/ís, siguen|b||2|0|
 |geradeaus gehen|seguir todo recto||b||1|0|
 |Parkplatz|el aparcamiento||b||1|0|
 |Zug|el tren||b||1|0|
 |Bus|el autobús||b||1|0|
 |weit (weg)|lejos||b||1|0|
 |rechts|a la derecha||b||1|0|
-|links|a la izquierda||b||1|0|
+|links|a la izquierda||b||2|0|
 |abbiegen|girar||b||1|0|
 |an der Ampel|en el semáforo||b||1|0|
 |ob|si||b||1|0|
@@ -693,14 +693,14 @@
 |man muss|hay que||b||1|0|
 |umsteigen|cambiar||b||1|0|
 |in Richtung|en dirección a, hacia||b||1|0|
-|aussteigen|bajar||b||1|0|
+|aussteigen|bajar||b||2|0|
 |Satz|la frase||b||1|0|
 |fliegen|ir en avión||b||1|0|
 |zu Fuß gehen|ir a pie||b||1|0|
 |Kette|la cadena||b||1|0|
 |nach Hause|a casa||b||1|0|
 |Unterricht|la clase||b||1|0|
-|Haltestelle|la parada, la estación|la estación terminal|b||1|0|
+|Haltestelle|la parada, la estación|la estación terminal|b||2|0|
 |direkt|directo||b||1|0|
 |einverstanden|de acuerdo||b||1|0|
 |Fahrkarte|el billete||b||1|0|
@@ -709,7 +709,7 @@
 |Touristinformation|la oficina de turismo||b||1|0|
 |Anweisung|la instrucción||b||1|0|
 |bald|pronto||b||1|0|
-|Herzliche Grüße|saludos cordiales||b||1|0|
+|Herzliche Grüße|saludos cordiales||b||2|0|
 |so (auf diese Weise)|así||d||0|0|
 |gut (Adv.)|bien|Él es un bueno pintor. - Él pinta bien.|d||0|0|
 |weniger|menos||d||0|0|
@@ -737,7 +737,7 @@
 |zu (too)|demasiado|Los españoles hablan demasiado rápido para mí|b||1|0|
 |ganz, vollkommen|totalmente, perfectamente||d||0|0|
 |ungefähr (Adv.)|aproximadamente|aproximo/a (Adj.)|d||0|0|
-|um (Schätzung, Ort)|alrededor|Hay árboles alrededor de la casa (Ort). Alrededor de diez personas (Schätzung).|b||1|0|
+|um (Schätzung, Ort)|alrededor|Hay árboles alrededor de la casa (Ort). Alrededor de diez personas (Schätzung).|b||2|0|
 |ebenso, gleichfalls|igualmente||b||1|0|
 |(nach) vorne, vorwärts|(hacia) adelante||d||0|0|
 |wahrscheinlich|probablemnte||d||0|0|
@@ -796,12 +796,12 @@
 |Ananas|la piña||u||2|0|
 |Banane|el plátano||u||1|0|
 |Paprika|el pimiento||u||1|0|
-|Guten Appetit!|¡que aproveche!||b||1|0|
+|Guten Appetit!|¡que aproveche!||b||2|0|
 |Obstladen|la frutería||b||1|0|
 |Crossaint|el croasán||b||1|0|
 |Gemüseladen|la verdulería||b||1|0|
 |Kohl|la col||b||1|0|
-|Metzgerei|la carnicería||b||1|0|
+|Metzgerei|la carnicería||b||2|0|
 |Schnitzel, Steak|el filete||b||1|0|
 |Wurstladen|la charcutería||b||1|0|
 |Schinken|el jamón||b||1|0|
@@ -810,11 +810,11 @@
 |(Natur-)Jogurt|el yogur (natural)||b||1|0|
 |Liter|litro||b||1|0|
 |Krokette|la croqueta||b||1|0|
-|Päckchen|el paquete||b||1|0|
+|Päckchen|el paquete||b||2|0|
 |Butter|la mantequilla||b||1|0|
 |ein Kilo x|un kilo de x||b||1|0|
 |ein halbes Kilo x|medio kilo de x||b||1|0|
-|Gramm|el gramo||b||1|0|
+|Gramm|el gramo||b||2|0|
 |Cent|el céntimo||b||1|0|
 |kosten|costar|cuesto/as/a, costamos/áis, cuestan|b||1|0|
 |Noch etwas?|¿algo más?||b||1|0|
@@ -823,7 +823,7 @@
 |Kunde|el cliento|f: la clienta|b||1|0|
 |Ich hätte gerne|quería|besonders höfliche Form von quiero|b||1|0|
 |Wie möchten Sie sie?|¿Cómo los quiere?||b||1|0|
-|Das ist alles|eso es todo||b||1|0|
+|Das ist alles|eso es todo||b||2|0|
 |Wie viel macht das?|¿cuánto es?||b||1|0|
 |3,20€|tres euros con veinte céntimos||b||1|0|
 |Hier bitte|Aquí tiene||b||1|0|
@@ -843,7 +843,7 @@
 |gegrillt|a la plancha||b||1|0|
 |Nachtisch|el postre||b||1|0|
 |Karamell Pudding|el flan||b||1|0|
-|Eis|el helado||b||1|0|
+|Eis|el helado||b||2|0|
 |Kuchen, Torte|la tarta||b||1|0|
 |Sorbet|el sorbete||b||1|0|
 |Früchte der Saison|fruta del tiempo||b||1|0|
@@ -851,7 +851,7 @@
 |Espresso|el café solo||b||1|0|
 |Kaffee mit etwas Milch|el cortado||b||1|0|
 |Milchkaffee|el café con leche||b||1|0|
-|Gefällt Ihnen (Pl.) dieser Tisch?|¿Les gusta esta mesa?||b||1|0|
+|Gefällt Ihnen (Pl.) dieser Tisch?|¿Les gusta esta mesa?||b||2|0|
 |Speisekarte|la carta||b||1|0|
 |als Vorspeise|de primero||b||1|0|
 |wunderbar|estupendo||b||1|0|
@@ -875,15 +875,15 @@
 |noch etwas|un poco más de||b||1|0|
 |verbinden|relacionar||b||1|0|
 |versalzen, salzig|salado|salada|b||1|0|
-|scharf|picante||b||1|0|
-|kalt|frío|fría|b||1|0|
+|scharf|picante||b||2|0|
+|kalt|frío|fría|b||2|0|
 |fad|soso|sosa|b||1|0|
 |heiß, warm|caliente||b||1|0|
 |Tischdecke|el mantel||b||1|0|
 |Untertasse|el platillo||b||1|0|
 |Teelöffel|la cucharilla||b||1|0|
 |Gewohnheit|la costumbre||b||1|0|
-|Intensivkurs|el curso intensivo||b||1|0|
+|Intensivkurs|el curso intensivo||b||2|0|
 |hoffen|esperar|Espero que bien. -> Ich hoffe gut.|b||1|0|
 |glauben|creer||b||1|0|
 |verstehen|entender|entiendo/es/e, entendemos/éis, entienden|b||1|0|
