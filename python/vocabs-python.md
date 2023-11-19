@@ -14,7 +14,7 @@
 |sprechen|hablar||d||0|0|
 |deutsch|alemán||d||0|0|
 |englisch|inglés||d||0|0|
-|essen|comer||b||1|0|
+|essen|comer||b||2|0|
 |trinken|beber||d|x|1|0|
 |das Essen|la comida||b||2|0|
 |Apfel|la manzana||d||0|0|
@@ -388,7 +388,7 @@
 |jetzt|ahora||b||2|0|
 |noch|todavía||b||1|0|
 |Abteilung|el departamento||b||1|0|
-|Sag bloß!|¡No me digas!||b||1|0|
+|Sag bloß!|¡No me digas!||b||2|0|
 |fehlen|faltar||b||2|0|
 |vorbeikommen (in)|pasar (por)|yo paso por el museo|b||2|0|
 |Computer|el ordenador||b||1|0|
@@ -475,7 +475,7 @@
 |Programmierer|el programador|la programadora|b||2|0|
 |Fabrik|la fábrica||b||1|0|
 |mindestens zwei Jahre Erfahrung|experiencia mínima dos años||b||2|0|
-|Interessent|el interesado|la interesada|b||1|0|
+|Interessent|el interesado|la interesada|b||2|0|
 |Klinikum|el centro clínico, el hospital||b||1|0|
 |Schule|el colegio, la escuela||b||2|0|
 |Klasse|la clase||b||2|0|
@@ -491,7 +491,7 @@
 |ergänzen, vervollständigen|completar||b||2|0|
 |lernen|aprender||b||1|0|
 |dort|allí||b||2|0|
-|verkaufen|vender||b||1|0|
+|verkaufen|vender||b||2|0|
 |verbringen|pasar||b||2|0|
 |nur|sólo||b||1|0|
 |nett, liebenswürdig|amable||b||2|0|
@@ -580,7 +580,7 @@
 |x ist einzigartig|Como x no hay dos|wrtl: So was wie x gibt es kein zweites Mal|b||2|0|
 |entkommen|escapar (de)|un lugar para escapar del estrés|b||1|0|
 |Stress|el estrés||b||1|0|
-|ruhig|tranquilo|f: tranquila|b||1|0|
+|ruhig|tranquilo|f: tranquila|b||2|0|
 |Süden|el sur||b||2|0|
 |Küste|la costa||b||2|0|
 |Teil|la parte||b||1|0|
@@ -603,7 +603,7 @@
 |Berg|la montaña||b||2|0|
 |Natur|la naturaleza||b||2|0|
 |Lied|la canción||b||2|0|
-|Flugzeug|el avión||b||1|0|
+|Flugzeug|el avión||b||2|0|
 |Motorrad|la moto(cicleta)||b||2|0|
 |sich befinden|estar|estoy, estás/á/ámos/áis/án|b||2|0|
 |Osten|este||u||2|0|
@@ -806,7 +806,7 @@
 |Schinken|el jamón||b||2|0|
 |Dose|la lata||b||1|0|
 |Stange brot|la barra de pan||b||1|0|
-|(Natur-)Jogurt|el yogur (natural)||b||1|0|
+|(Natur-)Jogurt|el yogur (natural)||b||2|0|
 |Liter|litro||b||1|0|
 |Krokette|la croqueta||b||1|0|
 |Päckchen|el paquete||b||2|0|
@@ -831,11 +831,11 @@
 |Preis|el precio||b||1|0|
 |einkaufen gehen|ir de compras||b||1|0|
 |Menge|la cantidad||b||2|0|
-|Heute habe ich keine.|Hoy no tengo.||b||1|0|
+|Heute habe ich keine.|Hoy no tengo.||b||2|0|
 |Vorspeise|la entrada||b||1|0|
 |kalte Gemüsesuppe|el gazpacho||b||1|0|
 |Omelett mit Kartoffeln|la tortilla españa||b||1|0|
-|in Knoblauchsoße|al ajillo||b||1|0|
+|in Knoblauchsoße|al ajillo||b||2|0|
 |Seehecht|la merluza||b||1|0|
 |paniert|a la romana||b||1|0|
 |Garnelen|las gambas||b||2|0|
@@ -844,7 +844,7 @@
 |Karamell Pudding|el flan||b||1|0|
 |Eis|el helado||b||2|0|
 |Kuchen, Torte|la tarta||b||1|0|
-|Sorbet|el sorbete||b||1|0|
+|Sorbet|el sorbete||b||2|0|
 |Früchte der Saison|fruta del tiempo||b||1|0|
 |Rotwein|el vino tinto||b||2|0|
 |Espresso|el café solo||b||2|0|
@@ -856,7 +856,7 @@
 |wunderbar|estupendo||b||1|0|
 |bevorzugen|preferir|prefiero/es/e, preferimos/ís, prefieren|b||1|0|
 |zum Trinken|para beber||b||1|0|
-|verlangen, bitten, bestellen|pedir|pido/es/e, pedimos/ís, piden|b||1|0|
+|verlangen, bitten, bestellen|pedir|pido/es/e, pedimos/ís, piden|b||2|0|
 |im Augenblick|de momento||b||1|0|
 |lecker|rico|rica|b||2|0|
 |probieren|probar|pruebo/as/a, probamos/áis, prueban|b||1|0|
@@ -894,7 +894,7 @@
 |kleines gezapftes Bier|la caña||b||1|0|
 |Appetithäppchen|las tapas||b||2|0|
 |Portion|la ración, la porción||b||2|0|
-|abends, nachts|por la noche||b||1|0|
+|abends, nachts|por la noche||b||2|0|
 |halb elf|las diez y media||b||2|0|
 |leicht|ligero|ligera|b||1|0|
 |Hunger haben|tener hambre||b||1|0|
