@@ -414,7 +414,7 @@ class VocabularyApp(QWidget):
         self.parser.write_vocab(self.logic.word_list)
 
     def update_score_view(self):
-        self.global_score_label.setText(f"accuracy: {self.logic.get_accuracy():.2f}")
+        self.global_score_label.setText(f"accuracy: {self.logic.get_accuracy()*100:.2f}%")
         self.highest_level.setText(f"highest level: {self.logic.get_max_level()}")
         self.current_word_level.setText(f"current word's level: {self.current_word.score}")
         self.unleveled_words_label.setText(f"to go: {self.logic.get_words_to_learn()}")
