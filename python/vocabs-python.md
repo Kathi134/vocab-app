@@ -643,7 +643,7 @@
 |weit (weg)|lejos||b||1|0|
 |rechts|a la derecha||b||1|0|
 |links|a la izquierda||b||2|0|
-|abbiegen|girar||b||1|0|
+|abbiegen|girar||b||2|0|
 |an der Ampel|en el semáforo||b||1|0|
 |ob|si||b||2|0|
 |davor, vor|delante, delante de||b||1|0|
@@ -721,7 +721,7 @@
 |wieder, noch einmal|otra vez|wieder und wieder: una y otra vez|d||0|0|
 |alle sind hier|todos están aqui||d||0|0|
 |fast|casi||d||0|0|
-|dann, damals, also|entonces||b||1|0|
+|dann, damals, also|entonces||b||2|0|
 |vorher|antes||b||2|0|
 |auch nicht|tampoco|neither|d||0|0|
 |später|luego||d||0|0|
@@ -859,13 +859,13 @@
 |verlangen, bitten, bestellen|pedir|pido/es/e, pedimos/ís, piden|b||2|0|
 |im Augenblick|de momento||b||1|0|
 |lecker|rico|rica|b||2|0|
-|probieren|probar|pruebo/as/a, probamos/áis, prueban|b||1|0|
+|probieren|probar|pruebo/as/a, probamos/áis, prueban|b||2|0|
 |(mit)bringen|traer|Bringen Sie mir ... -> ¿Me trae ...?; traigo (sonst regelmäßig)|b||1|0|
 |noch ein|otro||b||1|0|
 |Kommt sofort|ahora mismo||b||1|0|
 |Rechnung|la cuenta||b||2|0|
 |Doch|que sí||b||1|0|
-|Definition|la definición||b||1|0|
+|Definition|la definición||b||2|0|
 |dazu dienen|servir para|sirvo/es/e, servimos/ís, sirven|b||2|0|
 |schneiden|cortar|regelmäßig, kein ue|b||1|0|
 |Gabel|el tenedor||b||2|0|
