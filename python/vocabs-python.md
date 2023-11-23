@@ -129,7 +129,7 @@
 |aber|pero||d||0|0|
 |und|y, e||d||0|0|
 |weder x noch y|ni x ni y||d||0|0|
-|dass|que||b||1|0|
+|dass|que||b||2|0|
 |weil|porque||d||0|0|
 |wenn (konditional)|si||d||0|0|
 |wenn (temporal)|cuando||d||0|0|
@@ -575,7 +575,7 @@
 |wie überall|como en todos partes||b||2|0|
 |Gegensatz|el contraste||b||2|0|
 |besonders|especial||b||2|0|
-|denn, nämlich|es que|es que en las vacaciones siempre se visita España|b||1|0|
+|denn, nämlich|es que|es que en las vacaciones siempre se visita España|b||2|0|
 |für uns|para nosotros|para: Empfänger|b||2|0|
 |x ist einzigartig|Como x no hay dos|wrtl: So was wie x gibt es kein zweites Mal|b||2|0|
 |entkommen|escapar (de)|un lugar para escapar del estrés|b||2|0|
@@ -637,7 +637,7 @@
 |müssen|tener que||b||2|0|
 |weitergehen, folgen|seguir|tienes que seguir la calle hasta ...; sigo, sigues/e, seguimos/ís, siguen|b||2|0|
 |geradeaus gehen|seguir todo recto||b||2|0|
-|Parkplatz|el aparcamiento||b||1|0|
+|Parkplatz|el aparcamiento||b||2|0|
 |Zug|el tren||b||2|0|
 |Bus|el autobús||b||2|0|
 |weit (weg)|lejos||b||2|0|
@@ -655,7 +655,7 @@
 |eine der berühmtesten|una de las más famosas||b||2|0|
 |jüdisches Viertel|el barrio judío||b||2|0|
 |vorbeiführen an|pasar por|la calle que pasa por la iglesia|b||2|0|
-|Rathaus|el ayuntamiento||b||1|0|
+|Rathaus|el ayuntamiento||b||2|0|
 |Ecke|la esquina||b||2|0|
 |wo, in der (Relativpronomen)|donde||b||2|0|
 |Synagoge|la sinagoga||b||2|0|
@@ -793,8 +793,8 @@
 |Becher|el pomo|un pomo de yogur|u||2|0|
 |1/4|un cuarto||u||2|0|
 |Ananas|la piña||u||2|0|
-|Banane|el plátano||u||1|0|
-|Paprika|el pimiento||u||1|0|
+|Banane|el plátano||u||2|0|
+|Paprika|el pimiento||u||2|0|
 |Guten Appetit!|¡que aproveche!||b||2|0|
 |Obstladen|la frutería||b||2|0|
 |Crossaint|el croasán||b||2|0|
@@ -839,7 +839,7 @@
 |Seehecht|la merluza||b||2|0|
 |paniert|a la romana||b||2|0|
 |Garnelen|las gambas||b||2|0|
-|gegrillt|a la plancha||b||1|0|
+|gegrillt|a la plancha||b||2|0|
 |Nachtisch|el postre||b||2|0|
 |Karamell Pudding|el flan||b||2|0|
 |Eis|el helado||b||2|0|
@@ -853,7 +853,7 @@
 |Gefällt Ihnen (Pl.) dieser Tisch?|¿Les gusta esta mesa?||b||2|0|
 |Speisekarte|la carta||b||2|0|
 |als Vorspeise|de primero||b||2|0|
-|wunderbar|estupendo||b||1|0|
+|wunderbar|estupendo||b||2|0|
 |bevorzugen|preferir|prefiero/es/e, preferimos/ís, prefieren|b||2|0|
 |zum Trinken|para beber||b||2|0|
 |verlangen, bitten, bestellen|pedir|pido/es/e, pedimos/ís, piden|b||2|0|
@@ -867,7 +867,7 @@
 |Doch|que sí||b||2|0|
 |Definition|la definición||b||2|0|
 |dazu dienen|servir para|sirvo/es/e, servimos/ís, sirven|b||2|0|
-|schneiden|cortar|regelmäßig, kein ue|b||1|0|
+|schneiden|cortar|regelmäßig, kein ue|b||2|0|
 |Gabel|el tenedor||b||2|0|
 |Gang, Gericht|el plato||b||2|0|
 |Serviette|la servilleta||b||2|0|
@@ -876,18 +876,18 @@
 |versalzen, salzig|salado|salada|b||2|0|
 |scharf|picante||b||2|0|
 |kalt|frío|fría|b||2|0|
-|fad|soso|sosa|b||1|0|
+|fad|soso|sosa|b||2|0|
 |heiß, warm|caliente||b||2|0|
 |Tischdecke|el mantel||b||2|0|
 |Untertasse|el platillo||b||2|0|
 |Teelöffel|la cucharilla||b||2|0|
-|Gewohnheit|la costumbre||b||1|0|
+|Gewohnheit|la costumbre||b||2|0|
 |Intensivkurs|el curso intensivo||b||2|0|
 |hoffen|esperar|Espero que bien. -> Ich hoffe gut.|b||2|0|
 |glauben|creer||b||2|0|
 |verstehen|entender|entiendo/es/e, entendemos/éis, entienden|b||2|0|
 |einige|algunos|algunas|b||2|0|
-|acht Uhr morgens|las ocho de la mañana||b||1|0|
+|acht Uhr morgens|las ocho de la mañana||b||2|0|
 |Toast|la tostada||b||2|0|
 |zwei Uhr nachmittags|las dos de la tarde||b||2|0|
 |etwas trinken gehen|ir de bares||b||2|0|
@@ -910,11 +910,11 @@
 |viertel nach zehn|las diez y cuarto||b||2|0|
 |Viertel vor elf|las once menos cuarto||b||2|0|
 |Wissen Sie wie spät es ist?|¿Tiene hora?||b||2|0|
-|Pommes mit Knoblauch Mayonnaise|las patatas bravas||b||1|0|
-|belegtes Brötchen|el bocadillo||b||1|0|
+|Pommes mit Knoblauch Mayonnaise|las patatas bravas||b||2|0|
+|belegtes Brötchen|el bocadillo||b||2|0|
 |frittiert|frito|frita|b||2|0|
-|Fleischklößchen|la albóndiga||b||1|0|
-|Ist da Knoblauch drin?|¿Lleva ajo?||b||1|0|
+|Fleischklößchen|la albóndiga||b||2|0|
+|Ist da Knoblauch drin?|¿Lleva ajo?||b||2|0|
 |Knoblauch|el ajo||b||2|0|
 |man isst|se come||b||2|0|
 |beschreiben|describir||b||2|0|
