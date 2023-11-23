@@ -458,7 +458,7 @@
 |Es geht so|regular||b||2|0|
 |Schrecklich|Fatal, horrible||b||2|0|
 |Wie schreibt man x?|¿Cómo se escribe x?||b||2|0|
-|Pünktchen auf Vokal|la diéresis|Im Spanischen nur ü (el pingüino)|b||1|0|
+|Pünktchen auf Vokal|la diéresis|Im Spanischen nur ü (el pingüino)|b||2|0|
 |Reservierung|la reserva||b||2|0|
 |Einzelzimmer|la habitación individual||b||2|0|
 |Was machen Sie beruflich?|¿Qué hace usted?||b||2|0|
@@ -493,7 +493,7 @@
 |dort|allí||b||2|0|
 |verkaufen|vender||b||2|0|
 |verbringen|pasar||b||2|0|
-|nur|sólo||b||1|0|
+|nur|sólo||b||2|0|
 |nett, liebenswürdig|amable||b||2|0|
 |Wasserfall|la catarata||b||2|0|
 |markieren|marcar||b||2|0|
@@ -629,7 +629,7 @@
 |das hier, das da, das dort|este, ese, aquel||d||0|0|
 |Dialog|el diálogo||b||2|0|
 |Entschuldigen Sie|Perdone||b||2|0|
-|(ganz) in der Nähe|(muy) cerca||b||1|0|
+|(ganz) in der Nähe|(muy) cerca||b||2|0|
 |hier in der Nähe|por aquí||b||2|0|
 |neben|al lado de||b||2|0|
 |gegenüber (von)|enfrente (de)||b||2|0|
@@ -651,7 +651,7 @@
 |Krokodil|el cocodrilo||b||2|0|
 |Giraffe|la jirafa||b||2|0|
 |Telefonzelle|la cabina telefónica||b||2|0|
-|Spaziergang|el paseo||b||1|0|
+|Spaziergang|el paseo||b||2|0|
 |eine der berühmtesten|una de las más famosas||b||2|0|
 |jüdisches Viertel|el barrio judío||b||2|0|
 |vorbeiführen an|pasar por|la calle que pasa por la iglesia|b||2|0|
@@ -660,7 +660,7 @@
 |wo, in der (Relativpronomen)|donde||b||2|0|
 |Synagoge|la sinagoga||b||2|0|
 |überqueren|cruzar||b||2|0|
-|sich ausruhen|descansar|des kann sa|b||1|0|
+|sich ausruhen|descansar|des kann sa|b||2|0|
 |die dritte|la tercera||b||2|0|
 |hundert|cien(to)|100=cien, 101=cientouno, 200=doscientos, 340=trescientos cuarenta y uno|b||2|0|
 |tausend|mil||b||2|0|
@@ -668,8 +668,8 @@
 |Entfernung|la distancia||b||2|0|
 |Vorwahl|el prefijo (telefónico)||b||2|0|
 |Wie viele Kilometer sind es?|¿Cuántos kilómetros hay?||b||2|0|
-|innen|dentro||b||1|0|
-|dann|luego||b||1|0|
+|innen|dentro||b||2|0|
+|dann|luego||b||2|0|
 |16|dieciséis||u||2|0|
 |22|veintidós||u||2|0|
 |23|veintitrés||u||2|0|
