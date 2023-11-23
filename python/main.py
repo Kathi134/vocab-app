@@ -407,10 +407,12 @@ class VocabularyApp(QWidget):
         self.show_feedback_form()
         if self.logic.check_answer(self.current_word.spanish, input):
             self.feedback.setText(f"CORRECT.✔️ ({self.current_word.spanish})")
-            self.current_word.score += 1
+            self.current_word.guessed(True)
         else:
             self.feedback.setText(f"FALSE.❌ Solution: {self.current_word.spanish}")
             self.archive_button.setHidden(True)
+            self.current_word.guessed(False)
+
         self.parser.write_vocab(self.logic.word_list)
 
     def update_score_view(self):
@@ -418,6 +420,9 @@ class VocabularyApp(QWidget):
         self.highest_level.setText(f"highest level: {self.logic.get_max_level()}")
         self.current_word_level.setText(f"current word's level: {self.current_word.score}")
         self.unleveled_words_label.setText(f"to go: {self.logic.get_words_to_learn()}")
+        wrongs = self.current_word.current_wrongs
+        if wrongs != 0:
+            self.current_word_level.setText(f"current word's level: {self.current_word.score} (-{wrongs})")
 
     def archive_current_word(self):
         self.current_word.archive()

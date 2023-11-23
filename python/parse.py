@@ -2,7 +2,7 @@ from logic import Score
 from logic import FilterOptions
 
 class Word:
-    def __init__(self, german, spanish, grammar, comment, score: int =0, reverse_score: int =0, archived=False):
+    def __init__(self, german, spanish, grammar, comment, score: int =0, reverse_score: int =0, current_wrongs=0, archived=False):
         self.german: str = german
         self.spanish: str = spanish
         self.grammar: str = grammar
@@ -10,9 +10,20 @@ class Word:
         self.archived: bool = archived
         self.score: int = score
         self.reverse_score: int = reverse_score
+        self.current_wrongs: int = current_wrongs
 
     def archive(self):
         self.archived = True
+
+    def guessed(self, correct: bool):
+        if correct:
+            self.score += 1
+        else:
+            if self.current_wrongs == 2:
+                self.score = 0 if self.score <= 1 else self.score-1
+                self.current_wrongs = 0
+            else:
+                self.current_wrongs += 1
 
     def set_all(self, other):
         self.german = other.german
@@ -22,6 +33,7 @@ class Word:
         self.archived = other.archived
         self.score = other.score
         self.reverse_score = other.reverse_score
+        self.current_wrongs: other.current_wrongs
 
     @staticmethod
     def empty():
@@ -38,12 +50,13 @@ class Word:
             and self.comment == other.comment \
             and self.archived == other.archived \
             and self.score == other.score \
-            and self.reverse_score == other.reverse_score
+            and self.reverse_score == other.reverse_score \
+            and self.current_wrongs == other.current_wrongs
 
     def __str__(self):
         return f"German: {self.german}, Spanish: {self.spanish}, Grammar: {self.grammar}, " \
                f"Comment: {self.comment}, Archived: {self.archived}, Score: {self.score}, " \
-               f"Reverse-Score: {self.reverse_score}"
+               f"Reverse-Score: {self.reverse_score}, Current-Wrongs: {self.current_wrongs}"
 
 
 class Parser:
@@ -76,7 +89,9 @@ class Parser:
                             score = int(score_txt) if score_txt.isnumeric() else 0
                             rev_score_txt = parts[header.index("reverse")]
                             reverse_score = int(rev_score_txt) if rev_score_txt.isnumeric() else 0
-                            words.append(Word(german, spanish, grammar, comment, score, reverse_score, archived))
+                            curr_wrongs_txt = parts[header.index("wrongs")]
+                            curr_wrongs = int(curr_wrongs_txt) if curr_wrongs_txt.isnumeric() else 0
+                            words.append(Word(german, spanish, grammar, comment, score, reverse_score, curr_wrongs, archived))
                         else:
                             print("Skipping invalid line:", line)
                 else:
@@ -85,12 +100,13 @@ class Parser:
         return words
 
     def write_vocab(self, word_list: list[Word]):
-        out = "|alemán|español|grammar|fuente|archived|score|reverse|\n|-|-|-|-|-|-|-|\n"
+        out = "|alemán|español|grammar|fuente|archived|score|reverse|wrongs|\n|-|-|-|-|-|-|-|-|\n"
         for word in word_list:
             s = str(word.score)
             r = str(word.reverse_score)
+            w = str(word.current_wrongs)
             a = 'x' if word.archived else ''
-            out += f"|{word.german}|{word.spanish}|{word.grammar}|{word.comment}|{a}|{s}|{r}|\n"
+            out += f"|{word.german}|{word.spanish}|{word.grammar}|{word.comment}|{a}|{s}|{r}|{w}|\n"
         with open(self.vocab_path, "w", encoding='utf-8') as file:
             file.write(out)
 
