@@ -376,7 +376,7 @@
 |zuhören|escuchar||b||2|0|0|
 |Nachname|el apellido||b||2|0|0|
 |Unternehmen|la empresa||b||2|0|0|
-|Vertreter|el representante|la representante|b||2|0|0|
+|Vertreter|el representante|la representante|b||3|0|0|
 |schicken|enviar||b||2|0|0|
 |Kenntnis|el conocimiento||b||2|0|0|
 |Postfach|el apartado de Correos||b||2|0|0|
