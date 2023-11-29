@@ -950,37 +950,37 @@
 |Erdgeschoss|la planta baja||b||0|0|2|
 |Informationsstand|el puesto de información||b||0|0|0|
 |Abteilung|la sección||b||1|0|0|
-|Café (Ort)|la cafetería||b||0|0|0|
+|Café (Ort)|la cafetería||b||1|0|0|
 |Kosmetik|la cosmética||b||1|0|0|
 |einen Einkaufsbummel machen|ir de tiendas||b||0|0|0|
 |Geschäft|la tienda||b||1|0|0|
 |aus Seide|de seda||b||1|0|0|
 |Sonnenbrille|las gafas de sol||b||0|0|0|
 |gestreift|a rayas||b||0|0|2|
-|Leder|el cuero||b||0|0|0|
+|Leder|el cuero||b||0|0|1|
 |Jeans|los vaqueros||b||0|0|0|
 |Tuch|el pañuelo||b||0|0|0|
 |T-Shirt|la camiseta||b||1|0|0|
 |Wolle|la lana||b||0|0|0|
-|Bluse|la blusa||b||0|0|0|
+|Bluse|la blusa||b||1|0|0|
 |Baumwolle|el algodón||b||0|0|0|
 |Jacke|la chaqueta||b||0|0|1|
-|kariert|a cuadros||b||0|0|1|
+|kariert|a cuadros||b||1|0|1|
 |Lieblingsfarbe|el color preferido||b||0|0|0|
 |lila|violeta||b||1|0|0|
 |Spiel|el juego||b||1|0|0|
 |(er)raten|adivinar||b||0|0|1|
-|Öffnungszeit|el horario||b||0|0|0|
+|Öffnungszeit|el horario||b||0|0|1|
 |antworten|contestar||b||0|0|1|
 |umgekehrt|al revés||b||0|0|1|
 |schließen|cerrar|cierro/as/a, cerramos/áis, cierran|b||0|0|0|
 |Kaufhaus|los grandes almacenes||b||0|0|2|
 |Tabakladen|el estanco||b||0|0|1|
-|Briefmarke|el sello||b||0|0|0|
+|Briefmarke|el sello||b||1|0|1|
 |Geld wechseln|cambiar dinero||b||1|0|1|
 |geschlossen sein|estar cerrado||b||0|0|0|
 |nachmittags|por la tarde||b||1|0|0|
-|Ausnahme|la excepción||b||0|0|1|
+|Ausnahme|la excepción||b||1|0|1|
 |bequem|cómodo|cómoda|b||0|0|0|
 |große Vielfalt|mucha variedad||b||1|0|0|
 |geöffnet sein|estar abierto||b||0|0|0|
@@ -993,32 +993,32 @@
 |oder (zwischen zwei Zahlen)|ó||b||1|0|0|
 |In welcher Farbe?|¿De qué color?||b||1|0|0|
 |Wie gefällt Ihnen x?|¿Qué le parace x?|por ejemplo: ¿Qué le parece esta mesa?|b||0|0|0|
-|das hier|este, esta, esto|este (m), esto (?)|b||0|0|0|
-|das dort |ese, esa, eso|ese (m), eso (?)|b||1|0|0|
+|das hier|este, esta, esto|este (m), esto (?)|b||1|0|0|
+|das dort|ese, esa, eso|ese (m), eso (?)|b||1|0|0|
 |rein|puro|f: pura|b||1|0|0|
 |Umkleidekabine|el probador||b||0|0|1|
 |gleich hier|aquí mismo||b||1|0|0|
-|eng, schmal|estrecho|p.e.: la falda queda estrecha|b||0|0|1|
+|eng, schmal|estrecho|p.e.: la falda queda estrecha|b||0|0|2|
 |Selbstverständlich!, Natürlich!|¡Cómo no!||b||1|0|0|
-|einverstanden, in Ordnung|vale||b||0|0|0|
+|einverstanden, in Ordnung|vale||b||0|0|1|
 |Ich nehme ihn.|Me lo llevo.|Ese abrigo es muy bonito. Me lo llevo.|b||0|0|1|
 |zur Kasse gehen|pasar a la caja||b||1|0|0|
 |bar zahlen|pagar en efectivo||b||1|0|0|
 |überprüfen|comprobar|compruebo/as/a, comprobamos/áis, comprueban|b||1|0|0|
 |Ich möchte mich nur umsehen.|Sólo quería mirar.||b||0|0|0|
-|Schaufenster|el escaparate||b||0|0|2|
+|Schaufenster|el escaparate||b||0|0|1|
 |umtauschen|cambiar||b||1|0|0|
 |funktionieren|funcionar||b||0|0|0|
 |Welche Schuhgröße haben Sie?|¿qué número calza?||b||0|0|1|
 |Batterie|la pila||b||1|0|0|
 |ordnen|ordenar||b||1|0|0|
-|reduziert|rebajado|f: rebajada, estar rebajado|b||0|0|2|
+|reduziert|rebajado|f: rebajada, estar rebajado|b||0|0|1|
 |Geschenk|el regalo||b||0|0|1|
 |weit|ancho|La falda queda ancho.|b||1|0|1|
 |vorführen|representar||b||0|0|1|
 |Szene|la escena||b||0|0|0|
 |Hochzeit|la boda||b||0|0|0|
-|schenken|regalar||b||0|0|1|
+|schenken|regalar||b||1|0|1|
 |begeistern|encantar||b||1|0|0|
 |Eintrittskarte|la entrada||b||1|0|0|
 |Mitarbeiter|el trabajador||d||0|0|0|
