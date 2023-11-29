@@ -75,7 +75,7 @@
 |Kleidung|la ropa||d||0|0|0|
 |Hut|el sombrero||d||0|0|0|
 |Brille|las gafas||d||0|0|0|
-|Pullover|el suéter||d||0|0|0|
+|Pullover|el suéter, el jersey||b||1|0|0|
 |Mantel|el abrigo||d||0|0|0|
 |Hemd|la camisa||d||0|0|0|
 |Krawatte|la corbata||d||0|0|0|
@@ -116,7 +116,7 @@
 |spielen, berühren|tocar||d||0|0|0|
 |Küche|la cocina||d||0|0|0|
 |hören|oír|oigo, oyes/e, oímos/ís, oyen|b||2|0|0|
-|sehen|ver||d||0|0|0|
+|sehen|ver|veo, ves, ve, vemos, veis, ven|b||1|0|0|
 |schlafen|dormir|duermo/es/es, dormimos/ís, duermen|d||0|0|0|
 |haben|tener|tengo, tienes, tiene, tenemos, tenéis, tenen|d||0|0|0|
 |machen|hacer|hago (Rest regelmäßig)|d||0|0|0|
@@ -159,7 +159,6 @@
 |über, auf|sobre||b||3|0|0|
 |nach, zu|a, hacia||d||0|0|0|
 |nahe, in der Nähe von|cerca de||b||2|0|0|
-|unter|bujo||d||0|0|0|
 |mit|con||d||0|0|0|
 |ohne|sin||d||0|0|0|
 |gegen|contra||d||0|0|0|
@@ -205,7 +204,7 @@
 |Im <Monat>|durante <mes>||d||0|0|0|
 |eine Weile|un rato||d||0|0|0|
 |ein mal|una vez||d||0|0|0|
-|von x bis y|de x a y, desde x hasta y||d||0|0|0|
+|von x bis y|de x a y, desde x hasta y|zeitl.: de .. a .., örtl. desde .. hasta ..|b||1|0|0|
 |Jahreszeit|la estación||d||1|0|0|
 |Saison|la temporada||d||0|0|0|
 |Winter|el invierno||d||0|0|0|
@@ -506,7 +505,6 @@
 |Wer aus dem Kurs?|¿Quién del curso?||b||2|0|0|
 |Gedicht|el poema||b||2|0|0|
 |spielen|jugar|juego, juegas, juega, jugamos, jugáis, jugan|d||0|0|0|
-|tragen, anhaben|llevar||d||0|0|0|
 |finden|encontrar|encuentro, encuentras, encuentra, encontramos, encontráis, encuentran|d||0|0|0|
 |jmdm folgen|seguir a alguien|sigo, sigues, sigue, seguimos, seguís, siguen|d||0|0|0|
 |sich verabreden|quedar||d||0|0|0|
@@ -527,7 +525,7 @@
 |denken (an)|pensar (en)|pienso/as/a, pensamos/áis, piensan|d||0|0|0|
 |achten, respektieren|respetar||d||0|0|0|
 |passen (in)|caber (en)|quepo (rest regelmäßig)|d||0|0|0|
-|aussehen wie, scheinen|parecer|parezco (Rest regelmäßig), kein como: parece un huevo|d||0|0|0|
+|aussehen wie, scheinen|parecer|parezco (Rest regelmäßig), kein como: parece un huevo|b||1|0|0|
 |servieren|servir|sirvo/es/e, servimos/ís, sirven|d||0|0|0|
 |(auf jmd) zählen|contar (con)|cuento/as/a, contamos/áis, cuentan|d||0|0|0|
 |enden|acabar||d||0|0|0|
@@ -542,9 +540,9 @@
 |beschuldigen|culpar||d||0|0|0|
 |darauf ankommen, abhängen (von)|depender (de)||b||2|0|0|
 |ankommen|llegar||b||2|0|0|
-|öffnen|abrir||d||0|0|0|
+|öffnen|abrir||b||1|0|1|
 |erfordern, benötigen|requerir|Konjugation wie querer|d||0|0|0|
-|sagen|decir|digo, dices/e, decimos/ís, dicen|d||0|0|0|
+|sagen|decir|digo, dices/e, decimos/ís, dicen|b||0|0|0|
 |Bahnhof|la estación||b||2|0|0|
 |Hauptstraße|la Avenida Principal||b||2|0|0|
 |Allee|la avenida||b||2|0|0|
@@ -614,7 +612,6 @@
 |jmdn x jmdm y vorstellen|presentar x a y||b||2|0|0|
 |Großbritannien|Gran Bretaña||d||0|0|0|
 |übrig bleiben|quedar|no queda x|d||0|0|0|
-|den ganzen Tag|durante todo el día||d||0|0|0|
 |täglich|todos los días||d||0|0|0|
 |(zu) jederzeit|a cualquier hora||d||0|0|0|
 |in jedem Moment|en cualquier momento||d||0|0|0|
@@ -742,7 +739,7 @@
 |wahrscheinlich|probablemnte||d||0|0|0|
 |einfach (Adv.)|simplemente||d||0|0|0|
 |praktisch|prácticamente||d||0|0|0|
-|unter|debajo de||d||0|0|0|
+|unter|debajo de, bajo||b||0|0|0|
 |kürzlich|recientemente||d||0|0|0|
 |sofort|inmediatamente||d||0|0|0|
 |hauptsächlich|principalmente||d||0|0|0|
@@ -750,7 +747,7 @@
 |nochmals|nuevamente||d||0|0|0|
 |möglicherweise|posiblemente||d||0|0|0|
 |mühelos, einfach|fácilmente||d||0|0|0|
-|apenas|kaum, sobald|apenas leo, apenas querer hablar yo estoy aquí|d||0|0|0|
+|kaum, sobald|apenas|apenas leo, apenas querer hablar yo estoy aquí|d||0|0|0|
 |vor x Jahren|hace de x años||d||0|0|0|
 |(Land-)Karte|la mapa||d||0|0|0|
 |Ding, Sache|la cosa||b||2|0|0|
@@ -770,11 +767,11 @@
 |(EC-)Karte|la tarjeta||d||0|0|0|
 |Öl|el aceite|(de oliva)|b||2|0|0|
 |Magazin, Zeitschrift|la revista||d||0|0|0|
-|Seite|la página||d||0|0|0|
+|Seite|la página||b||1|0|0|
 |Glas (mit Stiel)|la copa||b||2|0|0|
 |Kasse|la caja||d||0|0|0|
 |Fahrzeug|el vehículo||d||0|0|0|
-|Tasche|la bolsa||d||0|0|0|
+|Tasche|la bolsa|el bolso auch mgl.|b||1|0|0|
 |Gerät|el aparato||d||0|0|0|
 |Brücke|el puente||d||0|0|0|
 |Staub|el polvo||d||0|0|0|
@@ -941,3 +938,102 @@
 |Zuhause, Haushalt|el hogar||d||0|0|0|
 |Spur|la pista||d||0|0|0|
 |Hof|el patio||d||0|0|0|
+|beim Einkaufen|de compras||b||0|0|2|
+|Toiletten|los servicios||b||0|0|0|
+|Friseursalon|la peluquería||b||0|0|2|
+|Spielwaren|los juguetes||b||1|0|1|
+|Herrenmode|la moda caballeros||b||1|0|0|
+|Schmuckgeschäft|la joyería||b||0|0|0|
+|Spielwarengeschäft|la juguetería||b||0|0|0|
+|geöffnet|abierto|f: abierta|b||0|0|1|
+|Stockwerk|la planta||b||1|0|0|
+|Erdgeschoss|la planta baja||b||0|0|2|
+|Informationsstand|el puesto de información||b||0|0|0|
+|Abteilung|la sección||b||1|0|0|
+|Café (Ort)|la cafetería||b||0|0|0|
+|Kosmetik|la cosmética||b||1|0|0|
+|einen Einkaufsbummel machen|ir de tiendas||b||0|0|0|
+|Geschäft|la tienda||b||1|0|0|
+|aus Seide|de seda||b||1|0|0|
+|Sonnenbrille|las gafas de sol||b||0|0|0|
+|gestreift|a rayas||b||0|0|2|
+|Leder|el cuero||b||0|0|0|
+|Jeans|los vaqueros||b||0|0|0|
+|Tuch|el pañuelo||b||0|0|0|
+|T-Shirt|la camiseta||b||1|0|0|
+|Wolle|la lana||b||0|0|0|
+|Bluse|la blusa||b||0|0|0|
+|Baumwolle|el algodón||b||0|0|0|
+|Jacke|la chaqueta||b||0|0|1|
+|kariert|a cuadros||b||0|0|1|
+|Lieblingsfarbe|el color preferido||b||0|0|0|
+|lila|violeta||b||1|0|0|
+|Spiel|el juego||b||1|0|0|
+|(er)raten|adivinar||b||0|0|1|
+|Öffnungszeit|el horario||b||0|0|0|
+|antworten|contestar||b||0|0|1|
+|umgekehrt|al revés||b||0|0|1|
+|schließen|cerrar|cierro/as/a, cerramos/áis, cierran|b||0|0|0|
+|Kaufhaus|los grandes almacenes||b||0|0|2|
+|Tabakladen|el estanco||b||0|0|1|
+|Briefmarke|el sello||b||0|0|0|
+|Geld wechseln|cambiar dinero||b||1|0|1|
+|geschlossen sein|estar cerrado||b||0|0|0|
+|nachmittags|por la tarde||b||1|0|0|
+|Ausnahme|la excepción||b||0|0|1|
+|bequem|cómodo|cómoda|b||0|0|0|
+|große Vielfalt|mucha variedad||b||1|0|0|
+|geöffnet sein|estar abierto||b||0|0|0|
+|den ganzen Tag|todo el día||b||0|0|0|
+|vielfältig|variado|f: variada|b||0|0|0|
+|Postkarte|la (tarjeta) postal||b||0|0|0|
+|Tablette|la pastilla||b||0|0|0|
+|passen, sitzen|quedar|Es passt mir gut: Me queda bien.|b||1|0|0|
+|Kleidergröße|la talla||b||0|0|1|
+|oder (zwischen zwei Zahlen)|ó||b||1|0|0|
+|In welcher Farbe?|¿De qué color?||b||1|0|0|
+|Wie gefällt Ihnen x?|¿Qué le parace x?|por ejemplo: ¿Qué le parece esta mesa?|b||0|0|0|
+|das hier|este, esta, esto|este (m), esto (?)|b||0|0|0|
+|das dort |ese, esa, eso|ese (m), eso (?)|b||1|0|0|
+|rein|puro|f: pura|b||1|0|0|
+|Umkleidekabine|el probador||b||0|0|1|
+|gleich hier|aquí mismo||b||1|0|0|
+|eng, schmal|estrecho|p.e.: la falda queda estrecha|b||0|0|1|
+|Selbstverständlich!, Natürlich!|¡Cómo no!||b||1|0|0|
+|einverstanden, in Ordnung|vale||b||0|0|0|
+|Ich nehme ihn.|Me lo llevo.|Ese abrigo es muy bonito. Me lo llevo.|b||0|0|1|
+|zur Kasse gehen|pasar a la caja||b||1|0|0|
+|bar zahlen|pagar en efectivo||b||1|0|0|
+|überprüfen|comprobar|compruebo/as/a, comprobamos/áis, comprueban|b||1|0|0|
+|Ich möchte mich nur umsehen.|Sólo quería mirar.||b||0|0|0|
+|Schaufenster|el escaparate||b||0|0|2|
+|umtauschen|cambiar||b||1|0|0|
+|funktionieren|funcionar||b||0|0|0|
+|Welche Schuhgröße haben Sie?|¿qué número calza?||b||0|0|1|
+|Batterie|la pila||b||1|0|0|
+|ordnen|ordenar||b||1|0|0|
+|reduziert|rebajado|f: rebajada, estar rebajado|b||0|0|2|
+|Geschenk|el regalo||b||0|0|1|
+|weit|ancho|La falda queda ancho.|b||1|0|1|
+|vorführen|representar||b||0|0|1|
+|Szene|la escena||b||0|0|0|
+|Hochzeit|la boda||b||0|0|0|
+|schenken|regalar||b||0|0|1|
+|begeistern|encantar||b||1|0|0|
+|Eintrittskarte|la entrada||b||1|0|0|
+|Mitarbeiter|el trabajador||d||0|0|0|
+|Bevölkerung|la población||d||0|0|0|
+|Publikum|la audiencia||d||0|0|0|
+|Bürger|el ciudadano||d||0|0|0|
+|Ehe|el matrimonio||d||0|0|0|
+|Nachbar|el vecino||d||0|0|0|
+|Menschheit|la humanidad||d||0|0|0|
+|Feind|el enemigo||d||0|0|0|
+|Individuum|el individuo||d||0|0|0|
+|Opfer|la victima||d||0|0|0|
+|la feria|Jahrmarkt||d||0|0|0|
+|Landwirt|el campesino||d||0|0|0|
+|Erwachsener|el adulto||d||0|0|0|
+|Zeuge|el testigo||d||0|0|0|
+|Nachbarschaft|la vecindad, el barrio||d||0|0|0|
+|Plötzlich|de pronto||d||0|0|0|
