@@ -530,7 +530,7 @@
 |(auf jmd) zählen|contar (con)|cuento/as/a, contamos/áis, cuentan|d||0|0|0|
 |enden|acabar||d||0|0|0|
 |beginnen|comenzar, empezar|comienzar/as/a, comenzamos/áis, comienzan; empiezo/as/a, empezamos/áis, empiezan|d||0|0|0|
-|kennen|conocer|conozco (rest regelmäßig)|d||0|0|0|
+|kennen|conocer|conozco (rest regelmäßig)|b||0|0|0|
 |unterschreiben|firmar||d||0|0|0|
 |fühlen|sentir|siento/es/e, sentimos/ís, sienten|d||0|0|0|
 |hereinkommen, betreten|entrar||d||0|0|0|
@@ -890,7 +890,7 @@
 |etwas trinken gehen|ir de bares||b||2|0|0|
 |kleines gezapftes Bier|la caña||b||2|0|0|
 |Appetithäppchen|las tapas||b||2|0|0|
-|Portion|la ración, la porción||b||2|0|0|
+|Portion|la ración, la porción, el pincho||b||2|0|0|
 |abends, nachts|por la noche||b||2|0|0|
 |halb elf|las diez y media||b||2|0|0|
 |leicht|ligero|ligera|b||2|0|0|
@@ -1037,3 +1037,6 @@
 |Zeuge|el testigo||d||0|0|0|
 |Nachbarschaft|la vecindad, el barrio||d||0|0|0|
 |Plötzlich|de pronto||d||0|0|0|
+|durch|a través de||d||0|0|0|
+|Wochenende|el fin de semana||u||0|0|0|
+|sich sonnen|tomar el sol||u||0|0|0|
