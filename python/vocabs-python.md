@@ -942,7 +942,7 @@
 |Friseursalon|la peluquería||b||1|0|2|
 |Spielwaren|los juguetes||b||1|0|1|
 |Herrenmode|la moda caballeros||b||1|0|0|
-|Schmuckgeschäft|la joyería||b||0|0|1|
+|Schmuckgeschäft|la joyería||b||0|0|2|
 |Spielwarengeschäft|la juguetería||b||1|0|0|
 |geöffnet|abierto|f: abierta|b||1|0|2|
 |Stockwerk|la planta||b||1|0|0|
@@ -954,7 +954,7 @@
 |einen Einkaufsbummel machen|ir de tiendas||b||1|0|1|
 |Geschäft|la tienda||b||1|0|0|
 |aus Seide|de seda||b||1|0|0|
-|Sonnenbrille|las gafas de sol||b||0|0|0|
+|Sonnenbrille|las gafas de sol||b||1|0|0|
 |gestreift|a rayas||b||1|0|2|
 |Leder|el cuero||b||0|0|0|
 |Jeans|los vaqueros||b||0|0|1|
@@ -1089,10 +1089,10 @@
 |heutzutage|hoy en día||b||0|0|0|
 |unerlässlich|indispensable||b||0|0|0|
 |teilen|compartir||b||0|0|0|
-|zu Hause|en casa||b||0|0|0|
+|zu Hause|en casa||b||1|0|0|
 |existieren|existir||b||0|0|0|
 |Schuhputzer|el limpiabotas||b||0|0|0|
-|sowohl als auch|tanto como||b||0|0|0|
+|sowohl als auch|tanto como||b||1|0|0|
 |Kiosk|el quiosco||b||0|0|0|
 |köstlich|delicioso||b||0|0|0|
 |Fragebogen|el cuestionario||b||0|0|0|
@@ -1103,14 +1103,14 @@
 |sich langweilen|aburrirse||b||0|0|0|
 |sich treffen|encontrarse, reunirse|encuentro/as/a, encontramos/áis, encuentran; reúno/es/e, reunimos/ís, reúnen|b||0|0|0|
 |zu Hause bleiben|quedarse en casa||b||0|0|0|
-|sich entspannen|relajarse||b||0|0|0|
+|sich entspannen|relajarse||b||0|0|1|
 |ins Bett gehen|acostarse|acuesto/as/a, acostamos/áis, acuestan|b||0|0|0|
 |nennen|nombrar||b||0|0|0|
 |zuerst|primero||b||0|0|0|
 |Lachs|el salmón||b||0|0|0|
-|Praline|el bombón||b||0|0|0|
+|Praline|el bombón||b||1|0|0|
 |holländisch|holandés|holandesa|b||0|0|0|
-|belgisch|belga||b||0|0|0|
+|belgisch|belga||b||1|0|0|
 |irisch|irlandés|irlandesa|b||0|0|0|
 |finnisch|finlandés|finlandesa|b||0|0|0|
 |typisch|típico||b||0|0|0|
@@ -1126,15 +1126,15 @@
 |waschen|lavar||b||0|0|0|
 |wegen|por||b||0|0|0|
 |sich erinnern|acordarse de|acuerdo/as/a, acordamos/áis, acuerdan|b||0|0|0|
-|setzen, stellen, legen|poner|pongo (Rest regular)|b||0|0|0|
+|setzen, stellen, legen|poner|pongo (Rest regular)|b||1|0|0|
 |ausgehen|salir||b||0|0|0|
 |Partner|la pareja|keine männl. Form|b||0|0|0|
 |Wie häufig?|¿Con qué frequencia?, ¿Cuántas veces?||b||0|0|0|
 |ausführen, machen|realizar||b||0|0|0|
 |Hausaufgaben|los deberes||b||0|0|0|
 |einen Spaziergang machen|dar un paseo||b||0|0|0|
-|ab und zu|de vez en cuando||b||0|0|0|
+|ab und zu|de vez en cuando||b||0|0|1|
 |am Tag|al día||b||0|0|0|
-|fast nie|casi nunca||b||0|0|0|
+|fast nie|casi nunca||b||0|0|1|
 |Wie lange?|¿Cuánto tiempo?||b||0|0|0|
 |ungefähr um zwei|a eso de las dos||b||0|0|0|
