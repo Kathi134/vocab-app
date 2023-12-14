@@ -71,7 +71,7 @@
 |Krebs|el cangrejo||d||0|0|0|
 |Schildkröte|la tortuga||d||1|0|0|
 |Wort|la palabra||d||0|0|0|
-|Schlüssel|la llave||d||0|0|0|
+|Schlüssel|la llave||b||1|0|0|
 |Kleidung|la ropa||d||0|0|0|
 |Hut|el sombrero||d||0|0|0|
 |Brille|las gafas||d||0|0|0|
@@ -117,7 +117,7 @@
 |Küche|la cocina||d||0|0|0|
 |hören|oír|oigo, oyes/e, oímos/ís, oyen|b||2|0|0|
 |sehen|ver|veo, ves, ve, vemos, veis, ven|b||1|0|0|
-|schlafen|dormir|duermo/es/es, dormimos/ís, duermen|d||0|0|0|
+|schlafen|dormir|duermo/es/es, dormimos/ís, duermen|b||1|0|0|
 |haben|tener|tengo, tienes, tiene, tenemos, tenéis, tenen|d||0|0|0|
 |machen|hacer|hago (Rest regelmäßig)|d||0|0|0|
 |können|poder|puedo/es,e, podemos/éis, pueden|b||2|0|0|
@@ -219,12 +219,12 @@
 |morgen früh|mañana por la mañana||d||0|0|0|
 |frühs, vormittags|por la mañana||d||0|0|0|
 |zur Mittagszeit|al mediodía||b||3|0|0|
-|Geburtstag|el cumpleaños||d||0|0|0|
+|Geburtstag|el cumpleaños||b||1|0|1|
 |Party|la fiesta||d||0|0|0|
 |Ferien|los vacaciones||d||0|0|0|
 |derzeit|por el momento, actualmente||b||1|0|2|
 |am Nachmittag|en la tarde||d||0|0|0|
-|manchmal|A veces||d||0|0|0|
+|manchmal|a veces, algunas veces||b||1|0|0|
 |Der Monat April|el mes de abril||d||0|0|0|
 |Seit wann?|¿Desde cuándo?||d||0|0|0|
 |Wie heißen Sie?|¿Cómo se llama usted?||b||2|0|1|
@@ -269,7 +269,7 @@
 |Flasche|la botella||u||3|0|0|
 |Dorf|el pueblo||u||2|0|0|
 |Raum|la habitación||d||0|0|0|
-|putzen|limpiar||b||0|0|0|
+|putzen|limpiar||b||1|0|0|
 |Fußboden|el piso||d||0|0|0|
 |Wand|la pared||d||0|0|0|
 |Dach|el techo||d||0|0|0|
@@ -282,7 +282,7 @@
 |Sofa|el sofá||d||0|0|0|
 |Lampe|la lámpara||d||0|0|0|
 |Schlafzimmmer|el dormitorio||d||0|0|0|
-|Bett|la cama||b||0|0|0|
+|Bett|la cama||b||1|0|0|
 |Bettlaken|la sábana||d||0|0|0|
 |Bettbezug|la ropa de cama||d||0|0|0|
 |ins Bett|a la cama||d||0|0|0|
@@ -300,7 +300,7 @@
 |Schwamm|la esponja||d||0|0|0|
 |Spiegel|el espejo||d||0|0|0|
 |Trockner|la secadora||d||0|0|0|
-|Waschmaschine|la lavadora||b||0|0|0|
+|Waschmaschine|la lavadora||b||1|0|0|
 |Seife|el jabón||d||0|0|0|
 |Schwimmbad|la piscina||d||0|0|0|
 |Größe|el tamaño||d||0|0|0|
@@ -336,17 +336,17 @@
 |Arbeit|el trabajo||d||0|0|0|
 |Beruf|la profesión||d||0|0|0|
 |Polizist|el policía|la policía|d||0|0|0|
-|Polizei|la policía||d||0|0|0|
+|Polizei|la policía||b||1|0|0|
 |Wachtmeister|el guardia|la guardia|d||0|0|0|
 |Soldatin|la soldado|el soldado|d||0|0|0|
 |Schüler, Student|el estudiante|la estudiante|d||0|0|0|
 |Lehrer|el maestro, el profesor|la maestra, la profesora|d||0|0|0|
 |Professor|el profesor||d||0|0|0|
 |Sekretär|el secretario|la secretaria|d|x|1|0|0|
-|Unternehmer|el empresario|la empresaria|b||0|0|0|
+|Unternehmer|el empresario|la empresaria|b||1|0|0|
 |Chef|el jefe|la jefa|d||0|0|0|
 |Angestellter|el empleado|la empleada|d||0|0|0|
-|Inhaber|el dueño|la dueña|b||0|0|0|
+|Inhaber|el dueño|la dueña|b||1|0|0|
 |König/in|el rey, la reina||d||0|0|0|
 |Prinz/essin|el príncipe, la princesa||d||0|0|0|
 |Agent|el agente|la agente|d||0|0|0|
@@ -405,7 +405,7 @@
 |kleiner|menor||d||0|0|0|
 |älter|mayor||d||0|0|0|
 |nützlich|útil||d||0|0|0|
-|wichtig|importante||b||0|0|0|
+|wichtig|importante||b||1|0|0|
 |notwendig|necesario|f: necesaria|d||0|0|0|
 |echt|real||d||0|0|0|
 |richtig, wahr|cierto, verdadero|f: cierta|b||1|0|1|
@@ -478,7 +478,7 @@
 |Schule|el colegio, la escuela||b||3|0|0|
 |Klasse|la clase||b||2|0|0|
 |betrachten, ansehen|mirar||b||2|0|0|
-|Klassenkamerad|el compañero|la compañera|b||2|0|0|
+|Klassenkamerad|el compañero|Arbeitskollege: el compañero de trabajo|b||2|0|0|
 |well, nun, tja|pues, bueno||b||2|0|0|
 |Wie schade!|¡qué lástima!||b||2|0|0|
 |Kredit|el crédito||b||2|0|0|
@@ -511,7 +511,6 @@
 |probieren, prüfen, testen|probar|pruebo, pruebas, prueba, probamos, probáis, prueban|d||0|0|0|
 |hinuntergehen|bajar||d||0|0|0|
 |zeigen|mostrar|muestro/as/a, mostramos/áis, muestran|d||0|0|0|
-|stammen aus, kommen aus|venir de|vengo, vienes, viene, venimos, venís, vienen|d||0|0|0|
 |abwiegen|pesar||d||0|0|0|
 |träumen (von)|soñar (de)|sueño/as/a, soñamos/áis, sueñan|d||0|0|0|
 |zumachen, schließen|cerrar|cierro/as/a, cerramos/áis, cierran|d||0|0|0|
@@ -521,7 +520,7 @@
 |zurückkehren|vuelver|vuelvo/es/e, volvemos/éis, vuelven|d||0|0|0|
 |geben|dar|doy (Rest regelmäßig)|d||0|0|0|
 |nehmen|tomar||b||2|0|0|
-|denken (an)|pensar (en)|pienso/as/a, pensamos/áis, piensan|b||0|0|0|
+|denken (an)|pensar (en)|pienso/as/a, pensamos/áis, piensan|b||1|0|1|
 |achten, respektieren|respetar||d||0|0|0|
 |passen (in)|caber (en)|quepo (rest regelmäßig)|d||0|0|0|
 |aussehen wie, scheinen|parecer|parezco (Rest regelmäßig), kein como: parece un huevo|b||1|0|0|
@@ -541,7 +540,7 @@
 |ankommen|llegar||b||2|0|0|
 |öffnen|abrir||b||1|0|1|
 |erfordern, benötigen|requerir|Konjugation wie querer|d||0|0|0|
-|sagen|decir|digo, dices/e, decimos/ís, dicen|b||0|0|1|
+|sagen|decir|digo, dices/e, decimos/ís, dicen|b||1|0|2|
 |Bahnhof|la estación||b||2|0|0|
 |Hauptstraße|la Avenida Principal||b||2|0|0|
 |Allee|la avenida||b||2|0|0|
@@ -616,8 +615,7 @@
 |in jedem Moment|en cualquier momento||d||0|0|0|
 |keiner|ninguno|w: ninguna, vor männl. Subst.: ningún|d||0|0|0|
 |irgendein (egal wer/ jeglicher)|cualquiera|vor männl. Subst. cualquier|d||0|0|0|
-|irgendein|alguno|f: alguna, vor männl. Subst. algún|d||0|0|0|
-|manche|algunos||d||0|0|0|
+|irgendein|algún|f: alguna, vor männl. Subst. algún|b||1|0|0|
 |beide|ambos||d||0|0|0|
 |einige|unos cuantos||d||0|0|0|
 |alles|todo||d||0|0|0|
@@ -707,12 +705,11 @@
 |Herzliche Grüße|saludos cordiales||b||3|0|0|
 |so (auf diese Weise)|así||d||0|0|0|
 |gut (Adv.)|bien|Él es un bueno pintor. - Él pinta bien.|d||0|0|0|
-|weniger|menos||d||0|0|0|
 |so (genau so wie)|tan||d||0|0|0|
 |sehr|muy||d||0|0|0|
 |viel|mucho||d||0|0|0|
 |gewöhnlich, immer (usually)|siempre, normalmente||b||2|0|0|
-|nie|nunca, jamás||d||0|0|0|
+|nie|nunca, jamás||b||1|0|0|
 |nur|sólo, solamente, únicamente|solo/a = allein|d||0|0|0|
 |wieder, noch einmal|otra vez|wieder und wieder: una y otra vez|d||0|0|0|
 |alle sind hier|todos están aqui||d||0|0|0|
@@ -730,7 +727,7 @@
 |genug|bastante|Tú eres bastante rápido.|d||0|0|0|
 |insbesondere|especialmente, en particular||d||0|0|0|
 |zu (too)|demasiado|Los españoles hablan demasiado rápido para mí|b||2|0|0|
-|ganz, vollkommen|totalmente, perfectamente||d||0|0|0|
+|ganz, vollkommen|totalmente, perfectamente||b||1|0|0|
 |ungefähr (Adv.)|aproximadamente|aproximo/a (Adj.)|d||0|0|0|
 |um (Schätzung, Ort)|alrededor|Hay árboles alrededor de la casa (Ort). Alrededor de diez personas (Schätzung).|b||2|0|0|
 |ebenso, gleichfalls|igualmente||b||2|0|0|
@@ -752,7 +749,7 @@
 |Ding, Sache|la cosa||b||2|0|0|
 |irgendwas|cualquier cosa||d||0|0|0|
 |Ball, Kugel|la bola||d||0|0|0|
-|Koffer|la maleta||d||0|0|0|
+|Koffer|la maleta||b||1|0|0|
 |Geld|el dinero||d||0|0|0|
 |Schiff|el barco||d||0|0|0|
 |Schere|las tijeras||d||0|0|0|
@@ -937,12 +934,12 @@
 |Zuhause, Haushalt|el hogar||d||0|0|0|
 |Spur|la pista||d||0|0|0|
 |Hof|el patio||d||0|0|0|
-|beim Einkaufen|de compras||b||0|0|0|
+|beim Einkaufen|de compras||b||1|0|1|
 |Toiletten|los servicios||b||1|0|1|
 |Friseursalon|la peluquería||b||1|0|2|
 |Spielwaren|los juguetes||b||1|0|1|
 |Herrenmode|la moda caballeros||b||1|0|0|
-|Schmuckgeschäft|la joyería||b||0|0|2|
+|Schmuckgeschäft|la joyería||b||1|0|0|
 |Spielwarengeschäft|la juguetería||b||1|0|0|
 |geöffnet|abierto|f: abierta|b||1|0|2|
 |Stockwerk|la planta||b||1|0|0|
@@ -957,62 +954,62 @@
 |Sonnenbrille|las gafas de sol||b||1|0|0|
 |gestreift|a rayas||b||1|0|2|
 |Leder|el cuero||b||0|0|0|
-|Jeans|los vaqueros||b||0|0|1|
+|Jeans|los vaqueros||b||1|0|2|
 |Tuch|el pañuelo||b||0|0|1|
 |T-Shirt|la camiseta||b||1|0|0|
 |Wolle|la lana||b||1|0|0|
 |Bluse|la blusa||b||1|0|0|
-|Baumwolle|el algodón||b||0|0|0|
-|Jacke|la chaqueta||b||0|0|2|
+|Baumwolle|el algodón||b||0|0|1|
+|Jacke|la chaqueta||b||1|0|0|
 |kariert|a cuadros||b||1|0|1|
 |Lieblingsfarbe|el color preferido||b||1|0|0|
 |lila|violeta||b||1|0|0|
 |Spiel|el juego||b||1|0|0|
 |(er)raten|adivinar||b||0|0|0|
-|Öffnungszeit|el horario||b||0|0|1|
+|Öffnungszeit|el horario||b||1|0|2|
 |antworten|contestar||b||1|0|2|
-|umgekehrt|al revés||b||0|0|2|
+|umgekehrt|al revés||b||0|0|0|
 |schließen|cerrar|cierro/as/a, cerramos/áis, cierran|b||1|0|0|
-|Kaufhaus|los grandes almacenes||b||0|0|1|
-|Tabakladen|el estanco||b||0|0|2|
+|Kaufhaus|los grandes almacenes||b||0|0|0|
+|Tabakladen|el estanco||b||0|0|1|
 |Briefmarke|el sello||b||1|0|1|
 |Geld wechseln|cambiar dinero||b||1|0|1|
-|geschlossen sein|estar cerrado||b||0|0|2|
+|geschlossen sein|estar cerrado||b||0|0|1|
 |nachmittags|por la tarde||b||1|0|0|
 |Ausnahme|la excepción||b||1|0|1|
 |bequem|cómodo|cómoda|b||1|0|2|
 |große Vielfalt|mucha variedad||b||1|0|0|
-|geöffnet sein|estar abierto||b||0|0|0|
+|geöffnet sein|estar abierto||b||1|0|2|
 |den ganzen Tag|todo el día||b||1|0|0|
 |vielfältig|variado|f: variada|b||1|0|1|
 |Postkarte|la (tarjeta) postal||b||1|0|1|
 |Tablette|la pastilla||b||1|0|2|
 |passen, sitzen|quedar|Es passt mir gut: Me queda bien.|b||1|0|0|
-|Kleidergröße|la talla||b||0|0|0|
+|Kleidergröße|la talla||b||1|0|2|
 |oder (zwischen zwei Zahlen)|ó||b||1|0|0|
 |In welcher Farbe?|¿De qué color?||b||1|0|0|
-|Wie gefällt Ihnen x?|¿Qué le parace x?|por ejemplo: ¿Qué le parece esta mesa?|b||0|0|2|
+|Wie gefällt Ihnen x?|¿Qué le parace x?|por ejemplo: ¿Qué le parece esta mesa?|b||0|0|0|
 |das hier|este, esta, esto|este (m), esto (?)|b||1|0|0|
 |das dort|ese, esa, eso|ese (m), eso (?)|b||1|0|0|
 |rein|puro|f: pura|b||1|0|0|
 |Umkleidekabine|el probador||b||1|0|0|
 |gleich hier|aquí mismo||b||1|0|0|
-|eng, schmal|estrecho|p.e.: la falda queda estrecha|b||0|0|0|
+|eng, schmal|estrecho|p.e.: la falda queda estrecha|b||1|0|1|
 |Selbstverständlich!, Natürlich!|¡Cómo no!||b||1|0|0|
 |einverstanden, in Ordnung|vale||b||1|0|2|
-|Ich nehme ihn.|Me lo llevo.|Ese abrigo es muy bonito. Me lo llevo.|b||0|0|0|
+|Ich nehme ihn.|Me lo llevo.|Ese abrigo es muy bonito. Me lo llevo.|b||1|0|1|
 |zur Kasse gehen|pasar a la caja||b||1|0|0|
 |bar zahlen|pagar en efectivo||b||1|0|0|
 |überprüfen|comprobar|compruebo/as/a, comprobamos/áis, comprueban|b||1|0|0|
 |Ich möchte mich nur umsehen.|Sólo quería mirar.||b||1|0|2|
-|Schaufenster|el escaparate||b||0|0|2|
+|Schaufenster|el escaparate||b||0|0|0|
 |umtauschen|cambiar||b||1|0|0|
 |funktionieren|funcionar||b||1|0|0|
 |Welche Schuhgröße haben Sie?|¿qué número calza?||b||0|0|2|
 |Batterie|la pila||b||1|0|0|
 |ordnen|ordenar||b||1|0|0|
 |reduziert|rebajado|f: rebajada, estar rebajado|b||1|0|0|
-|Geschenk|el regalo||b||0|0|2|
+|Geschenk|el regalo||b||1|0|1|
 |weit|ancho|La falda queda ancho.|b||1|0|1|
 |vorführen, darstellen|representar||b||1|0|2|
 |Szene|la escena||b||1|0|0|
@@ -1052,14 +1049,14 @@
 |Design|el diseño||b||1|0|0|
 |Fußbalfeld|el campo de fútbol||b||1|0|0|
 |herstellen|fabricar||b||1|0|0|
-|Kleidungsstück|la prenda (de ropa)||b||0|0|1|
+|Kleidungsstück|la prenda (de ropa)||b||0|0|2|
 |im Jahr|al año||b||1|0|0|
 |Prozent|por ciento||b||1|0|0|
 |Erfolg|el éxito||b||1|0|0|
 |ausgeben|gastar||b||1|0|0|
-|Webung|la publicidad||b||0|0|0|
+|Werbung|la publicidad||b||1|0|0|
 |deshalb|por eso||b||1|0|0|
-|jedermann|todo el mundo||b||0|0|0|
+|jedermann|todo el mundo||b||1|0|0|
 |Geheimnis|el secreto||b||1|0|0|
 |Antwort|la respuesta||b||1|0|0|
 |Wunsch|el deseo||b||1|0|0|
@@ -1068,7 +1065,7 @@
 |Leiter (Person)|el director||b||1|0|2|
 |kurz darauf|poco después||b||1|0|0|
 |so viel wie|tanto como||b||1|0|0|
-|Umfrage|el encuesta||b||0|0|0|
+|Umfrage|el encuesta||b||0|0|2|
 |reagieren|reaccionar||b||1|0|0|
 |verwenden|usar||b||1|0|0|
 |frisch|fresco||b||1|0|0|
@@ -1076,65 +1073,111 @@
 |rauchen|fumar||b||1|0|1|
 |entscheiden|decidir||b||1|0|0|
 |Art|el tipo||b||1|0|0|
-|vorbreiten|preparar||b||0|0|0|
+|vorbereiten|preparar||b||1|0|0|
 |zeichnen|dibujar||b||1|0|2|
 |Logo|el logotipo||b||1|0|0|
 |Der Spanier|al español||b||1|0|0|
 |schon gehen|irse|reflexivo, inmedio|b||1|0|0|
-|vorher (zeitlich)|antes de||b||0|0|0|
-|kommen|venir||b||0|0|0|
+|vorher (zeitlich)|antes de||b||1|0|1|
+|kommen|venir|vengo, vienes/e, venimos/ís, vienen|b||1|0|0|
 |tägliches Leben|la vida diaria||b||0|0|0|
-|alltäglich|cotidiano||b||0|0|0|
-|jeden Tag|todos los días||b||0|0|0|
+|alltäglich|cotidiano||b||0|0|2|
+|jeden Tag|todos los días||b||1|0|1|
 |heutzutage|hoy en día||b||0|0|0|
-|unerlässlich|indispensable||b||0|0|0|
+|unerlässlich|indispensable||b||1|0|1|
 |teilen|compartir||b||0|0|0|
 |zu Hause|en casa||b||1|0|0|
-|existieren|existir||b||0|0|0|
-|Schuhputzer|el limpiabotas||b||0|0|0|
+|existieren|existir||b||1|0|1|
+|Schuhputzer|el limpiabotas||b||1|0|0|
 |sowohl als auch|tanto como||b||1|0|0|
-|Kiosk|el quiosco||b||0|0|0|
-|köstlich|delicioso||b||0|0|0|
-|Fragebogen|el cuestionario||b||0|0|0|
-|aufstehen (Bett)|levantarse||b||0|0|0|
-|duschen|ducharse||b||0|0|0|
-|Straßenbahn|el tranvía||b||0|0|0|
-|sich konzentrieren|concentrarse||b||0|0|0|
-|sich langweilen|aburrirse||b||0|0|0|
+|Kiosk|el quiosco||b||1|0|1|
+|köstlich|delicioso||b||1|0|2|
+|Fragebogen|el cuestionario||b||1|0|1|
+|aufstehen (Bett)|levantarse||b||1|0|2|
+|duschen|ducharse||b||1|0|1|
+|Straßenbahn|el tranvía||b||0|0|2|
+|sich konzentrieren|concentrarse||b||1|0|0|
+|sich langweilen|aburrirse||b||0|0|2|
 |sich treffen|encontrarse, reunirse|encuentro/as/a, encontramos/áis, encuentran; reúno/es/e, reunimos/ís, reúnen|b||0|0|0|
-|zu Hause bleiben|quedarse en casa||b||0|0|0|
-|sich entspannen|relajarse||b||0|0|1|
-|ins Bett gehen|acostarse|acuesto/as/a, acostamos/áis, acuestan|b||0|0|0|
+|zu Hause bleiben|quedarse en casa||b||1|0|1|
+|sich entspannen|relajarse||b||1|0|1|
+|ins Bett gehen|acostarse|acuesto/as/a, acostamos/áis, acuestan|b||1|0|2|
 |nennen|nombrar||b||0|0|0|
-|zuerst|primero||b||0|0|0|
-|Lachs|el salmón||b||0|0|0|
+|zuerst|primero||b||1|0|0|
+|Lachs|el salmón||b||1|0|1|
 |Praline|el bombón||b||1|0|0|
-|holländisch|holandés|holandesa|b||0|0|0|
+|holländisch|holandés|holandesa|b||1|0|1|
 |belgisch|belga||b||1|0|0|
-|irisch|irlandés|irlandesa|b||0|0|0|
-|finnisch|finlandés|finlandesa|b||0|0|0|
-|typisch|típico||b||0|0|0|
-|Möbel (sg.)|el mueble||b||0|0|0|
-|schwedisch|sueco|sueca|b||0|0|0|
-|Ihrer Meinung nach|Según usted||b||0|0|0|
-|Hausarbeit|la tarea de casa||b||0|0|0|
-|bügeln|planchar||b||0|0|0|
-|einschalten|poner|pongo (Rest regular)|b||0|0|0|
-|Staub saugen|pasar la aspiradora||b||0|0|0|
-|Staubsauger|la aspiradora||b||0|0|0|
-|Geschirr spülen|lavar los platos||b||0|0|0|
-|waschen|lavar||b||0|0|0|
-|wegen|por||b||0|0|0|
-|sich erinnern|acordarse de|acuerdo/as/a, acordamos/áis, acuerdan|b||0|0|0|
+|irisch|irlandés|irlandesa|b||1|0|2|
+|finnisch|finlandés|finlandesa|b||1|0|1|
+|typisch|típico||b||1|0|1|
+|Möbel (sg.)|el mueble||b||1|0|1|
+|schwedisch|sueco|sueca|b||0|0|2|
+|Ihrer Meinung nach|Según usted||b||1|0|0|
+|Hausarbeit|la tarea de casa||b||1|0|2|
+|bügeln|planchar||b||1|0|1|
+|einschalten|poner|pongo (Rest regular)|b||0|0|1|
+|Staub saugen|pasar la aspiradora||b||1|0|1|
+|Staubsauger|la aspiradora||b||1|0|0|
+|Geschirr spülen|lavar los platos||b||1|0|0|
+|waschen|lavar||b||1|0|1|
+|wegen|por||b||1|0|0|
+|sich erinnern|acordarse de|acuerdo/as/a, acordamos/áis, acuerdan|b||0|0|1|
 |setzen, stellen, legen|poner|pongo (Rest regular)|b||1|0|0|
-|ausgehen|salir||b||0|0|0|
-|Partner|la pareja|keine männl. Form|b||0|0|0|
-|Wie häufig?|¿Con qué frequencia?, ¿Cuántas veces?||b||0|0|0|
-|ausführen, machen|realizar||b||0|0|0|
-|Hausaufgaben|los deberes||b||0|0|0|
-|einen Spaziergang machen|dar un paseo||b||0|0|0|
+|ausgehen|salir|salgo, sales/e, salimos/ís, salen|b||1|0|0|
+|Partner|la pareja|keine männl. Form|b||1|0|1|
+|Wie häufig?|¿Con qué frequencia?, ¿Cuántas veces?||b||1|0|0|
+|ausführen, machen|realizar||b||1|0|1|
+|Hausaufgaben|los deberes||b||1|0|2|
+|einen Spaziergang machen|dar un paseo||b||1|0|1|
 |ab und zu|de vez en cuando||b||0|0|1|
-|am Tag|al día||b||0|0|0|
-|fast nie|casi nunca||b||0|0|1|
+|am Tag|al día||b||0|0|2|
+|fast nie|casi nunca||b||1|0|2|
 |Wie lange?|¿Cuánto tiempo?||b||0|0|0|
-|ungefähr um zwei|a eso de las dos||b||0|0|0|
+|ungefähr um zwei|a eso de las dos||b||1|0|1|
+|ihr beiden|vosotros dos||d||0|0|0|
+|Paar (Schuhe)|el par (de zapatos)||d||0|0|0|
+|Meter|el metro||d||0|0|0|
+|meistens|la mayoría de las veces|die Mehrheit der Male|d||0|0|0|
+|Mehrheit|la mayoría||d||0|0|0|
+|Tonne|la tonelada||d||0|0|0|
+|Hälfte|la mitad||d||0|0|0|
+|das Doppelte|el doble||d||0|0|0|
+|doppelt so stark wie|el doble de fuerte que||d||0|0|0|
+|gerade Zahl|el número par||d||0|0|0|
+|selten|pocas veces|wenige Male|d||0|0|0|
+|Schuhe anziehen|ponerse zapatos||b||1|0|2|
+|schmutzig|sucio|f: a|b||1|0|0|
+|Bus verpassen|perder el autobús|pierdo/es/e, perdemos/éis, pierden|b||1|0|0|
+|Unfall|el accidente||b||0|0|0|
+|zu spät kommen|llegar tarde||b||1|0|1|
+|vergessen|olvidar||b||0|0|0|
+|abstürzen (technisch)|bloquearse||b||1|0|1|
+|Dummheit|la tontería||b||1|0|2|
+|Besprechung|la reunión||b||1|0|0|
+|passieren|pasar||b||1|0|0|
+|irgendwann mal|alguna vez||b||1|0|0|
+|Zeit|el tiempo||b||1|0|0|
+|Perfekt|perfecto||b||0|0|1|
+|haben, sein (Hilfsverb)|haber||b||1|0|0|
+|pünktlich|puntualmente||b||1|0|0|
+|ein Gläschen trinken|tomar una copa||b||1|0|0|
+|Spaghetti|los espaguetis||b||1|0|0|
+|Lüge|la mentira||b||0|0|0|
+|Grippe|la gripe||b||0|0|0|
+|Theaterstück|la obra de teatro||b||0|0|1|
+|oft|muchas veces||b||1|0|0|
+|Stau|el atasco||b||0|0|0|
+|verlieren|perder|pierdo/es/e, perdemos/éis, pierden; |b||1|0|0|
+|erleben|vivir||b||1|0|0|
+|warten|esperar||b||1|0|0|
+|Unterbrechung|la interrupción||b||1|0|0|
+|unangenehm|desagradable||b||0|0|1|
+|Panne|la avería||b||0|0|2|
+|Abschleppwagen|la grúa||b||0|0|0|
+|etwas trinken gehen|ir de copas||b||1|0|1|
+|Ausflug|la excursión||b||1|0|0|
+|grillen|hacer una barbacoa||b||1|0|2|
+|früh|temprano||b||0|0|1|
+|nehmen|llevarse||b||1|0|0|
+|Aufgabe|la tarea||b||1|0|1|
