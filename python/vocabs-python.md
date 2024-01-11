@@ -52,7 +52,7 @@
 |Frühstück|el desayuno||b||2|0|0|
 |Mittagessen|el almuerzo||d||1|0|0|
 |Abendessen|la cena||b||2|0|0|
-|Tier|el animal||d||0|0|0|
+|Tier|el animal||b||0|0|0|
 |Hund|el perro||d|x|0|0|0|
 |Katze|el gato||d||0|0|0|
 |Maus|el ratón||d||0|0|0|
@@ -67,7 +67,7 @@
 |Spinne|la araña||d||0|0|0|
 |Ente|el pato||d||0|0|0|
 |Vogel|el pájaro||d||0|0|0|
-|Pinguin|el pingüino||d||0|0|0|
+|Pinguin|el pingüino||b||0|0|0|
 |Krebs|el cangrejo||d||0|0|0|
 |Schildkröte|la tortuga||d||1|0|0|
 |Wort|la palabra||d||0|0|0|
@@ -250,7 +250,7 @@
 |aussprechen|pronunciar||b||2|0|0|
 |Maler|el pintor|la pintora|b|x|1|0|0|
 |revolutionär|revolucionario||b||2|0|0|
-|Gemälde|el cuadro||b||2|0|0|
+|Gemälde|el cuadro, la pintura||b||2|0|0|
 |Film|la película||b||2|0|0|
 |Grenze|la frontera||b||2|0|0|
 |Ort|el lugar||b||2|0|0|
@@ -356,7 +356,7 @@
 |Anwalt|el abogado|la abogada|d||0|0|0|
 |Richter|el juez|la jueza|d||0|0|0|
 |Dichter|el poeta|la poetisa|d||0|0|0|
-|Künstler|el artista|la artista|d||0|0|0|
+|Künstler|el artista|la artista|b||0|0|0|
 |Journalist|el periodista|la periodista|d||0|0|0|
 |Priesterin|la sacerdotisa|el sacerdote|d||0|0|0|
 |Kapitän|el capitán|la capitana|d||0|0|0|
@@ -412,7 +412,7 @@
 |wesentlich|principal||d||0|0|0|
 |unmöglich|imposible||d||0|0|0|
 |einfach|simple||d||0|0|0|
-|möglich|posible||d||1|0|0|
+|möglich|posible||b||1|0|0|
 |persönlich|personal||d||0|0|0|
 |öffentlich|público|f: pública|d||0|0|0|
 |bekannt, vertraut|familiar||d||0|0|0|
@@ -517,7 +517,7 @@
 |auftauchen|aparecer|aparezco (Rest regelmäßig)|d||0|0|0|
 |sich erinnern an|recordar a|recuerdo/as/a, recordamos/áis, recuerdan|d||0|0|0|
 |zustimmen, annehmen|aceptar||d||1|0|0|
-|zurückkehren|vuelver|vuelvo/es/e, volvemos/éis, vuelven|d||0|0|0|
+|zurückkehren|volver|vuelvo/es/e, volvemos/éis, vuelven|b||0|0|0|
 |geben|dar|doy (Rest regelmäßig)|d||0|0|0|
 |nehmen|tomar||b||2|0|0|
 |denken (an)|pensar (en)|pienso/as/a, pensamos/áis, piensan|b||1|0|1|
@@ -711,7 +711,7 @@
 |gewöhnlich, immer (usually)|siempre, normalmente||b||2|0|0|
 |nie|nunca, jamás||b||1|0|0|
 |nur|sólo, solamente, únicamente|solo/a = allein|d||0|0|0|
-|wieder, noch einmal|otra vez|wieder und wieder: una y otra vez|d||0|0|0|
+|wieder, noch einmal|otra vez|wieder und wieder: una y otra vez|b||0|0|0|
 |alle sind hier|todos están aqui||d||0|0|0|
 |fast|casi||d||0|0|0|
 |dann, damals, also|entonces||b||2|0|0|
@@ -751,7 +751,7 @@
 |Ball, Kugel|la bola||d||0|0|0|
 |Koffer|la maleta||b||1|0|0|
 |Geld|el dinero||d||0|0|0|
-|Schiff|el barco||d||0|0|0|
+|Schiff|el barco||b||0|0|0|
 |Schere|las tijeras||d||0|0|0|
 |Rucksack|la mochila||d||0|0|0|
 |Kamera|la cámara||d||0|0|0|
@@ -765,7 +765,7 @@
 |Magazin, Zeitschrift|la revista||d||0|0|0|
 |Seite|la página||b||1|0|0|
 |Glas (mit Stiel)|la copa||b||2|0|0|
-|Kasse|la caja||d||0|0|0|
+|Kasse|la caja, la taquilla||b||0|0|0|
 |Fahrzeug|el vehículo||d||0|0|0|
 |Tasche|la bolsa|el bolso auch mgl.|b||1|0|0|
 |Gerät|el aparato||d||0|0|0|
@@ -913,7 +913,7 @@
 |beschreiben|describir||b||2|0|0|
 |tragen|llevar||b||2|0|0|
 |egal was|cualquier cosa||d||0|0|0|
-|Garten|el jardín||d||0|0|0|
+|Garten|el jardín||b||0|0|0|
 |Schloss|el castillo||d||0|0|0|
 |Bereich|la zona||d||0|0|0|
 |Stadtplan|el mapa de la ciudad||d||0|0|0|
@@ -1029,12 +1029,12 @@
 |Opfer|la victima||d||0|0|0|
 |la feria|Jahrmarkt||d||0|0|0|
 |Landwirt|el campesino||d||0|0|0|
-|Erwachsener|el adulto||d||0|0|0|
+|Erwachsener|el adulto||b||0|0|0|
 |Zeuge|el testigo||d||0|0|0|
 |Nachbarschaft|la vecindad, el barrio||d||0|0|0|
 |Plötzlich|de pronto||d||0|0|0|
 |durch|a través de||d||0|0|0|
-|Wochenende|el fin de semana||u||1|0|0|
+|Wochenende|el fin de semana||b||1|0|0|
 |sich sonnen|tomar el sol||u||1|0|1|
 |Konsum|el consumo||b||1|0|0|
 |Marke|la marca||b||1|0|0|
@@ -1124,9 +1124,9 @@
 |wegen|por||b||1|0|0|
 |sich erinnern|acordarse de|acuerdo/as/a, acordamos/áis, acuerdan|b||0|0|1|
 |setzen, stellen, legen|poner|pongo (Rest regular)|b||1|0|0|
-|ausgehen|salir|salgo, sales/e, salimos/ís, salen|b||1|0|0|
+|ausgehen, verlassen|salir|salgo, sales/e, salimos/ís, salen|b||1|0|0|
 |Partner|la pareja|keine männl. Form|b||1|0|1|
-|Wie häufig?|¿Con qué frequencia?, ¿Cuántas veces?||b||1|0|0|
+|Wie häufig?|¿Con qué frecuencia?, ¿Cuántas veces?||b||1|0|0|
 |ausführen, machen|realizar||b||1|0|1|
 |Hausaufgaben|los deberes||b||1|0|2|
 |einen Spaziergang machen|dar un paseo||b||1|0|1|
@@ -1168,7 +1168,7 @@
 |Theaterstück|la obra de teatro||b||0|0|1|
 |oft|muchas veces||b||1|0|0|
 |Stau|el atasco||b||0|0|0|
-|verlieren|perder|pierdo/es/e, perdemos/éis, pierden; |b||1|0|0|
+|verlieren|perder|pierdo/es/e, perdemos/éis, pierden;|b||1|0|0|
 |erleben|vivir||b||1|0|0|
 |warten|esperar||b||1|0|0|
 |Unterbrechung|la interrupción||b||1|0|0|
