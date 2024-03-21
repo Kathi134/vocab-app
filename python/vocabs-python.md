@@ -1181,25 +1181,25 @@
 |früh|temprano||b||0|0|1|
 |nehmen|llevarse||b||1|0|0|
 |Aufgabe|la tarea||b||1|0|1|
-|aus dem Alltag ausbrechen|salir de la rutina||b||0|0|0|
-|Routine|la rutina||b||0|0|0|
+|aus dem Alltag ausbrechen|salir de la rutina||b||0|0|2|
+|Routine|la rutina||b||1|0|0|
 |bester|el mejor||b||0|0|0|
 |Aquarium|el acuario||b||0|0|0|
 |Thematik|la temática||b||0|0|0|
 |Mittelmeer|mediterráneo||b||0|0|0|
-|Hai|el tiburón||b||0|0|0|
+|Hai|el tiburón||b||0|0|1|
 |Oberfläche|la superficie||b||0|0|0|
 |durchsichtig|transparente||b||0|0|0|
 |ermöglichen|permitir||b||0|0|0|
 |Besucher|el visitante||b||0|0|0|
 |spazieren gehen|pasear||b||0|0|0|
 |Meeresboden|el fondo del mar||b||0|0|0|
-|beobachten|observar||b||0|0|0|
+|beobachten|observar||b||1|0|0|
 |Meeres-|marino||b||0|0|0|
 |Tierwelt|la fauna||b||0|0|0|
 |Besichtigung|la visita||b||0|0|0|
 |Panorama-|panorámico||b||0|0|0|
-|Doppeldecker|el autobús de dos pisos||b||0|0|0|
+|Doppeldecker|el autobús de dos pisos||b||0|0|1|
 |anpassungsfähig|adaptable||b||1|0|0|
 |Behinderter|el discapacitado||b||0|0|0|
 |einsteigen|subir||b||0|0|0|
@@ -1239,5 +1239,5 @@
 |einladen|invitar||b||0|0|0|
 |Kochrezept|la receta de cocina||b||0|0|0|
 |Sport treiben|hacer deporte||b||0|0|0|
-|feiern|celebrar||b||0|0|0|
+|feiern|celebrar||b||0|0|1|
 |Hand|la mano||b||0|0|0|
