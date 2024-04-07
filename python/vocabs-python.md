@@ -517,7 +517,7 @@
 |auftauchen|aparecer|aparezco (Rest regelmäßig)|d||0|0|0|
 |sich erinnern an|recordar a|recuerdo/as/a, recordamos/áis, recuerdan|d||0|0|0|
 |zustimmen, annehmen|aceptar||d||1|0|0|
-|zurückkehren|volver|vuelvo/es/e, volvemos/éis, vuelven|b||0|0|0|
+|zurückkehren|volver|vuelvo/es/e, volvemos/éis, vuelven|b||1|0|0|
 |geben|dar|doy (Rest regelmäßig)|d||0|0|0|
 |nehmen|tomar||b||2|0|0|
 |denken (an)|pensar (en)|pienso/as/a, pensamos/áis, piensan|b||1|0|1|
@@ -711,7 +711,7 @@
 |gewöhnlich, immer (usually)|siempre, normalmente||b||2|0|0|
 |nie|nunca, jamás||b||1|0|0|
 |nur|sólo, solamente, únicamente|solo/a = allein|d||0|0|0|
-|wieder, noch einmal|otra vez|wieder und wieder: una y otra vez|b||0|0|0|
+|wieder, noch einmal|otra vez|wieder und wieder: una y otra vez|b||1|0|0|
 |alle sind hier|todos están aqui||d||0|0|0|
 |fast|casi||d||0|0|0|
 |dann, damals, also|entonces||b||2|0|0|
@@ -765,7 +765,7 @@
 |Magazin, Zeitschrift|la revista||d||0|0|0|
 |Seite|la página||b||1|0|0|
 |Glas (mit Stiel)|la copa||b||2|0|0|
-|Kasse|la caja, la taquilla||b||0|0|0|
+|Kasse|la caja, la taquilla||b||0|0|1|
 |Fahrzeug|el vehículo||d||0|0|0|
 |Tasche|la bolsa|el bolso auch mgl.|b||1|0|0|
 |Gerät|el aparato||d||0|0|0|
@@ -953,9 +953,9 @@
 |aus Seide|de seda||b||1|0|0|
 |Sonnenbrille|las gafas de sol||b||1|0|0|
 |gestreift|a rayas||b||1|0|2|
-|Leder|el cuero||b||0|0|0|
+|Leder|el cuero||b||0|0|1|
 |Jeans|los vaqueros||b||1|0|2|
-|Tuch|el pañuelo||b||0|0|1|
+|Tuch|el pañuelo||b||0|0|2|
 |T-Shirt|la camiseta||b||1|0|0|
 |Wolle|la lana||b||1|0|0|
 |Bluse|la blusa||b||1|0|0|
@@ -965,12 +965,12 @@
 |Lieblingsfarbe|el color preferido||b||1|0|0|
 |lila|violeta||b||1|0|0|
 |Spiel|el juego||b||1|0|0|
-|(er)raten|adivinar||b||0|0|0|
+|(er)raten|adivinar||b||0|0|1|
 |Öffnungszeit|el horario||b||1|0|2|
 |antworten|contestar||b||1|0|2|
-|umgekehrt|al revés||b||0|0|0|
+|umgekehrt|al revés||b||0|0|1|
 |schließen|cerrar|cierro/as/a, cerramos/áis, cierran|b||1|0|0|
-|Kaufhaus|los grandes almacenes||b||0|0|0|
+|Kaufhaus|los grandes almacenes||b||0|0|1|
 |Tabakladen|el estanco||b||0|0|1|
 |Briefmarke|el sello||b||1|0|1|
 |Geld wechseln|cambiar dinero||b||1|0|1|
@@ -1049,7 +1049,7 @@
 |Design|el diseño||b||1|0|0|
 |Fußbalfeld|el campo de fútbol||b||1|0|0|
 |herstellen|fabricar||b||1|0|0|
-|Kleidungsstück|la prenda (de ropa)||b||0|0|2|
+|Kleidungsstück|la prenda (de ropa)||b||0|0|0|
 |im Jahr|al año||b||1|0|0|
 |Prozent|por ciento||b||1|0|0|
 |Erfolg|el éxito||b||1|0|0|
@@ -1080,8 +1080,8 @@
 |schon gehen|irse|reflexivo, inmedio|b||1|0|0|
 |vorher (zeitlich)|antes de||b||1|0|1|
 |kommen|venir|vengo, vienes/e, venimos/ís, vienen|b||1|0|0|
-|tägliches Leben|la vida diaria||b||0|0|0|
-|alltäglich|cotidiano||b||0|0|2|
+|tägliches Leben|la vida diaria||b||0|0|1|
+|alltäglich|cotidiano||b||0|0|0|
 |jeden Tag|todos los días||b||1|0|1|
 |heutzutage|hoy en día||b||0|0|0|
 |unerlässlich|indispensable||b||1|0|1|
@@ -1095,7 +1095,7 @@
 |Fragebogen|el cuestionario||b||1|0|1|
 |aufstehen (Bett)|levantarse||b||1|0|2|
 |duschen|ducharse||b||1|0|1|
-|Straßenbahn|el tranvía||b||0|0|2|
+|Straßenbahn|el tranvía||b||1|0|0|
 |sich konzentrieren|concentrarse||b||1|0|0|
 |sich langweilen|aburrirse||b||0|0|2|
 |sich treffen|encontrarse, reunirse|encuentro/as/a, encontramos/áis, encuentran; reúno/es/e, reunimos/ís, reúnen|b||0|0|0|
@@ -1112,11 +1112,11 @@
 |finnisch|finlandés|finlandesa|b||1|0|1|
 |typisch|típico||b||1|0|1|
 |Möbel (sg.)|el mueble||b||1|0|1|
-|schwedisch|sueco|sueca|b||0|0|2|
+|schwedisch|sueco|sueca|b||1|0|2|
 |Ihrer Meinung nach|Según usted||b||1|0|0|
 |Hausarbeit|la tarea de casa||b||1|0|2|
 |bügeln|planchar||b||1|0|1|
-|einschalten|poner|pongo (Rest regular)|b||0|0|1|
+|einschalten|poner|pongo (Rest regular)|b||0|0|2|
 |Staub saugen|pasar la aspiradora||b||1|0|1|
 |Staubsauger|la aspiradora||b||1|0|0|
 |Geschirr spülen|lavar los platos||b||1|0|0|
@@ -1151,7 +1151,7 @@
 |Bus verpassen|perder el autobús|pierdo/es/e, perdemos/éis, pierden|b||1|0|0|
 |Unfall|el accidente||b||0|0|0|
 |zu spät kommen|llegar tarde||b||1|0|1|
-|vergessen|olvidar||b||0|0|0|
+|vergessen|olvidar||b||0|0|1|
 |abstürzen (technisch)|bloquearse||b||1|0|1|
 |Dummheit|la tontería||b||1|0|2|
 |Besprechung|la reunión||b||1|0|0|
@@ -1164,10 +1164,10 @@
 |ein Gläschen trinken|tomar una copa||b||1|0|0|
 |Spaghetti|los espaguetis||b||1|0|0|
 |Lüge|la mentira||b||0|0|0|
-|Grippe|la gripe||b||0|0|0|
+|Grippe|la gripe||b||1|0|1|
 |Theaterstück|la obra de teatro||b||0|0|1|
 |oft|muchas veces||b||1|0|0|
-|Stau|el atasco||b||0|0|1|
+|Stau|el atasco||b||0|0|2|
 |verlieren|perder|pierdo/es/e, perdemos/éis, pierden;|b||1|0|0|
 |erleben|vivir||b||1|0|0|
 |warten|esperar||b||1|0|0|
@@ -1178,66 +1178,66 @@
 |etwas trinken gehen|ir de copas||b||1|0|1|
 |Ausflug|la excursión||b||1|0|0|
 |grillen|hacer una barbacoa||b||1|0|2|
-|früh|temprano||b||0|0|1|
+|früh|temprano||b||0|0|2|
 |nehmen|llevarse||b||1|0|0|
 |Aufgabe|la tarea||b||1|0|1|
-|aus dem Alltag ausbrechen|salir de la rutina||b||0|0|2|
+|aus dem Alltag ausbrechen|salir de la rutina||b||0|0|0|
 |Routine|la rutina||b||1|0|0|
-|bester|el mejor||b||0|0|0|
+|bester|el mejor||b||1|0|1|
 |Aquarium|el acuario||b||0|0|0|
-|Thematik|la temática||b||0|0|0|
-|Mittelmeer|mediterráneo||b||0|0|0|
+|Thematik|la temática||b||0|0|1|
+|Mittelmeer|mediterráneo||b||0|0|1|
 |Hai|el tiburón||b||0|0|1|
 |Oberfläche|la superficie||b||0|0|0|
-|durchsichtig|transparente||b||0|0|0|
+|durchsichtig|transparente||b||0|0|1|
 |ermöglichen|permitir||b||0|0|0|
-|Besucher|el visitante||b||0|0|0|
+|Besucher|el visitante||b||0|0|1|
 |spazieren gehen|pasear||b||0|0|0|
-|Meeresboden|el fondo del mar||b||0|0|0|
+|Meeresboden|el fondo del mar||b||0|0|1|
 |beobachten|observar||b||1|0|0|
-|Meeres-|marino||b||0|0|0|
-|Tierwelt|la fauna||b||0|0|0|
+|Meeres-|marino||b||1|0|1|
+|Tierwelt|la fauna||b||1|0|0|
 |Besichtigung|la visita||b||0|0|0|
 |Panorama-|panorámico||b||0|0|0|
 |Doppeldecker|el autobús de dos pisos||b||0|0|1|
 |anpassungsfähig|adaptable||b||1|0|0|
 |Behinderter|el discapacitado||b||0|0|0|
 |einsteigen|subir||b||0|0|0|
-|entlang|a lo largo de||b||0|0|0|
-|Strecke|el recorrido||b||0|0|0|
+|entlang|a lo largo de||b||0|0|1|
+|Strecke|el recorrido||b||0|0|1|
 |Fahrkartenverkauf|la venta de billetes||b||0|0|0|
 |direkt im Bus|en el mismo bus||b||0|0|0|
-|Herz|el corazón||b||0|0|0|
-|Fischerviertel|el barrio marinero||b||0|0|0|
+|Herz|el corazón||b||1|0|0|
+|Fischerviertel|el barrio marinero||b||0|0|1|
 |vor, gegenüber von|frente||b||0|0|0|
-|außer|excepto||b||0|0|0|
-|Feiertag|el festivo||b||0|0|0|
+|außer|excepto||b||0|0|1|
+|Feiertag|el festivo||b||1|0|1|
 |kostenloses Parken|el párking gratuito||b||0|0|0|
-|Schwalbe|la golondrina||b||0|0|0|
+|Schwalbe|la golondrina||b||0|0|1|
 |Abfahrt|la salida||b||1|0|0|
 |täglich|diario||b||0|0|0|
 |Stiftung|la fundación||b||0|0|0|
 |Sammlung|la colección||b||0|0|0|
-|vollständig|completo||b||0|0|0|
+|vollständig|completo||b||1|0|0|
 |Produktion|la producción||b||0|0|0|
 |Skulptur|la escultura||b||0|0|0|
-|Grafik|la obra gráfica||b||0|0|0|
+|Grafik|la obra gráfica||b||0|0|1|
 |ständig|permanente||b||0|0|0|
-|wechselnd|temporal||b||0|0|0|
-|zeitgenössisch|contemporáneo||b||0|0|0|
+|wechselnd|temporal||b||1|0|1|
+|zeitgenössisch|contemporáneo||b||0|0|1|
 |Werk|la obra||b||0|0|0|
 |Aufsehen erregend|espectacular||b||0|0|0|
-|in Verbindung mit|relacionado con||b||0|0|0|
-|Möglichkeit|la posibilidad||b||0|0|0|
+|in Verbindung mit|relacionado con||b||0|0|1|
+|Möglichkeit|la posibilidad||b||1|0|1|
 |Anzeige|el anuncio||b||0|0|0|
-|Kinderermäßigung|el descuento para niños||b||0|0|0|
-|dauern|durar||b||0|0|0|
-|sich informieren (über)|informarse (sobre)||b||0|0|0|
+|Kinderermäßigung|el descuento para niños||b||0|0|1|
+|dauern|durar||b||0|0|1|
+|sich informieren (über)|informarse (sobre)||b||0|0|1|
 |Telefongespräch|la conversación telefónica||b||0|0|0|
 |Sagen Sie|diga||b||0|0|0|
 |Plan|el plan||b||0|0|0|
-|einladen|invitar||b||0|0|0|
+|einladen|invitar||b||1|0|0|
 |Kochrezept|la receta de cocina||b||0|0|0|
-|Sport treiben|hacer deporte||b||0|0|0|
-|feiern|celebrar||b||0|0|1|
+|Sport treiben|hacer deporte||b||0|0|1|
+|feiern|celebrar||b||0|0|2|
 |Hand|la mano||b||0|0|0|
